@@ -1,0 +1,8 @@
+# Credenciales (GEMINI_API_KEY)
+.env
+
+# Entorno virtual y archivos generados por Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

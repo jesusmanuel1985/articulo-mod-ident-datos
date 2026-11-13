@@ -1,0 +1,135 @@
+{
+  "P5": "v1.2",
+  "semillas": {
+    "IS": 20261104,
+    "A": 20261105,
+    "B": 20261106,
+    "C": 20261107,
+    "PS": 20261108,
+    "NL": 20261109
+  },
+  "archivos": {
+    "comando_IS.csv": "2e60da09fa8f641be0dc7ef535c8152df262728e2b453e721ae04a5898a43ba2",
+    "comando_IP.csv": "86a3832a22f4a8b23cda5636f357be745f7cdd10c50695e905cd8f66068847fc",
+    "mascara_A.csv": "8c741e1a53d0c9cf11e36c060c9356c2b6b388ad545564442779da1883910116",
+    "mascara_B.csv": "d8d922efafaa2786b0cd5cd799e4e388f00ffec465fafa6364718ab8ca6174d3",
+    "mascara_C.csv": "9f60f89803c4aa0b99a450f392ae32bdfbc95811cd692846546f77c66f5ea80f",
+    "mascara_PS.csv": "8520cd9e57b0b64a3c31358f13eb9e2c99ba6b7387dc9f3c8b035fd9fe063b83",
+    "comando_K.csv": "8846c6a8c7b4148a06085dc8916f378e4d806055af74d4cebb3a3a9ed2391ddc",
+    "mascara_K.csv": "76bfe6d836c362d8073416a6dece7f4090883e9844279493162d5eacb082ef61",
+    "comando_NL.csv": "96bee0e8e1287248dbced038056dd57f4b7e8f40a2912125c96fd7496235426a",
+    "mascara_NL.csv": "ac8fc41a9c5427075faea36242258dfd2b13edd42e70535a52d9d76163b235a5"
+  },
+  "verificaciones": {
+    "C2_IS": {
+      "tasa_max_L_h_s": 1.8,
+      "salto_min_L_h": 100,
+      "comando_min_L_h": 200.0,
+      "comando_max_L_h": 400.0
+    },
+    "niveles_IS": [
+      250,
+      400,
+      300,
+      200,
+      300,
+      200,
+      350,
+      250,
+      400,
+      200
+    ],
+    "PRBS_IP": {
+      "bits_1": 32,
+      "bits_0": 31,
+      "comando_min_L_h": 200.0,
+      "comando_max_L_h": 400.0,
+      "muestras": 6001
+    },
+    "mascara_A": {
+      "estado_inicial": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "transiciones_por_panel": [
+        9,
+        12,
+        10,
+        10
+      ],
+      "transiciones_en_6000_s": [
+        9,
+        12,
+        10,
+        10
+      ]
+    },
+    "mascara_B": {
+      "estado_inicial": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "transiciones_por_panel": [
+        9,
+        9,
+        10,
+        8
+      ],
+      "transiciones_en_6000_s": [
+        9,
+        9,
+        10,
+        8
+      ]
+    },
+    "mascara_C": {
+      "estado_inicial": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "transiciones_por_panel": [
+        8,
+        8,
+        9,
+        10
+      ],
+      "transiciones_en_6000_s": [
+        8,
+        8,
+        9,
+        10
+      ]
+    },
+    "mascara_PS": {
+      "estado_inicial": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "transiciones_por_panel": [
+        11,
+        10,
+        14,
+        13
+      ],
+      "transiciones_en_6000_s": [
+        9,
+        7,
+        12,
+        11
+      ]
+    },
+    "orden_NL": [
+      200,
+      400,
+      300
+    ]
+  }
+}

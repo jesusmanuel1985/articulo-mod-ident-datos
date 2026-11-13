@@ -1,0 +1,1577 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Jakowluk, W
+AF Jakowluk, Wiktor
+TI Design of an optimal input signal for plant-friendly identification of
+   inertial systems
+SO PRZEGLAD ELEKTROTECHNICZNY
+LA English
+DT Article
+DE plant-friendly identification; D-optimality; D-efficiency; ellipsoidal
+   confidence region
+ID RESPECT
+AB System identification, in practice is carried out by perturbing processes or plants in operation. That is why, in many industrial applications a plant-friendly input signal would be preferred for system identification. The objective of this kind of experiment design is to minimise the variance of the parameters to be estimated and to maximise the input friendliness. In this case, the objective function was formulated through maximisation of the Fisher information matrix determinant (D-optimality) in the form of a conventional integral criterion with amplitude constraints. The D-efficiency which quantifies the input trajectories friendliness was verified.
+C1 Bialystok Tech Univ, Fac Comp Sci, PL-15351 Bialystok, Poland.
+C3 Bialystok University of Technology
+RP Jakowluk, W (corresponding author), Bialystok Tech Univ, Fac Comp Sci, Wiejska 45A St, PL-15351 Bialystok, Poland.
+EM victor@wi.pb.edu.pl
+RI Jakowluk, Wiktor/R-9301-2018
+OI Jakowluk, Wiktor/0000-0003-0942-8903
+NR 24
+TC 3
+Z9 3
+U1 0
+U2 1
+PU WYDAWNICTWO SIGMA-N O T SP Z O O
+PI WARSAW
+PA UL RATUSZOWA 11, PO BOX 1004, 00-950 WARSAW, POLAND
+SN 0033-2097
+J9 PRZ ELEKTROTECHNICZN
+JI Prz. Elektrotechniczny
+PY 2009
+VL 85
+IS 10
+BP 123
+EP 128
+PG 6
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 514SO
+UT WOS:000271416100025
+DA 2026-11-03
+ER
+
+PT J
+AU Jakowluk, W
+AF Jakowluk, Wiktor
+TI Plant Friendly Input Design for Parameter Estimation in an Inertial
+   System with Respect to D-Efficiency Constraints
+SO ENTROPY
+LA English
+DT Article
+DE plant-friendly identification; D-optimality; D-efficiency; ellipsoidal
+   confidence region
+ID IDENTIFICATION; MODELS; SIGNAL
+AB System identification, in practice, is carried out by perturbing processes or plants under operation. That is why in many industrial applications a plant-friendly input signal would be preferred for system identification. The goal of the study is to design the optimal input signal which is then employed in the identification experiment and to examine the relationships between the index of friendliness of this input signal and the accuracy of parameter estimation when the measured output signal is significantly affected by noise. In this case, the objective function was formulated through maximisation of the Fisher information matrix determinant (D-optimality) expressed in conventional Bolza form. As setting such conditions of the identification experiment we can only talk about the D-suboptimality, we quantify the plant trajectories using the D-efficiency measure. An additional constraint, imposed on D-efficiency of the solution, should allow one to attain the most adequate information content from the plant which operating point is perturbed in the least invasive (most friendly) way. A simple numerical example, which clearly demonstrates the idea presented in the paper, is included and discussed.
+C1 Bialystok Tech Univ, Fac Comp Sci, PL-15351 Bialystok, Poland.
+C3 Bialystok University of Technology
+RP Jakowluk, W (corresponding author), Bialystok Tech Univ, Fac Comp Sci, Wiejska 45A, PL-15351 Bialystok, Poland.
+EM wjakowluk@pb.edu.pl
+RI Jakowluk, Wiktor/R-9301-2018
+OI Jakowluk, Wiktor/0000-0003-0942-8903
+FU Faculty of Computer Science, Department of Digital Media and Computer
+   Graphics, Bialystok University of Technology, Poland [S/WI/1/13]
+FX The work was supported by the Dean's Project No. S/WI/1/13, Faculty of
+   Computer Science, Department of Digital Media and Computer Graphics,
+   Bialystok University of Technology, Poland.
+NR 35
+TC 9
+Z9 9
+U1 0
+U2 2
+PU MDPI AG
+PI BASEL
+PA POSTFACH, CH-4005 BASEL, SWITZERLAND
+SN 1099-4300
+J9 ENTROPY-SWITZ
+JI Entropy
+PD NOV
+PY 2014
+VL 16
+IS 11
+BP 5822
+EP 5837
+DI 10.3390/e16115822
+PG 16
+WC Physics, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Physics
+GA AU4ET
+UT WOS:000345562900015
+OA Green Submitted, gold
+DA 2026-11-03
+ER
+
+PT C
+AU Jakowluk, W
+AF Jakowluk, Wiktor
+BE Saeed, K
+   Homenda, W
+TI Optimal Input Signal Design for a Second Order Dynamic System
+   Identification Subject to D-Efficiency Constraints
+SO COMPUTER INFORMATION SYSTEMS AND INDUSTRIAL MANAGEMENT
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 14th IFIP TC 8 International Conference Computer Information Systems and
+   Industrial Management (CISIM)
+CY SEP 24-26, 2015
+CL Warsaw Univ Technol, Warsaw, POLAND
+SP IFIP TC 8
+HO Warsaw Univ Technol
+DE System identification; Optimal input signal; D-optimality; D-efficiency
+ID PLANT FRIENDLY IDENTIFICATION; RESPECT
+AB System identification, in practice, is carried out by perturbing processes or plants under operation. That is why in many industrial applications an optimal input signal would be preferred for system identification. In this case, the objective function was formulated through maximisation of the Fisher information matrix determinant (D-optimality) expressed in conventional Bolza form. As setting such conditions of the identification experiment we can only say about the D-suboptimality, we quantify the plant trajectories using the Defficiency measure. An additional constraint, imposed on D-efficiency of the solution, should allow to attain the most adequate contents of information from the plant which operating point is perturbed in the least invasive way. A simple numerical example, which clearly demonstrates the idea presented in the paper, is included and discussed.
+C1 [Jakowluk, Wiktor] Bialystok Tech Univ, Fac Comp Sci, PL-15351 Bialystok, Poland.
+C3 Bialystok University of Technology
+RP Jakowluk, W (corresponding author), Bialystok Tech Univ, Fac Comp Sci, Wiejska 45a, PL-15351 Bialystok, Poland.
+EM w.jakowluk@pb.edu.pl
+RI Jakowluk, Wiktor/R-9301-2018
+OI Jakowluk, Wiktor/0000-0003-0942-8903
+NR 17
+TC 3
+Z9 3
+U1 0
+U2 1
+PU SPRINGER INT PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+BN 978-3-319-24369-6; 978-3-319-24368-9
+J9 LECT NOTES COMPUT SC
+PY 2015
+VL 9339
+BP 351
+EP 362
+DI 10.1007/978-3-319-24369-6_29
+PG 12
+WC Computer Science, Hardware & Architecture; Computer Science, Theory &
+   Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BE0GX
+UT WOS:000366016000028
+OA Green Submitted
+DA 2026-11-03
+ER
+
+PT C
+AU Narasimhan, S
+   Rengaswamy, R
+AF Narasimhan, S
+   Rengaswamy, R
+GP acc
+TI Multi-objective input signal design for plant friendly identification of
+   process systems
+SO PROCEEDINGS OF THE 2004 AMERICAN CONTROL CONFERENCE, VOLS 1-6
+SE PROCEEDINGS OF THE AMERICAN CONTROL CONFERENCE
+LA English
+DT Proceedings Paper
+CT American Control Conference
+CY JUN 30-JUL 02, 2004
+CL Boston, MA
+SP Amer Automat Control Council, Int Federat Automat Control
+ID RESPECT
+AB System Identification is the process of constructing an accurate and reliable dynamic mathematical model of the system from observed data and available knowledge. The choice of inputs used for perturbing the system is critical in the identification and model building exercise. One of the major objectives of system identification is accurate estimation of the system parameters. Identification of chemical process plants is carried out on running plants in real time. The practitioner would thus prefer a 'plant friendly' input signal. We propose unified multi-objective formulations and solution methods for the input design for two particular cases. The input can be evaluated as a solution to a multi-objective optimization problem.
+C1 Clarkson Univ, Dept Chem Engn, Potsdam, NY 13699 USA.
+C3 Clarkson University
+RP Rengaswamy, R (corresponding author), Clarkson Univ, Dept Chem Engn, Potsdam, NY 13699 USA.
+OI Narasimhan, Sridharakumar/0000-0002-6215-545X; Rengaswamy,
+   Raghunathan/0000-0002-8408-8649
+NR 22
+TC 6
+Z9 6
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+BN 0-7803-8335-4
+J9 P AMER CONTR CONF
+PY 2004
+BP 4891
+EP 4896
+PG 6
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BBC09
+UT WOS:000224688300830
+DA 2026-11-03
+ER
+
+PT J
+AU Jakowluk, W
+AF Jakowluk, Wiktor
+TI Design of an optimal actuation signal for identification of a torsional
+   spring system
+SO PRZEGLAD ELEKTROTECHNICZNY
+LA English
+DT Article
+DE optimal excitation signal; D-optimality; system identification;
+   ellipsoidal confidence region
+ID PLANT-FRIENDLY IDENTIFICATION; OPTIMAL INPUT-DESIGN; INERTIAL SYSTEMS;
+   RESPECT
+AB The choice of an input signal used for perturbation of the system is critical in the task of model building and parameter identification. System identification, in practice is carried out by perturbing processes or plants in operation. In the paper the optimal excitation signal was generated for a torsional spring model. The objective of this kind of experiment design is to minimise the variance of the parameters to be estimated. In this case, the objective function was formulated through maximisation of the Fisher information matrix determinant (D-optimality) in the form of a conventional integral criterion with amplitude constraints. It was shown that the optimal input signal used for system excitation minimises the volume of the ellipsoidal confidence region of parameters estimates.
+C1 Bialystok Tech Univ, Fac Comp Sci, PL-15351 Bialystok, Poland.
+C3 Bialystok University of Technology
+RP Jakowluk, W (corresponding author), Bialystok Tech Univ, Fac Comp Sci, Wiejska 45A St, PL-15351 Bialystok, Poland.
+EM w.jakowluk@pb.edu.pl
+RI Jakowluk, Wiktor/R-9301-2018
+OI Jakowluk, Wiktor/0000-0003-0942-8903
+NR 24
+TC 2
+Z9 2
+U1 0
+U2 1
+PU WYDAWNICTWO SIGMA-N O T SP Z O O
+PI WARSAW
+PA UL RATUSZOWA 11, PO BOX 1004, 00-950 WARSAW, POLAND
+SN 0033-2097
+J9 PRZ ELEKTROTECHNICZN
+JI Prz. Elektrotechniczny
+PY 2011
+VL 87
+IS 6
+BP 154
+EP 160
+PG 7
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 772SZ
+UT WOS:000291257700026
+DA 2026-11-03
+ER
+
+PT C
+AU Lee, HJ
+   Rivera, DE
+   Mittelmann, HD
+   Pendse, G
+AF Lee, Hyunjin
+   Rivera, Daniel E.
+   Mittelmann, Hans D.
+   Pendse, Gautam
+GP IEEE
+TI Optimization-based design of plant-friendly input signals for
+   model-on-demand estimation and model predictive control
+SO 2007 AMERICAN CONTROL CONFERENCE, VOLS 1-13
+SE Proceedings of the American Control Conference
+LA English
+DT Proceedings Paper
+CT 26th American Control Conference
+CY JUL 09-13, 2007
+CL New  York, NY
+ID IDENTIFICATION
+AB The design of constrained, "plant-friendly" multisine input signals that optimize a geometric discrepancy criterion arising from Weyl's Theorem is examined in this paper. Such signals are meaningful for data-centric estimation and control methods, where uniform coverage of the output state-space contributes greatly to good performance. The optimization problem includes a search for both the Fourier coefficients and phases in the multisine signal, resulting in a uniformly distributed output signal that achieves a desirable balance between high and low gain directions, an important consideration when identifying strongly interactive multivariable systems. The solution involves very little user intervention and has significant benefits compared to multisine signals that minimize crest factor. The usefulness of this problem formulation is shown by applying it to a case study involving composition control of a binary distillation column.
+C1 [Lee, Hyunjin; Rivera, Daniel E.] Arizona State Univ, Dept Chem Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+   [Mittelmann, Hans D.; Pendse, Gautam] Arizona State Univ, Dept Math & Stat, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe; Arizona State
+   University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+RI Rivera, Daniel/AAF-6772-2019
+NR 20
+TC 0
+Z9 0
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+EI 2378-5861
+BN 978-1-4244-0988-4
+J9 P AMER CONTR CONF
+PY 2007
+BP 4232
+EP +
+PG 2
+WC Automation & Control Systems; Engineering, Electrical & Electronic;
+   Engineering, Mechanical
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA BHD12
+UT WOS:000252258802229
+DA 2026-11-03
+ER
+
+PT J
+AU Jakowluk, W
+AF Jakowluk, Wiktor
+TI Design of an optimal excitation signal for identification of inertial
+   systems in time domain
+SO PRZEGLAD ELEKTROTECHNICZNY
+LA English
+DT Article
+DE optimal excitation signal; Fisher matrix determinant maximisation;
+   system identification; ellipsoidal confidence region
+ID PLANT FRIENDLY IDENTIFICATION; OPTIMAL INPUT-DESIGN; RESPECT
+AB The choice of an input signal used for actuation of the system is critical in the task of model building and parameter identification. In the paper the optimal excitation signal was generated for an inertial model. The objective of this kind of experiment design is to minimise the variance of the parameters to be estimated. In this case, the objective function was formulated through maximisation of the Fisher information matrix determinant in the form of a conventional integral criterion with amplitude constraints. It was shown that the optimal input signal used for system excitation minimises the volume of the ellipsoidal confidence region of parameters estimates.
+C1 Bialystok Tech Univ, Fac Comp Sci, PL-15351 Bialystok, Poland.
+C3 Bialystok University of Technology
+RP Jakowluk, W (corresponding author), Bialystok Tech Univ, Fac Comp Sci, Wiejska 45A St, PL-15351 Bialystok, Poland.
+EM victor@wi.pb.edu.pl
+RI Jakowluk, Wiktor/R-9301-2018
+OI Jakowluk, Wiktor/0000-0003-0942-8903
+NR 20
+TC 5
+Z9 5
+U1 0
+U2 1
+PU WYDAWNICTWO SIGMA-N O T SP Z O O
+PI WARSAW
+PA UL RATUSZOWA 11, PO BOX 1004, 00-950 WARSAW, POLAND
+SN 0033-2097
+J9 PRZ ELEKTROTECHNICZN
+JI Prz. Elektrotechniczny
+PY 2009
+VL 85
+IS 6
+BP 125
+EP 129
+PG 5
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 452GI
+UT WOS:000266527900031
+DA 2026-11-03
+ER
+
+PT J
+AU Narasimhan, S
+   Rengaswamy, R
+AF Narasimhan, Sridharakumar
+   Rengaswamy, Raghunathan
+TI Plant Friendly Input Design: Convex Relaxation and Quality
+SO IEEE TRANSACTIONS ON AUTOMATIC CONTROL
+LA English
+DT Article
+DE Convex optimization; input design; semidefinite programming (SDP);
+   system identification; Tchebycheff inequalities
+ID IDENTIFICATION; SIGNALS
+AB A common practice in a system identification exercise is to perturb the system of interest and use the resulting data to build a model. The problem of interest in this contribution is to synthesize an input signal that is maximally informative for generating good quality models while being "plant friendly," i.e., least hostile to plant operation. In this contribution, limits on input move sizes are the plant friendly specifications. The resulting optimization problem is nonlinear and nonconvex. Hence, the original plant friendly input design problem is relaxed which results in a convex optimization problem. We formulate a SemiDefinite Programme using the theory of generalized Tchebysheff inequalities to derive tight bounds on the quality of relaxation. Simulations show that the relaxation results in more plant friendly input signals.
+C1 [Narasimhan, Sridharakumar] Clarkson Univ, Dept Chem Engn, Potsdam, NY 13699 USA.
+   [Rengaswamy, Raghunathan] Texas Tech Univ, Dept Chem Engn, Lubbock, TX 79409 USA.
+C3 Clarkson University; Texas Tech University System; Texas Tech University
+RP Narasimhan, S (corresponding author), Indian Inst Technol, Madras 600036, Tamil Nadu, India.
+EM sridharkrn@iitm.ac.in; r.rengasamy@ttu.edu
+OI Rengaswamy, Raghunathan/0000-0002-8408-8649; Narasimhan,
+   Sridharakumar/0000-0002-6215-545X
+NR 22
+TC 15
+Z9 17
+U1 0
+U2 6
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0018-9286
+J9 IEEE T AUTOMAT CONTR
+JI IEEE Trans. Autom. Control
+PD JUN
+PY 2011
+VL 56
+IS 6
+BP 1467
+EP 1472
+DI 10.1109/TAC.2011.2132290
+PG 7
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 775BB
+UT WOS:000291430200026
+DA 2026-11-03
+ER
+
+PT C
+AU Steenis, R
+   Rivera, DE
+AF Steenis, Richard
+   Rivera, Daniel E.
+GP IEEE
+TI Plant-Friendly Signal Generation for System Identification using a
+   Modified SPSA Methodology
+SO PROCEEDINGS OF THE 48TH IEEE CONFERENCE ON DECISION AND CONTROL, 2009
+   HELD JOINTLY WITH THE 2009 28TH CHINESE CONTROL CONFERENCE (CDC/CCC
+   2009)
+SE IEEE Conference on Decision and Control
+LA English
+DT Proceedings Paper
+CT Joint 48th IEEE Conference on Decision and Control (CDC) / 28th Chinese
+   Control Conference (CCC)
+CY DEC 15-18, 2009
+CL Shanghai, PEOPLES R CHINA
+SP IEEE, Honeywell, Quanser, United Technologies, Googol Tech, MathWorks, Natl Instruments
+DE Signal Generation; Plant-Friendly; Multi-Sinusoidal Signal; System
+   Identification; Simultaneous Perturbation Stochastic Approximation
+AB The Simultaneous Perturbation Stochastic Approximation (SPSA) methodology and a modified SPSA version (MSPSA-K) were investigated for the generation of plant-friendly multi-sinusoidal signals. The MSPSA-K methodology principally differs from SPSA in that it perturbs the signal phase parameters in K subsets rather than simultaneously. SPSA and MSPSA-K provide a flexible, extensible computational framework to incorporate various plant-friendly performance measures into the design of an input signal for experimental design purposes in system identification. In this paper an objective function comprised of the input signal crest factor, rate of change, acceleration, and output crest factor is presented and applied to a representative case study. A detailed analysis of the tradeoffs between these various performance measures is illustrated by the choice of weighting of the objective function components. The proposed method can be applied to signals with an arbitrarily-defined spectrum (in both amplitude and frequency spacing) and is easily implemented.
+C1 [Steenis, Richard] Arizona State Univ, Dept Elect Engn, Tempe, AZ 85287 USA.
+   [Rivera, Daniel E.] Arizona State Univ, Sch Mech Aerosp Chem & Mat, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe; Arizona State
+   University; Arizona State University-Tempe
+RP Steenis, R (corresponding author), Arizona State Univ, Dept Elect Engn, Tempe, AZ 85287 USA.
+EM rsteeni@asu.edu; daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 10
+TC 2
+Z9 2
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1546
+BN 978-1-4244-3872-3
+J9 IEEE DECIS CONTR P
+PY 2009
+BP 470
+EP 475
+DI 10.1109/CDC.2009.5400015
+PG 6
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA BA5OA
+UT WOS:000336893600080
+DA 2026-11-03
+ER
+
+PT J
+AU Braun, MW
+   Rivera, DE
+   Stenman, A
+AF Braun, MW
+   Rivera, DE
+   Stenman, A
+TI A 'Model-on-Demand' identification methodology for non-linear process
+   systems
+SO INTERNATIONAL JOURNAL OF CONTROL
+LA English
+DT Article
+AB An identification methodology based on multi-level pseudo-random sequence (multi-level PRS) input signals and 'Model-on-Demand' (MoD) estimation is presented for single-input, single-output non-linear process applications. 'Model-on-Demand' estimation allows for accurate prediction of non-linear systems while requiring few user choices and without solving a non-convex optimization problem, as is usually the case with global modelling techniques. By allowing the user to incorporate a priori information into the specification of design variables for multi-level PRS input signals, a sufficiently informative input-output dataset for MoD estimation is generated in a 'plant-friendly' manner. The usefulness of the methodology is demonstrated in case studies involving the identification of a simulated rapid thermal processing (RTP) reactor and a pilot-scale brine-water mixing tank. On the resulting datasets, MoD estimation displays performance comparable to that achieved via semi-physical modelling and semi-physical modelling combined with neural networks. The MoD estimator, however, achieves this level of performance with substantially lower engineering effort.
+C1 Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+   Linkoping Univ, Dept Elect Engn, Div Automat Control, SE-58183 Linkoping, Sweden.
+C3 Arizona State University; Arizona State University-Tempe; Linkoping
+   University
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 16
+TC 66
+Z9 73
+U1 0
+U2 3
+PU TAYLOR & FRANCIS LTD
+PI ABINGDON
+PA 4 PARK SQUARE, MILTON PARK, ABINGDON OX14 4RN, OXON, ENGLAND
+SN 0020-7179
+J9 INT J CONTROL
+JI Int. J. Control
+PD DEC
+PY 2001
+VL 74
+IS 18
+BP 1708
+EP 1717
+DI 10.1080/00207170110089734
+PG 10
+WC Automation & Control Systems
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems
+GA 505EY
+UT WOS:000172900600002
+DA 2026-11-03
+ER
+
+PT J
+AU Steenis, R
+   Rivera, DE
+AF Steenis, Richard
+   Rivera, Daniel E.
+TI Plant-Friendly Signal Generation for System Identification Using a
+   Modified Simultaneous Perturbation Stochastic Approximation (SPSA)
+   Methodology
+SO IEEE TRANSACTIONS ON CONTROL SYSTEMS TECHNOLOGY
+LA English
+DT Article
+DE Multisinusoidal signal; plant-friendly; signal generation; Simultaneous
+   Perturbation Stochastic Approximation (SPSA); system identification
+ID OPTIMIZATION
+AB The Simultaneous Perturbation Stochastic Approximation (SPSA) methodology and a modified SPSA version (MSPSA-K) were investigated for the generation of plant-friendly multisinusoidal signals. Plant-friendly properties are determined by the sinusoidal phases that are optimally selected by either the SPSA or MSPSA-K algorithms. The MSPSA-K methodology principally differs from SPSA in that it perturbs the signal phase parameters in subsets rather than simultaneously. Both SPSA and MSPSA-K provide a flexible, extensible computational framework to incorporate various plant-friendly performance measures into the design of an input signal for experimental design purposes in system identification. In this paper, an objective function comprised of the input signal crest factor, rate of change, acceleration, and output crest factor is presented and applied to a representative case study. A detailed analysis of the tradeoffs between these various performance measures is illustrated by the selection of the weighting values for the objective function components. Using the MSPSA-K method, it was found that dividing the phase parameters into two subsets resulted in better performance than simultaneously perturbing all parameters. Dividing the phase parameters into four subsets, however, did not provide any significant additional benefit. The proposed method can be applied to signals with an arbitrarily defined spectrum (in both amplitude and frequency spacing) and is easily implemented.
+C1 [Steenis, Richard] Arizona State Univ, Sch Elect Comp & Energy Engn, Tempe, AZ 85287 USA.
+   [Rivera, Daniel E.] Arizona State Univ, Sch Engn Matter Transport & Energy, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe; Arizona State
+   University; Arizona State University-Tempe
+RP Steenis, R (corresponding author), Arizona State Univ, Sch Elect Comp & Energy Engn, Tempe, AZ 85287 USA.
+EM rsteeni@asu.edu; daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 18
+TC 6
+Z9 8
+U1 0
+U2 5
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1063-6536
+J9 IEEE T CONTR SYST T
+JI IEEE Trans. Control Syst. Technol.
+PD NOV
+PY 2011
+VL 19
+IS 6
+BP 1604
+EP 1612
+DI 10.1109/TCST.2010.2089795
+PG 9
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 821XS
+UT WOS:000295008400028
+DA 2026-11-03
+ER
+
+PT C
+AU Rivera, DE
+   Zong, S
+   Ling, WM
+AF Rivera, DE
+   Zong, S
+   Ling, WM
+BE Sawaragi, Y
+   Sagara, S
+TI A control-relevant multivariable system identification methodology based
+   on orthogonal multifrequency input perturbations
+SO (SYSID'97): SYSTEM IDENTIFICATION, VOLS 1-3
+LA English
+DT Proceedings Paper
+CT 11th IFAC Symposium on System Identification (SYSID 97)
+CY JUL 08-11, 1997
+CL KITAKYUSHU, JAPAN
+SP Int Federat Automat Control, Int Federat Operat Res, Sci Council Japan, Soc Instrument & Control Engineers, Inst Syst Control & Informat Engineers, Informat Proc Soc Japan, Inst Elect Engineers Japan, Japan Soc Mech Engineers, Soc Chem Engineers, Japan, Operat Res Soc Japan, Robot Soc Japan, Japan Soc Fuzzy Theory & Syst
+DE input signals; system identification; control-oriented modeling;
+   frequency response methods; high-purity distillation
+AB In this paper, we propose a MIMO system identification method utilizing an orthogonal multifrequency input perturbation which we call the "zippered" Schroeder-phased signal. Guidelines for the design of a plant-friendly "zippered" Schroeder-phased input are presented based on a priori knowledge of open-loop time constants and closed-loop system response requirements of the system to be identified. A frequency response estimate is then obtained by applying discrete Fourier transforms (DFTs) to the data. Control-relevant parameter estimation via a frequency-weighted curvefitting problem formulation tailored for orthogonal signal perturbations is presented. Application of the methodology is shown for the case of Model Predictive Control of a high purity binary distillation column, a nonlinear, highly interactive system.
+C1 Arizona State Univ, Dept Chem Bio & Mat Engn, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem Bio & Mat Engn, Tempe, AZ 85287 USA.
+RI Rivera, Daniel/AAF-6772-2019
+NR 11
+TC 0
+Z9 0
+U1 0
+U2 2
+PU PERGAMON PRESS LTD
+PI OXFORD
+PA THE BOULEVARD LANGFORD LANE KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+BN 0-08-042592-5
+PY 1998
+BP 573
+EP 578
+PG 6
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BM87F
+UT WOS:000079974000092
+DA 2026-11-03
+ER
+
+PT J
+AU Banerjee, S
+   Hekler, E
+   Rivera, DE
+AF Banerjee, Sarasij
+   Hekler, Eric
+   Rivera, Daniel E.
+TI Multisine input signal design for constrained, "plant-friendly" system
+   identification of nonlinear systems
+SO IFAC JOURNAL OF SYSTEMS AND CONTROL
+LA English
+DT Article
+DE Nonlinear system identification; Active learning and experiment design;
+   Data-driven control theory; Epidemic control; Plant-friendly system
+   identification
+ID CLOSED-LOOP
+AB This paper presents a methodology for optimizing "plant-friendly" multisine input signals to identify nonlinear dynamic systems under time-domain input and output constraints, without requiring a global parametric model a priori. The goal is to construct an informative dataset for open-loop, datadriven identification while selecting operational requirements. A weighted optimization framework is proposed to minimize the output crest factor resulting from a data-driven model, with penalties for violating input and output constraints. Model-on-Demand (MoD) estimation is employed to simulate outputs using prior data, effectively predicting nonlinear responses without global modeling. This MoD-based formulation enables evaluating output crest factors and output constraint compliance with modest modeling effort and improved impact. The resulting non-smooth, non-convex problem is solved using the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm, which perturbs the multisine phase vector to achieve the desired performance efficiently. This method supports the concept of identification test monitoring, as illustrated in this paper. Within the identification test loops, each optimized excitation is applied to gather new estimation data, iteratively refining MoD-based output predictions and improving constraint satisfaction. The method's effectiveness is demonstrated through a safety-critical case study on a Susceptible-Infected-Recovered (SIR) epidemiological network, showing that the optimized excitation yields highly informative data for identification while keeping the infection spread within safe limits. (c) 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+C1 [Banerjee, Sarasij; Rivera, Daniel E.] Arizona State Univ, Sch Engn Matter Transport & Energy, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+   [Hekler, Eric] Univ Calif San Diego, Ctr Wireless & Populat Hlth Syst, La Jolla, CA 92093 USA.
+C3 Arizona State University; Arizona State University-Tempe; University of
+   California System; University of California San Diego
+RP Rivera, DE (corresponding author), Arizona State Univ, Sch Engn Matter Transport & Energy, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+EM sbaner74@asu.edu; ehekler@health.ucsd.edu; daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+FU National Institutes of Health [R01CA244777]; National Science Foundation
+   (US) through the Predictive Intelligence [2200161]
+FX Support for this research has been provided by the National Institutes
+   of Health grant R01CA244777 and the National Science Foundation (US)
+   through the Predictive Intelligence for Pandemic Preparedness (PIPP)
+   program grant 2200161.
+NR 22
+TC 0
+Z9 0
+U1 1
+U2 1
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2468-6018
+J9 IFAC J SYST CONTROL
+JI IFAC J. Syst. Control
+PD MAR
+PY 2026
+VL 35
+AR 100371
+DI 10.1016/j.ifacsc.2026.100371
+EA JAN 2026
+PG 8
+WC Automation & Control Systems
+WE Emerging Sources Citation Index (ESCI)
+SC Automation & Control Systems
+GA DE7CG
+UT WOS:001681653200001
+DA 2026-11-03
+ER
+
+PT J
+AU Rivera, DE
+   Lee, H
+   Mittelmann, HD
+   Braun, MW
+AF Rivera, Daniel E.
+   Lee, Hyunjin
+   Mittelmann, Hans D.
+   Braun, Martin W.
+TI Constrained multisine input signals for plant-friendly identification of
+   chemical process systems
+SO JOURNAL OF PROCESS CONTROL
+LA English
+DT Article
+DE Constrained multisine signals; "Plant-friendly" system identification;
+   Highly interactive systems; Process control
+ID PURITY DISTILLATION; DESIGN; MODELS
+AB This paper considers the use of constrained minimum crest factor multisine signals as inputs for plant-friendly identification testing of chemical process systems. The methodology presented here effectively integrates operating restrictions, information-theoretic requirements, and state-of-the-art optimization techniques to design minimum crest factor multisine signals meeting important user-specified time and frequency domain properties. A series of optimization problem formulations relevant to problems in linear, nonlinear, and multivariable system identification are presented; these culminate with their application to the modeling of the Weischedel-McAvoy high-purity distillation column problem, a demanding nonlinear and highly interactive system. The effectiveness of these signals for modeling for control purposes and the ability to incorporate a priori nonlinear models in the signal design procedure are demonstrated in this distillation system case study. (C) 2008 Elsevier Ltd. All rights reserved.
+C1 [Rivera, Daniel E.; Lee, Hyunjin; Braun, Martin W.] Arizona State Univ, Dept Chem Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+   [Mittelmann, Hans D.] Arizona State Univ, Dept Math & Stat, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe; Arizona State
+   University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem Engn, Control Syst Engn Lab, Mail Stop 876006, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+FU American Chemical Society-Petroleum Research Fund [PRF-37610-AC9];
+   National Science Foundation Graduate Research Traineeship [NSF
+   ERH-9355079]
+FX Principal funding for this work has been provided by Grant No.
+   PRF-37610-AC9 from the American Chemical Society-Petroleum Research
+   Fund. Martin W. Braun was funded during this work by an National Science
+   Foundation Graduate Research Traineeship (NSF ERH-9355079).
+NR 36
+TC 70
+Z9 80
+U1 0
+U2 6
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-1524
+EI 1873-2771
+J9 J PROCESS CONTR
+JI J. Process Control
+PD APR
+PY 2009
+VL 19
+IS 4
+BP 623
+EP 635
+DI 10.1016/j.jprocont.2008.08.006
+PG 13
+WC Automation & Control Systems; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 444PE
+UT WOS:000265992100007
+DA 2026-11-03
+ER
+
+PT J
+AU Mittelmann, HD
+   Pendse, G
+   Rivera, DE
+   Lee, H
+AF Mittelmann, Hans D.
+   Pendse, Gautam
+   Rivera, Daniel E.
+   Lee, Hyunjin
+TI Optimization-based design of plant-friendly multisine signals using
+   geometric discrepancy criteria
+SO COMPUTATIONAL OPTIMIZATION AND APPLICATIONS
+LA English
+DT Article; Proceedings Paper
+CT Conference on High Performance Algorithms and Software for Nonlinear
+   Optimization
+CY JUN, 2004
+CL Ischia, ITALY
+DE system identification; process control; constrained optimization
+ID IDENTIFICATION
+AB System identification is an important means for obtaining dynamical models for process control applications; experimental testing represents the most time-consuming step in this task. The design of constrained, '' plant-friendly '' multisine input signals that optimize a geometric discrepancy criterion arising from Weyl's Theorem is examined in this paper. Such signals are meaningful for data-centric estimation methods, where uniform coverage of the output state-space is critical. The usefulness of this problem formulation is demonstrated by applying it to a linear problem example and to the nonlinear, highly interactive distillation column model developed by Weischedel and McAvoy. The optimization problem includes a search for both the Fourier coefficients and phases in the multisine signal, resulting in an uniformly distributed output signal displaying a desirable balance between high and low gain directions. The solution involves very little user intervention (which enhances its practical usefulness) and has great benefits compared to multisine signals that minimize crest factor. The constrained nonlinear optimization problems that are solved represent challenges even for high-performance optimization software.
+C1 Arizona State Univ, Dept Math & Stat, Tempe, AZ 85287 USA.
+   Harvard Univ, Sch Med, McLean Hosp, Brain Imaging Ctr, Cambridge, MA 02138 USA.
+   Arizona State Univ, Dept Chem Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+   Rensselaer Polytech Inst, Dept Chem & Biol Engn, Troy, NY USA.
+C3 Arizona State University; Arizona State University-Tempe; Harvard
+   University; Harvard University Medical Affiliates; McLean Hospital;
+   Arizona State University; Arizona State University-Tempe; Rensselaer
+   Polytechnic Institute
+RP Mittelmann, HD (corresponding author), Arizona State Univ, Dept Math & Stat, Tempe, AZ 85287 USA.
+EM Hans.Mittelmann@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 23
+TC 8
+Z9 10
+U1 0
+U2 5
+PU SPRINGER
+PI NEW YORK
+PA 233 SPRING STREET, NEW YORK, NY 10013 USA
+SN 0926-6003
+J9 COMPUT OPTIM APPL
+JI Comput. Optim. Appl.
+PD SEP
+PY 2007
+VL 38
+IS 1
+BP 173
+EP 190
+DI 10.1007/s10589-007-9033-0
+PG 18
+WC Operations Research & Management Science; Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S); Science Citation Index Expanded (SCI-EXPANDED)
+SC Operations Research & Management Science; Mathematics
+GA 198DR
+UT WOS:000248607700011
+DA 2026-11-03
+ER
+
+PT J
+AU Braun, MW
+   Ortiz-Mojica, R
+   Rivera, DE
+AF Braun, MW
+   Ortiz-Mojica, R
+   Rivera, DE
+TI Application of minimum crest factor multisinusoidal signals for
+   "plant-friendly" identification of nonlinear process systems
+SO CONTROL ENGINEERING PRACTICE
+LA English
+DT Article; Proceedings Paper
+CT 12th IFAC Symposium on System Identification
+CY JUN 21, 2000
+CL SANTA BARBARA, CA
+SP IFAC
+DE nonlinear model identification; local modeling; nonlinear model
+   predictive control; multisine signals; input signal design
+AB Guidelines for specifying the design parameters of minimum crest factor multisine signals generated per the approach of Guillaume et al. are presented. These guidelines are evaluated in the identification and control of nonlinear process systems. The minimum crest factor multisine signals offer some distinct advantages over both Schroeder phased multisine signals and multi-level Pseudo-Random Sequences (multi-level PRS) with respect to "plant-friendliness" considerations. These signals can be used to reduce the effects of nonlinearity in obtaining an Empirical Transfer Function Estimate (ETFE). As an example, the ETFE of a Rapid Thermal Processing (RTP) reactor simulation is presented. The effectiveness of the minimum crest factor multisine signals is also discussed and illustrated in the identification and control of a simulated continuous stirred tank reactor using "Model-on-Demand" estimation and Model Predictive Control. Since the performance of the "Model-on-Demand" estimator is highly dependent upon the quality of the identification data, the CSTR case study provides a compelling example of the usefulness of the proposed design procedure. (C) 2002 Elsevier Science Ltd. All rights reserved.
+C1 Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 21
+TC 37
+Z9 40
+U1 0
+U2 5
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0967-0661
+J9 CONTROL ENG PRACT
+JI Control Eng. Practice
+PD MAR
+PY 2002
+VL 10
+IS 3
+BP 301
+EP 313
+AR PII S0967-0661(01)00137-X
+DI 10.1016/S0967-0661(01)00137-X
+PG 13
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA 536FW
+UT WOS:000174690900005
+DA 2026-11-03
+ER
+
+PT C
+AU Narasimhan, S
+   Rengaswamy, R
+AF Narasimhan, S.
+   Rengaswamy, R.
+GP IEEE
+TI Multi-objective optimal input design for plant friendly identification
+SO 2008 AMERICAN CONTROL CONFERENCE, VOLS 1-12
+SE Proceedings of the American Control Conference
+LA English
+DT Proceedings Paper
+CT American Control Conference 2008
+CY JUN 11-13, 2008
+CL Seattle, WA
+SP IEEE
+AB In optimal input design problems, the designer seeks to solve for maximally informative inputs to be used as perturbation signals in system identification experiments. Plant-friendly identification experiments are those that satisfy plant or operator constraints on experiment time, input and output amplitudes or input move sizes. These have been reported to be in direct conflict with requirements for good identification. Hence plant-friendly input design is inherently multi-objective in nature. In this contribution, we present the use of two well known techniques of multi-objective optimization to solve for a plant friendly input design where the plant friendly objective is to keep input move sizes low. We relax the constraint on the input move sizes by constraining the variance of the move size instead. Both techniques result in convex optimization problems which can be solved efficiently using powerful algorithms.
+C1 [Narasimhan, S.] Norwegian Univ Sci & Technol, Dept Chem Engn, N-7491 Trondhiem, Norway.
+   [Rengaswamy, R.] Clarkson Univ, Dept Chem Engn, Potsdam, NY 13699 USA.
+C3 Norwegian University of Science & Technology (NTNU); Clarkson University
+RP Narasimhan, S (corresponding author), Norwegian Univ Sci & Technol, Dept Chem Engn, N-7491 Trondhiem, Norway.
+EM narasimh@nt.ntnu.no; raghu@clarkson.edu
+OI Narasimhan, Sridharakumar/0000-0002-6215-545X; Rengaswamy,
+   Raghunathan/0000-0002-8408-8649
+NR 11
+TC 8
+Z9 9
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+EI 2378-5861
+BN 978-1-4244-2078-0
+J9 P AMER CONTR CONF
+PY 2008
+BP 1304
+EP +
+DI 10.1109/ACC.2008.4586673
+PG 2
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA BIG00
+UT WOS:000259261500218
+DA 2026-11-03
+ER
+
+PT J
+AU Narasimhan, S
+   Srikanth, SA
+   Sreeram, JVN
+   Rengaswamy, R
+AF Narasimhan, Sridharakumar
+   Srikanth, S. Arun
+   Sreeram, J. V. N.
+   Rengaswamy, Raghunathan
+TI Optimal Plant Friendly Input Design for System Identification
+SO INDUSTRIAL & ENGINEERING CHEMISTRY RESEARCH
+LA English
+DT Article
+ID SIGNALS
+AB The primary objective in solving optimal input design problems is to obtain maximally informative inputs to be used as perturbation signals in system identification experiments. In plant-friendly identification, the designer has to respect constraints on experiment time, input and output amplitudes or input move sizes. This work focuses on plant friendly input design with constraints on input move size and output power. We present a convex relaxation to the problem of designing an informative input subject to input move size and output power constraints. The problem is finitely parametrized using ideas from Tchebycheff systems and reformulated as a Semi Definite Programme.
+C1 [Narasimhan, Sridharakumar; Srikanth, S. Arun; Sreeram, J. V. N.] IIT Madras, Dept Chem Engn, Madras 600036, Tamil Nadu, India.
+   [Rengaswamy, Raghunathan] Texas Tech Univ, Dept Chem Engn, Lubbock, TX 79409 USA.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of
+   Technology (IIT) - Madras; Texas Tech University System; Texas Tech
+   University
+RP Narasimhan, S (corresponding author), IIT Madras, Dept Chem Engn, Madras 600036, Tamil Nadu, India.
+EM sridharkrn@iitm.ac.in
+OI Rengaswamy, Raghunathan/0000-0002-8408-8649; Narasimhan,
+   Sridharakumar/0000-0002-6215-545X
+NR 30
+TC 7
+Z9 8
+U1 0
+U2 3
+PU AMER CHEMICAL SOC
+PI WASHINGTON
+PA 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN 0888-5885
+J9 IND ENG CHEM RES
+JI Ind. Eng. Chem. Res.
+PD DEC 7
+PY 2011
+VL 50
+IS 23
+BP 13045
+EP 13055
+DI 10.1021/ie200472s
+PG 11
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 853SH
+UT WOS:000297445500021
+DA 2026-11-03
+ER
+
+PT C
+AU Kumar, A
+   Nabil, M
+   Narasimhan, S
+AF Kumar, Abhishankar
+   Nabil, M.
+   Narasimhan, Sridharakumar
+GP IEEE
+TI Economical and Plant Friendly Input Design for System Identification
+SO 2014 EUROPEAN CONTROL CONFERENCE (ECC)
+LA English
+DT Proceedings Paper
+CT 13th European Control Conference (ECC)
+CY JUN 24-27, 2014
+CL Univ Strasbourg, Strasbourg, FRANCE
+SP ICube lab, MathWorks, Groupement Rech Modeling, Anal & Control Dynam Syst, Siemens, Natl Ctr Sci Res, INRIA
+HO Univ Strasbourg
+DE system identification; convex optimization; optimal input design
+ID SELECTION
+AB Input design is the process of designing an informative input that extracts maximal information about system dynamics using minimal cost and resources. In this work, we design inputs in the economic framework, where the objective is to minimize the cost incurred during the experiment, subject to plant friendly constraints as well as feasibility constraints. The cost is quantified in terms of departure from the nominally optimal operational policy. Typically, the nominal policy is to operate the plant at or near constraints. The economics based optimization formulation is non-convex, so we have proposed a 2-step iterative method to solve this problem. The solution also yields the conditions at which the identification experiment has to be carried out. The input is realized as white noise filtered by an M-tap FIR filter.
+C1 [Kumar, Abhishankar; Nabil, M.; Narasimhan, Sridharakumar] Indian Inst Technol, Dept Chem Engn, Madras 600036, Tamil Nadu, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of
+   Technology (IIT) - Madras
+RP Kumar, A (corresponding author), Indian Inst Technol, Dept Chem Engn, Madras 600036, Tamil Nadu, India.
+EM abhiengg05@gmail.com; nabil123@gmail.com; sridharkrn@iitm.ac.in
+OI M, Nabil/0000-0001-6030-4557; Narasimhan,
+   Sridharakumar/0000-0002-6215-545X
+NR 20
+TC 7
+Z9 7
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-3-9524269-1-3
+PY 2014
+BP 732
+EP 737
+PG 6
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BC1BM
+UT WOS:000349955701005
+DA 2026-11-03
+ER
+
+PT C
+AU Zeiringer, T
+   Hölzl, SL
+   Horn, M
+AF Zeiringer, Thomas
+   Hoelzl, Stefan L.
+   Horn, Martin
+GP IEEE
+TI An Analytical Framework for Utilizing Chirp Signals in System
+   Identification
+SO 2024 IEEE 63RD CONFERENCE ON DECISION AND CONTROL, CDC
+SE IEEE Conference on Decision and Control
+LA English
+DT Proceedings Paper
+CT 63rd Conference on Decision and Control
+CY DEC 16-19, 2024
+CL Milan, ITALY
+SP The Mathworks Inc
+ID INPUT-DESIGN
+AB A method for synthesizing a chirp signal given its desired spectrum is proposed, extending the application of established experiment design methods to chirp signals. Further, aspects concerning plant-friendly system identification are discussed and variations of the regular chirp signal are therefore introduced. An analytical expression for the system's response to a chirp signal is derived and used to discuss the application of chirp signals in detail. Finally, an experiment is presented to compare chirp and noise signals for system identification.
+C1 [Zeiringer, Thomas; Hoelzl, Stefan L.; Horn, Martin] Graz Univ Technol, Inst Automat & Control, Graz, Austria.
+C3 Graz University of Technology
+RP Zeiringer, T (corresponding author), Graz Univ Technol, Inst Automat & Control, Graz, Austria.
+EM thomas.zeiringer@tugraz.at
+OI Zeiringer, Thomas/0009-0007-7104-1722
+FU Austrian Federal Ministry of Labour and Economy; National Foundation for
+   Research, Technology and Development; Christian Doppler Research
+   Association
+FX The financial support by the Austrian Federal Ministry of Labour and
+   Economy, the National Foundation for Research, Technology and
+   Development and the Christian Doppler Research Association is gratefully
+   acknowledged.
+NR 20
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1546
+EI 2576-2370
+BN 979-8-3503-1634-6; 979-8-3503-1633-9
+J9 IEEE DECIS CONTR P
+PY 2024
+BP 4979
+EP 4985
+DI 10.1109/CDC56724.2024.10886700
+PG 7
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Mathematics, Applied
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science; Mathematics
+GA BY4MR
+UT WOS:001445827204042
+DA 2026-11-03
+ER
+
+PT J
+AU Rivera, DE
+   Lee, HJ
+   Mittelmann, HD
+   Braun, MW
+AF Rivera, Daniel E.
+   Lee, Hyunjin
+   Mittelmann, Hans D.
+   Braun, Martin W.
+TI Hing-purity distillation - Using plant-friendly multisine signals to
+   identify a strongly interactive process
+SO IEEE CONTROL SYSTEMS MAGAZINE
+LA English
+DT Article
+ID IDENTIFICATION; DESIGN; MODELS
+C1 Arizona State Univ, Dept Chem Engn, Tempe, AZ 85287 USA.
+   Rensselaer Polytech Inst, Dept Biol & Chem Engn, Troy, NY 12181 USA.
+   Intel Corp, Tech Staff Log Technol Dev Automat, Chandler, AZ 85226 USA.
+C3 Arizona State University; Arizona State University-Tempe; Rensselaer
+   Polytechnic Institute; Intel Corporation; Intel USA
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem Engn, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 52
+TC 44
+Z9 48
+U1 0
+U2 3
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1066-033X
+EI 1941-000X
+J9 IEEE CONTR SYST MAG
+JI IEEE Control Syst. Mag.
+PD OCT
+PY 2007
+VL 27
+IS 5
+BP 72
+EP 89
+DI 10.1109/MCS.2007.904650
+PG 18
+WC Automation & Control Systems
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems
+GA 212UZ
+UT WOS:000249623600010
+DA 2026-11-03
+ER
+
+PT C
+AU Chikkula, Y
+   Lee, JH
+AF Chikkula, Y
+   Lee, JH
+GP AMER AUTOMAT CONTROL COUNCIL
+TI Input sequence design for parametric identification of nonlinear systems
+SO PROCEEDINGS OF THE 1997 AMERICAN CONTROL CONFERENCE, VOLS 1-6
+SE PROCEEDINGS OF THE AMERICAN CONTROL CONFERENCE
+LA English
+DT Proceedings Paper
+CT 1997 American Control Conference
+CY JUN 04-06, 1997
+CL ALBUQUERQUE, NM
+SP Amer Automat Control Council, Int Federat Automat Control
+AB In this paper we address the issue of designing optimal, plant-friendly input sequences for parametric identification of nonlinear systems. A sequential design methodology based on the constrained optimization of a parameter-space criterion is proposed. The optimization criterion/constraints are chosen to reflect the identification requirements such as information content of the resulting I/O data, control-relevancy, plant-friendly signal characteristics etc. The developments are focused on Nonlinear Moving Average (NMA) structures. Numerical simulations are presented in order to illustrate the effectiveness of the proposed methodology.
+C1 AUBURN UNIV,DEPT CHEM ENGN,AUBURN,AL 36849.
+C3 Auburn University System; Auburn University
+RP Lee, JH (corresponding author), AUBURN UNIV,DEPT CHEM ENGN,AUBURN,AL 36849, USA.
+RI Lee, Jay/IZQ-2754-2023
+OI Lee, Jay/0000-0001-6134-6118
+NR 0
+TC 3
+Z9 3
+U1 0
+U2 0
+PU I E E E
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017
+SN 0743-1619
+BN 0-7803-3833-2
+J9 P AMER CONTR CONF
+PY 1997
+BP 3037
+EP 3041
+PG 5
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BJ29B
+UT WOS:A1997BJ29B00648
+DA 2026-11-03
+ER
+
+PT C
+AU Lee, H
+   Rivera, DE
+AF Lee, H
+   Rivera, DE
+GP IEEE
+TI Control-relevant curvefitting for plant-friendly multivariable system
+   identification
+SO ACC: PROCEEDINGS OF THE 2005 AMERICAN CONTROL CONFERENCE, VOLS 1-7
+SE Proceedings of the American Control Conference
+LA English
+DT Proceedings Paper
+CT American Control Conference 2005 (ACC)
+CY JUN 08-10, 2005
+CL Portland, OR
+SP Amer Automat Control Council, IFAC, AIAA, AIChE, AIST, ASCE, ASME, IEEE, ISA, SCS
+AB A control-relevant parameter estimation algorithm is developed in this paper for curvefitting Empirical Transfer Function Estimates (ETFEs) with orthogonal (i.e., zippered) frequency grids to discrete-time parametric Matrix Fraction Description models. Such ETFEs arise from DFT analysis of identification data generated from constrained, plant-friendly multisine inputs as developed by the authors' previous work. This curvefitter minimizes model estimation error using pre/post frequency-dependent weighting matrices as functions of the closed-loop dynamics. The control-relevant multivariable parameter estimation procedure is illustrated with an example case study based on the Shell Heavy Oil Fractionator problem.
+C1 Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 10
+TC 2
+Z9 2
+U1 0
+U2 6
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+EI 2378-5861
+BN 0-7803-9098-9
+J9 P AMER CONTR CONF
+PY 2005
+BP 1431
+EP 1436
+DI 10.1109/ACC.2005.1470166
+PG 6
+WC Automation & Control Systems; Computer Science, Artificial Intelligence
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science
+GA BCY93
+UT WOS:000231947701120
+DA 2026-11-03
+ER
+
+PT C
+AU Ghosh, R
+AF Ghosh, Ramkrishna
+GP IEEE
+TI CONSTRUCTION OF PLANT FRIENDLY INPUT EXCITATIONS FOR ILL-CONDITIONED
+   MULTIVARIABLE PROCESS IDENTIFICATION
+SO 2014 6TH INTERNATIONAL SYMPOSIUM ON COMMUNICATIONS, CONTROL AND SIGNAL
+   PROCESSING (ISCCSP)
+LA English
+DT Proceedings Paper
+CT 6th International Symposium on Communications, Control and Signal
+   Processing (ISCCSP)
+CY MAY 21-23, 2014
+CL Athens, GREECE
+SP IEEE, IEEE Circuits & Syst Soc, IEEE Control Syst Soc, IEEE Signal Proc Soc, Univ Patras
+DE signal excitation design; MIMO system identification; gain
+   directionality; ill conditioned system
+ID SUBSPACE IDENTIFICATION; SIGNALS
+AB The objective of this work is to evaluate and compare the effectiveness of input excitation signal design methods considering gain directions for the case of ill-conditioned multi-input multi output (MIMO) systems. For this purpose, a four inputs-four outputs (4 x 4) stripper section of distillation column is considered. Different plant friendly indices (such as, crest factor, PIPS) and fit percentage were used to quantify effectiveness of different input excitation signal design methods. Subsequently the quality of these methods and thus the quality of associated input excitation is evaluated through cross validation analysis.
+C1 Abo Akad Univ, Dept Chem Engn, FI-20500 Turku, Finland.
+C3 Abo Akademi University
+RP Ghosh, R (corresponding author), Abo Akad Univ, Dept Chem Engn, Biskopsgatan 8, FI-20500 Turku, Finland.
+NR 15
+TC 2
+Z9 3
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4799-2890-3
+PY 2014
+BP 368
+EP 371
+PG 4
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA BB8DS
+UT WOS:000346443500089
+DA 2026-11-03
+ER
+
+PT J
+AU Parker, RS
+   Heemstra, D
+   Doyle, FJ
+   Pearson, RK
+   Ogunnaike, BA
+AF Parker, RS
+   Heemstra, D
+   Doyle, FJ
+   Pearson, RK
+   Ogunnaike, BA
+TI The identification of nonlinear models for process control using
+   tailored "plant-friendly" input sequences
+SO JOURNAL OF PROCESS CONTROL
+LA English
+DT Article
+DE nonlinear identification; Volterra series model; process control; input
+   sequence design
+ID 2ND-ORDER VOLTERRA MODELS; SYSTEM-IDENTIFICATION; FEEDBACK-CONTROL;
+   FEEDFORWARD; KERNELS; DESIGN
+AB This paper considers certain practical aspects of the identification of nonlinear empirical models for chemical process dynamics. The primary focus is the identification of second-order Volterra models using input sequences that offer the following three advantages: (1) they are "plant friendly;" (2) they simplify the required computations; (3) they can emphasize certain model parameters over others. To provide a quantitative basis for discussing the first of these advantages, this paper defines a friendliness index f that relates to the number of changes that occur in the sequence. For convenience, this paper also considers an additional nonlinear model structure: the Volterra-Laguerre model. To illustrate the practical utility of the input sequences considered here, second order Volterra and Volterra-Laguerre models are developed that approximate the dynamics of a first-principles model of methyl methacrylate polymerization. (C) 2001 Elsevier Science Ltd. All rights reserved.
+C1 Univ Delaware, Dept Chem Engn, Newark, DE 19716 USA.
+   Purdue Univ, Sch Chem Engn, W Lafayette, IN 47907 USA.
+   Dupont Co, Expt Stn EI, Wilmington, DE 19880 USA.
+   ETH Z, Automat Control Lab, CH-8092 Zurich, Switzerland.
+C3 University of Delaware; Purdue University System; Purdue University;
+   DuPont; DuPont USA; Swiss Federal Institutes of Technology Domain; ETH
+   Zurich
+RP Doyle, FJ (corresponding author), Univ Delaware, Dept Chem Engn, Newark, DE 19716 USA.
+RI ; Ogunnaike, Babatunde/A-4894-2008
+OI Parker, Robert/0000-0002-9913-4847; Ogunnaike,
+   Babatunde/0000-0002-8246-070X
+NR 28
+TC 36
+Z9 37
+U1 0
+U2 6
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-1524
+J9 J PROCESS CONTR
+JI J. Process Control
+PD APR
+PY 2001
+VL 11
+IS 2
+SI SI
+BP 237
+EP 250
+DI 10.1016/S0959-1524(00)00050-0
+PG 14
+WC Automation & Control Systems; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 400PE
+UT WOS:000166880000010
+DA 2026-11-03
+ER
+
+PT C
+AU Soni, AS
+   Parker, RS
+AF Soni, AS
+   Parker, RS
+GP acc
+TI Control relevant identification for third-order volterra systems: A
+   polymerization case study
+SO PROCEEDINGS OF THE 2004 AMERICAN CONTROL CONFERENCE, VOLS 1-6
+SE PROCEEDINGS OF THE AMERICAN CONTROL CONFERENCE
+LA English
+DT Proceedings Paper
+CT American Control Conference
+CY JUN 30-JUL 02, 2004
+CL Boston, MA
+SP Amer Automat Control Council, Int Federat Automat Control
+DE empirical model identification; input sequence design; Volterra series;
+   polymerization reactor
+ID MODELS; REACTOR
+AB In this work the problem of identifying third-order Volterra models from input-output process data is addressed. The identification problem involves the rational design of input sequences that exploit the Volterra model structure. The criterion used to measure the model fitness is the minimization of the prediction error variance (PEV). Explicit estimators that utilize plant-friendly input sequences for the identification of bias, linear, nonlinear diagonal, and third-order sub-diagonal kernels are presented. As an application of this technique, an isothermal polymerization reactor case study is considered; it was found that the third-order Volterra model does an efficient job of capturing the nonlinear reactor behavior.
+C1 Univ Pittsburgh, Dept Chem & Petr Engn, Pittsburgh, PA 15261 USA.
+C3 Pennsylvania Commonwealth System of Higher Education (PCSHE); University
+   of Pittsburgh
+RP Parker, RS (corresponding author), Univ Pittsburgh, Dept Chem & Petr Engn, 1249 Benedum Hall, Pittsburgh, PA 15261 USA.
+NR 12
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+BN 0-7803-8335-4
+J9 P AMER CONTR CONF
+PY 2004
+BP 4249
+EP 4254
+PG 6
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BBC09
+UT WOS:000224688300719
+DA 2026-11-03
+ER
+
+PT C
+AU Yang, L
+   Riveral, DE
+AF Yang, L
+   Riveral, DE
+GP AACC
+   AACC
+   AACC
+TI Integrated identification and model predictive control using iterative
+   refinement
+SO PROCEEDINGS OF THE 2001 AMERICAN CONTROL CONFERENCE, VOLS 1-6
+SE PROCEEDINGS OF THE AMERICAN CONTROL CONFERENCE
+LA English
+DT Proceedings Paper
+CT American Control Conference (ACC)
+CY JUN 25-27, 2001
+CL ARLINGTON, VA
+SP Amer Automat Control Council, IFAC
+AB An iterative refinement approach is presented for designing a high performance control system for an imprecisely known plant. The design procedure involves the integration of identification and model predictive control (MPC) using repeated closed-loop identification tests and successively improving the model (and ultimately, closed-loop performance) with each successive iteration. The method is appealing to industrial practice because real-time closed-loop data can be used directly to enhance the performance of a predictive controller without the need to deactivate the control loop during identification testing. The iterative refinement strategy is "plant-friendly" in that it tries to keep the identification test as short as possible while keeping the plant within operating limits and contraints. Constraint enforcement (on controlled, associated and manipulated variables) is naturally implemented through the use of MPC. The application of the method is demonstrated on a highly nonlinear diabatic (i.e., nonadiabatic) continuous stirred tank reactor problem.
+C1 Arizona State Univ, Control Syst Engn Lab, Dept Chem & Mat Engn, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe
+RP Riveral, DE (corresponding author), Arizona State Univ, Control Syst Engn Lab, Dept Chem & Mat Engn, Tempe, AZ 85287 USA.
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 9
+TC 1
+Z9 1
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 0743-1619
+BN 0-7803-6495-3
+J9 P AMER CONTR CONF
+PY 2001
+BP 1190
+EP 1195
+PG 6
+WC Automation & Control Systems; Engineering, Electrical & Electronic;
+   Robotics
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering; Robotics
+GA BT65Z
+UT WOS:000173663300207
+DA 2026-11-03
+ER
+
+PT C
+AU Guzmán, JL
+   Rivera, DE
+   Berenguel, M
+   Dormido, S
+AF Guzman, J. L.
+   Rivera, D. E.
+   Berenguel, M.
+   Dormido, S.
+TI i-pIDtune 2.0: An Updated Interactive Tool for
+   Integrated System Identification and PID Control
+SO IFAC PAPERSONLINE
+LA English
+DT Proceedings Paper
+CT 4th IFAC Conference on Advances in Proportional-Integral-Derivate
+   Control (PID)
+CY JUN 12-14, 2024
+CL Almeria, SPAIN
+SP Int Federat Automat Control, Univ Almeria, Dep Informat, Cajamar Cooperative Group, Biorizon - UAL Chair Regenerative Agriculture, Fabridis Automat, Cosentino, Michelin, Murex, Port Almeria, Higher School Engn, UAL, Tabernas Solar Platform, Official Coll Engn Eastern Andalusia, Yokogawa, DICSA, Almeria City Council, OTRI, UAL, Vice-Rectorate Digital Transformat & Infrastructure, UAL, Mathworks, CIESOL, UAL-PSA
+DE PID design; control-relevant identification; interactivity;
+   prediction-error estimation; experimental design
+AB This paper describes i-pIDtune 2.0, an updated interactive software tool that integrates system identification and PID controller design. The tool supports experimental design and execution under plant-friendly conditions, high-order ARX estimation, and control-relevant model reduction leading to models that comply with IMC-PID tuning rules; these controllers can then be evaluated in simulation. All four stages are depicted simultaneously and interactively in one screen. The updated tool includes two significant new features: 1) support for "bumpless" PI-D and I-PD closed-loop simulations that provide a broader understanding of PID tuning effectiveness in practical settings and 2) extension to plants with integrating dynamics. These new features are described and illustrated with two example problems. Copyright (C) 2024 The Authors. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/)
+C1 [Guzman, J. L.; Berenguel, M.] Univ Almeria, Dept Informat, CIESOL, Almeria 04120, Spain.
+   [Rivera, D. E.] ASU, Sch Engn Matter Transport & Energy, Tempe, AZ 85287 USA.
+   [Dormido, S.] UNED, Dep Informat Automat, C-Juan Rosal 16, Madrid 28040, Spain.
+C3 Centro de Investigaciones Energeticas, Medioambientales Tecnologicas;
+   Universidad de Almeria; Ciesol; Arizona State University; Arizona State
+   University-Tempe; Universidad Nacional de Educacion a Distancia (UNED)
+RP Guzmán, JL (corresponding author), Univ Almeria, Dept Informat, CIESOL, Almeria 04120, Spain.
+EM joseluis.guzman@ual.es; daniel.rivera@asu.edu; beren@ual.es;
+   sdormido@dia.uned.es
+RI Guzman, Jose Luis/K-9608-2014; Bencomo, Sebastian/K-6918-2014;
+   BERENGUEL, MANUEL/K-9415-2014; Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+FU Spanish Ministry of Science [PID2020-112709RB-C21]
+FX This work has been financed by the PID2020-112709RB-C21 project financed
+   by the Spanish Ministry of Science.
+NR 17
+TC 2
+Z9 2
+U1 0
+U2 0
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2405-8963
+J9 IFAC PAPERSONLINE
+JI IFAC PAPERSONLINE
+PY 2024
+VL 58
+IS 7
+BP 61
+EP 66
+DI 10.1016/j.ifacol.2024.08.011
+EA AUG 2024
+PG 6
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA E3N7U
+UT WOS:001302114600011
+OA gold
+DA 2026-11-03
+ER
+
+PT J
+AU Maner, BR
+   Doyle, FJ
+AF Maner, BR
+   Doyle, FJ
+TI Polymerization reactor control using autoregressive-plus Volterra-based
+   MPC
+SO AICHE JOURNAL
+LA English
+DT Article
+ID MODEL-PREDICTIVE CONTROL; NONLINEAR-SYSTEMS; DYNAMIC BEHAVIOR;
+   FEEDBACK-CONTROL; CONTROL STRATEGIES; STATE ESTIMATION; IDENTIFICATION;
+   DESIGN; CSTR; COPOLYMERIZATION
+AB A nonlinear model-predictive control scheme based on the autoregressive-plus Volterra model is proposed. A ''plant-friendly,'' yet persistently exciting, input sequence is designed for model identification. A second feature of this work is that the control action is determined by solving a less computationally burdensome nonlinear programming problem than the optimization problems associated with Newton-type controllers and polynomial ARMA model nonlinear MPC. A third contribution is that semiglobal closed-loop stability conditions are derived and are shown to be less conservative than those previously published. The control scheme is shown to outperform a feedback strategy using proportional integral control and a linear model-predictive control design for the control of two polymerization reactor case studies. The complex features of the latter case study [multivariable (3 x 3), recycle loop, high-order (24) dynamics] motivate the applicability of this approach for industrial problems.
+C1 PURDUE UNIV, SCH CHEM ENGN, W LAFAYETTE, IN 47907 USA.
+C3 Purdue University System; Purdue University
+NR 68
+TC 52
+Z9 55
+U1 0
+U2 2
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0001-1541
+EI 1547-5905
+J9 AICHE J
+JI AICHE J.
+PD JUL
+PY 1997
+VL 43
+IS 7
+BP 1763
+EP 1784
+DI 10.1002/aic.690430713
+PG 22
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA XJ148
+UT WOS:A1997XJ14800012
+DA 2026-11-03
+ER
+
+PT J
+AU Soni, AS
+   Parker, RS
+AF Soni, Abhishek S.
+   Parker, Robert S.
+TI Tailored sequence design for third-order Volterra model identification
+SO INDUSTRIAL & ENGINEERING CHEMISTRY RESEARCH
+LA English
+DT Article
+ID NONLINEAR-SYSTEM; HAMMERSTEIN; EXPANSION; EQUATION
+AB In this work, the problem of identifying third-order Volterra models from process input-output data is considered. As a metric of model fidelity, the prediction error variance expression is employed. Tailored input sequences are designed to estimate the linear, nonlinear diagonal, and subdiagonal kernels for the third-order Volterra model. Random binary signals (RBS) are used to estimate the second- and third-order off-diagonal kernels. These input sequences are plant-friendly, and they are designed to take advantage of the Volterra model structure. For comparison, Volterra kernels are identified using a cross-correlation approach. A mildly nonlinear system, which has been previously employed, serves as the simulation case study (Congalidis et al. AIChE J. 1989, 35, 891; and Parker et al. J. Process Control 2001, 11, 237). On the basis of both static and dynamic analyses, the tailored identification algorithm estimates kernels that capture the nonlinear system behavior. Furthermore, the estimates from this algorithm are superior to, and require less data than, estimates using the cross-correlation technique.
+C1 Univ Pittsburgh, Dept Chem & Petr Engn, Pittsburgh, PA 15261 USA.
+C3 Pennsylvania Commonwealth System of Higher Education (PCSHE); University
+   of Pittsburgh
+RP Parker, RS (corresponding author), Univ Pittsburgh, Dept Chem & Petr Engn, Pittsburgh, PA 15261 USA.
+EM rparker@pitt.edu
+OI Parker, Robert/0000-0002-9913-4847
+NR 36
+TC 2
+Z9 3
+U1 0
+U2 0
+PU AMER CHEMICAL SOC
+PI WASHINGTON
+PA 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN 0888-5885
+J9 IND ENG CHEM RES
+JI Ind. Eng. Chem. Res.
+PD JAN 31
+PY 2007
+VL 46
+IS 3
+BP 818
+EP 829
+DI 10.1021/ie0602198
+PG 12
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 128TY
+UT WOS:000243682900018
+DA 2026-11-03
+ER
+
+PT J
+AU Cai, M
+   Zhang, X
+   Feng, Z
+   Yao, XZ
+   Lu, LT
+   Jiao, YJ
+   Wang, WD
+AF Cai, Min
+   Zhang, Xu
+   Feng, Zheng
+   Yao, Xinzhuan
+   Lu, Litang
+   Jiao, Yujie
+   Wang, Weidong
+TI Integrated physiological, transcriptomic and metabolomic analysis of the
+   response of Brassica napus L. to pruning residues from tea plant
+SO SCIENTIFIC REPORTS
+LA English
+DT Article
+DE Aerobic composting; Pruned tea plant branches; <italic>Brassica
+   napus</italic> L.; Transcriptomic; Metabolomic
+ID CAMELLIA-SINENSIS; GROWTH; IDENTIFICATION; BIOSYNTHESIS; SHIKIMATE
+AB In the process of tea garden management, the pruned tea plant branches usually return directly to the field, which may interfere adjacent plant growth and resource waste. Therefore, it is essential to properly manage and economically utilize pruned tea plant branches. This study was combined physiology, transcriptomics, and metabolomics to analyze the effects of uncomposted and composted tea plant branches (UT and CT, respectively) on seed germination and seedling growth of Brassica napus L. The results demonstrated that the phenolic chemicals (tea polyphenols and catechins) and alkaloid (caffeine) in CT were reduced by over 84.56-99.57% compared to UT. The CT extracts solution promoted seed germination and seedling growth, while the UT extracts solution had the opposite effect. Comprehensive transcriptomic and metabolomic analyses revealed that the primary pathways affected were phenylpropanoid biosynthesis, plant hormone signal transduction, and MAPK signal pathway - plant. These results showed that UT extracts solution may affect the B. napus L. growth by disrupting the plant hormonal balance and antioxidant system. These results of this study indicate that in situ aerobic composting is a plant-friendly method for converting pruned tea plant branches into organic fertilizer and provides a theoretical basis for the resource utilization of pruned tea plant branches.
+C1 [Cai, Min; Zhang, Xu; Feng, Zheng; Yao, Xinzhuan; Jiao, Yujie] Guizhou Univ, Coll Tea Sci, Key Lab Plant Resource Conservat & Germplasm Innov, Minist Educ, Guiyang 550025, Guizhou, Peoples R China.
+   [Lu, Litang] Guizhou Univ, Coll Life Sci, Key Lab Plant Resource Conservat & Germplasm Innov, Minist Educ, Guiyang 550025, Guizhou, Peoples R China.
+   [Wang, Weidong] Guizhou Univ, Inst Rural Revitalizat, Guiyang 550025, Guizhou, Peoples R China.
+C3 Guizhou University; Guizhou University; Guizhou University
+RP Jiao, YJ (corresponding author), Guizhou Univ, Coll Tea Sci, Key Lab Plant Resource Conservat & Germplasm Innov, Minist Educ, Guiyang 550025, Guizhou, Peoples R China.; Wang, WD (corresponding author), Guizhou Univ, Inst Rural Revitalizat, Guiyang 550025, Guizhou, Peoples R China.
+EM jiaoyujie9@163.com; gzuwwd@163.com
+RI Lu, litang/MVV-9929-2025
+FU Guizhou Provincial Science and Technology Projects; Guizhou Provincial
+   Basic Research Program (Natural Science) [(2025)644]; Guizhou University
+   Natural Science Special Scientific Research Fund Project [2022-26]; 
+   [QKHJC[2024]youth091]
+FX This work was supported by the Guizhou Provincial Science and Technology
+   Projects (QKHJC[2024]youth091), Guizhou Provincial Basic Research
+   Program (Natural Science) No. MS(2025)644, Guizhou University Natural
+   Science Special Scientific Research Fund Project (2022-26).
+NR 73
+TC 1
+Z9 1
+U1 6
+U2 26
+PU NATURE PORTFOLIO
+PI BERLIN
+PA HEIDELBERGER PLATZ 3, BERLIN, 14197, GERMANY
+SN 2045-2322
+J9 SCI REP-UK
+JI Sci Rep
+PD JUL 26
+PY 2025
+VL 15
+IS 1
+AR 27246
+DI 10.1038/s41598-025-11425-9
+PG 17
+WC Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Science & Technology - Other Topics
+GA 5KG6M
+UT WOS:001537687100035
+PM 40715267
+OA Green Submitted, gold
+DA 2026-11-03
+ER
+
+EF

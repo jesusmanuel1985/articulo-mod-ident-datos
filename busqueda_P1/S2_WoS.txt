@@ -1,0 +1,1598 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT C
+AU Huang, BQ
+   Gu, Y
+   Su, HY
+AF Huang, Bingqiang
+   Gu, Yong
+   Su, Hongye
+GP IEEE
+TI Model Predictive Control Based on Experience Model for the S-trioxane
+   Concentration Column
+SO 2013 10TH IEEE INTERNATIONAL CONFERENCE ON CONTROL AND AUTOMATION (ICCA)
+SE IEEE International Conference on Control and Automation ICCA
+LA English
+DT Proceedings Paper
+CT 10th IEEE International Conference on Control and Automation (IEEE ICCA)
+CY JUN 12-14, 2013
+CL Hangzhou, PEOPLES R CHINA
+SP IEEE, IEEE Control Syst Chapter, Singapore Sect, State Key Lab Ind Control Technol, Natl Engn Res Ctr Ind Automat, IEEE Control Syst Chapter, Nanjing Sect, IEEE Control Syst Soc, Chinese Assoc Automat, Tech Comm Proc Control, Zhejiang Univ, Asian Control Assoc
+ID IDENTIFICATION
+AB Step test method, which is a kind of commonly used industrial process identification method, has the disadvantages of time-consuming and production disruption. For this reason, this paper takes the sensitive tray temperature control system of the s-trioxane concentration column as the research object, and the step test models and experience models are obtained, and the two kinds of model predictive effects are simulated and compared. Finally, a MPC controller based on experience models is designed and put into operation. The actual plant application shows that the MPC controller could effectively improve the stability of the sensitive tray temperature.
+C1 [Huang, Bingqiang; Gu, Yong; Su, Hongye] Zhejiang Univ, State Key Lab Ind Control Technol, Inst Cyber Syst & Control, Hangzhou 310027, Peoples R China.
+C3 Zhejiang University
+RP Huang, BQ (corresponding author), Zhejiang Univ, State Key Lab Ind Control Technol, Inst Cyber Syst & Control, Hangzhou 310027, Peoples R China.
+EM ygu@iipc.zju.edu.cn
+RI Su, Hongye/K-5597-2019
+NR 8
+TC 0
+Z9 0
+U1 0
+U2 4
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1948-3449
+BN 978-1-4673-4708-2; 978-1-4673-4707-5
+J9 IEEE INT CONF CON AU
+PY 2013
+BP 290
+EP 293
+PG 4
+WC Automation & Control Systems
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems
+GA BGV95
+UT WOS:000324335200053
+DA 2026-11-03
+ER
+
+PT J
+AU Lin, YD
+   Huang, HP
+   Yu, CC
+AF Lin, Yu-De
+   Huang, Hsiao-Ping
+   Yu, Cheng-Ching
+TI Relay feedback tests for highly nonlinear processes: Reactive
+   distillation
+SO INDUSTRIAL & ENGINEERING CHEMISTRY RESEARCH
+LA English
+DT Article
+ID MODEL-PREDICTIVE CONTROL; IDENTIFICATION; DERIVATION; DESIGN; IDEAL
+AB This paper is intended to demonstrate the effectiveness of the relay feedback test for the identification of highly nonlinear processes, namely, reactive distillation. Because of the multifunctional nature, reactive distillation exhibits strong nonlinearity and possible "sign reversal" in the steady-state gain of product composition and tray temperatures. A methyl acetate reactive distillation is used to illustrate performance of two different identification approaches: step test and relay feedback test. For the composition control, step tests reveal sign changes in steady-state gain as the step size varies from - 10% to + 10%. Moreover, step test is also sensitive to the direction of the step. On the other hand, consistent ultimate gain and the ultimate period can be identified for different relay heights with different initial step directions. The error in the high-frequency information is < 5% for the reactive distillation column that has been studied. Good control performance can be obtained using simple PI controllers tuned with the ultimate gain and ultimate period. Comparison is also made for temperature control and, again, the results indicate that consistent high-frequency information can be obtained with the relay feedback test. Finally, relay feedback is applied to multivariable control of reactive distillation. The resultant PI controllers, designed based on the ultimate information, also gives satisfactory performance for set-point and load changes.
+C1 Natl Taiwan Univ, Dept Chem Engn, Taipei 10617, Taiwan.
+C3 National Taiwan University
+RP Yu, CC (corresponding author), Natl Taiwan Univ, Dept Chem Engn, Taipei 10617, Taiwan.
+EM ccyu@ntu.edu.tw
+NR 34
+TC 17
+Z9 17
+U1 0
+U2 6
+PU AMER CHEMICAL SOC
+PI WASHINGTON
+PA 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN 0888-5885
+J9 IND ENG CHEM RES
+JI Ind. Eng. Chem. Res.
+PD JUN 7
+PY 2006
+VL 45
+IS 12
+BP 4081
+EP 4092
+DI 10.1021/ie0514105
+PG 12
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 048GD
+UT WOS:000237934700010
+DA 2026-11-03
+ER
+
+PT C
+AU Majhi, EP
+   Kapadia, HK
+   Patel, AI
+   Barve, JJ
+   Raninga, DR
+AF Majhi, Priyabrata
+   Kapadia, Harsh K.
+   Patel, Alpesh I.
+   Barve, Jayesh J.
+   Raninga, Divyesh R.
+GP IEEE
+TI SBHS: Some Control Investigations
+SO 2015 5TH NIRMA UNIVERSITY INTERNATIONAL CONFERENCE ON ENGINEERING
+   (NUICONE)
+SE Nirma University International Conference on Engineering
+LA English
+DT Proceedings Paper
+CT 5th Nirma University International Conference on Engineering (NUiCONE)
+CY NOV 26-28, 2015
+CL Ahmedabad, INDIA
+SP Nirma Univ, Inst Technol
+DE SBHS; PID; Relay feedback test; Ziegler Nicholas; Linear quadratic
+   regulator
+AB The main motive of this paper is to implement, analyze and compare few standard closed loops PID tuning methods and to develop auto tuning for single board heater system (SBHS) using relay feedback method. For system identification, step test method is used to find out system parameters. Widely accepted PID controller is used to control the temperature of the system with the PID controller parameter values obtained from Zeigler Nichol's tuning method. Better to this conventional ZN, Relay Feedback tuning based PID controller is used, whose main idea was proposed by Amstrom-Hagglund in 1984[2]. This paper also includes implementation of LQR(linear quadratic regulator) controller over linear system i.e. SBHS to reject disturbances with set point tracking, number of analysis and results has been taken for both LQR and PID controller.
+C1 [Majhi, Priyabrata] Nirma Univ, Inst Technol, M Tech Control & Automat, Ahmadabad, Gujarat, India.
+   [Kapadia, Harsh K.; Patel, Alpesh I.; Barve, Jayesh J.; Raninga, Divyesh R.] Nirma Univ, Inst Technol, Instrumentat & Control Engn, Ahmadabad, Gujarat, India.
+C3 Nirma University; Nirma University
+RP Majhi, EP (corresponding author), Nirma Univ, Inst Technol, M Tech Control & Automat, Ahmadabad, Gujarat, India.
+EM 13micc16@nirmauni.ac.in; harsh.kapadia@nirmauni.ac.in
+RI /ABB-4142-2020; /ABB-4100-2020
+NR 8
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2375-1282
+BN 978-1-4799-9991-0
+J9 NIRMA UNIV INT CONF
+PY 2015
+PG 6
+WC Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering
+GA BF2SR
+UT WOS:000380496400013
+DA 2026-11-03
+ER
+
+PT C
+AU Huang, BQ
+   Gu, Y
+   Su, HY
+AF Huang, Bingqiang
+   Gu, Yong
+   Su, Hongye
+GP IEEE
+TI Experience-Based Identification and Model Predictive Control for a
+   Methanol Recovery Distillation Column
+SO 2013 9TH ASIAN CONTROL CONFERENCE (ASCC)
+SE Asian Control Conference ASCC
+LA English
+DT Proceedings Paper
+CT 9th Asian Control Conference (ASCC)
+CY JUN 23-26, 2013
+CL Istanbul, TURKEY
+DE Model Predictive Control; Experience-based model; Methanol recovery
+   distillation column
+AB In process industries, the plant testing method, which is used to obtain a model for the design of a MPC controller, is a kind of commonly used system identification method. However, this method has the disadvantages of time-consuming and production disruption. For this reason, in this paper, the bottom stage temperature control system of a methanol recovery distillation column is taken as the research object, and the model predictive effects based on step tests and experiences from operators are simulated and compared. Finally, a MPC controller based on an experience model is designed and put into operation. The actual plant application shows that the MPC controller could effectively improve the stability of the bottom stage temperature.
+C1 [Huang, Bingqiang; Gu, Yong; Su, Hongye] Zhejiang Univ, State Key Lab Ind Control Ind Technol, Inst Cyber Syst & Control, Hangzhou 310027, Zhejiang, Peoples R China.
+C3 Zhejiang University
+RP Huang, BQ (corresponding author), Zhejiang Univ, State Key Lab Ind Control Ind Technol, Inst Cyber Syst & Control, Hangzhou 310027, Zhejiang, Peoples R China.
+EM ygu@iipc.zju.edu.cn
+RI Su, Hongye/K-5597-2019
+NR 6
+TC 0
+Z9 0
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2072-5639
+BN 978-1-4673-5769-2; 978-1-4673-5767-8
+J9 ASIA CONTROL CONF AS
+PY 2013
+PG 4
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA BA2OQ
+UT WOS:000333734900083
+DA 2026-11-03
+ER
+
+PT J
+AU Hernández, MR
+   Chinea-Herranz, JA
+AF Rodriguez Hernandez, Manuel
+   Chinea-Herranz, Jose A.
+TI Decentralized control and identified-model predictive control of divided
+   wall columns
+SO JOURNAL OF PROCESS CONTROL
+LA English
+DT Article
+DE Integrated process control; Divided wall column; Model predictive
+   control; System identification
+ID DISTILLATION-COLUMNS; OPERATION; DESIGN; ENERGY; PLANT
+AB As a thermal separation method, distillation is one of the most important separation technologies in the chemical industry. Given its importance, it is no surprise that increasing efforts have been made in reducing its energy inefficiencies. A great deal of research is focused in the design and optimization of the divided-wall column (DWC). Its applications are still reduced due to distrust of its controllability and robustness. Previous references have studied the decentralized control of DWC but still few papers deal about model predictive control (MPC) applied to DWC.
+   In this work we present a decentralized control of both a divided-wall column along with its equivalent MPC schema, both approaches are compared. Instead of building a rigorous model or performing the step test to an existing plant, the MPC model is obtained by identification of a rigorous simulation. An ARX model is demonstrated to represent adequately the DWC column behavior. This approach might be very convenient if plant testing is not available. (C) 2012 Elsevier Ltd. All rights reserved.
+C1 [Rodriguez Hernandez, Manuel; Chinea-Herranz, Jose A.] Univ Politecn Madrid, Autonomous Syst Lab, E-28006 Madrid, Spain.
+C3 Universidad Politecnica de Madrid
+RP Hernández, MR (corresponding author), Univ Politecn Madrid, Autonomous Syst Lab, Jose Gutierrez Abascal 2, E-28006 Madrid, Spain.
+EM manuel.rodriguezh@upm.es
+RI Rodriguez, Manuel/ABC-2375-2020
+OI Rodriguez, Manuel/0000-0003-0929-5477
+NR 32
+TC 25
+Z9 25
+U1 0
+U2 25
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0959-1524
+EI 1873-2771
+J9 J PROCESS CONTR
+JI J. Process Control
+PD OCT
+PY 2012
+VL 22
+IS 9
+BP 1582
+EP 1592
+DI 10.1016/j.jprocont.2012.06.015
+PG 11
+WC Automation & Control Systems; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 018CD
+UT WOS:000309636700005
+DA 2026-11-03
+ER
+
+PT J
+AU Gude, JJ
+   Bringas, PG
+AF Gude, Juan J.
+   Garcia Bringas, Pablo
+TI Proposal of a General Identification Method for Fractional-Order
+   Processes Based on the Process Reaction Curve
+SO FRACTAL AND FRACTIONAL
+LA English
+DT Article
+DE process identification; fractional-order systems; fractional first-order
+   plus dead-time model
+ID FOPID CONTROLLERS; PARAMETER; MODELS; SYSTEM
+AB This paper aims to present a general identification procedure for fractional first-order plus dead-time (FFOPDT) models. This identification method is general for processes having S-shaped step responses, where process information is collected from an open-loop step-test experiment, and has been conducted by fitting three arbitrary points on the process reaction curve. In order to validate this procedure and check its effectiveness for the identification of fractional-order models from the process reaction curve, analytical expressions of the FFOPDT model parameters have been obtained for both situations: as a function of any three points and three points symmetrically located on the reaction curve, respectively. Some numerical examples are provided to show the simplicity and effectiveness of the proposed procedure. Good results have been obtained in comparison with other well-recognized identification methods, especially when simplicity is emphasized. This identification procedure has also been applied to a thermal-based experimental setup in order to test its applicability and to obtain insight into the practical issues related to its implementation in a microprocessor-based control hardware. Finally, some comments and reflections about practical issues relating to industrial practice are offered in this context.
+C1 [Gude, Juan J.] Univ Deusto, Fac Engn, Dept Comp Elect & Commun Technol, Bilbao 48007, Spain.
+   [Garcia Bringas, Pablo] Univ Deusto, Fac Engn, Dept Mech Design & Ind Management, Bilbao 48007, Spain.
+C3 University of Deusto; University of Deusto
+RP Gude, JJ (corresponding author), Univ Deusto, Fac Engn, Dept Comp Elect & Commun Technol, Bilbao 48007, Spain.
+EM jgude@deusto.es
+RI Gude, Juan J/I-3391-2016; García Bringas, Pablo/M-1399-2015
+OI Gude, Juan J/0000-0003-4210-2454; García Bringas,
+   Pablo/0000-0003-3594-9534
+FU Basque Government [KK-2020/00054]; REMEDY [KK2021/00091]
+FX The authors would like to thank the Basque Government for its partial
+   funding support through the TRUSTIND ELKARTEK R&D (ref. KK-2020/00054)
+   and REMEDY (ref. KK2021/00091) projects.
+NR 51
+TC 24
+Z9 25
+U1 1
+U2 5
+PU MDPI
+PI BASEL
+PA MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+EI 2504-3110
+J9 FRACTAL FRACT
+JI Fractal Fract.
+PD SEP
+PY 2022
+VL 6
+IS 9
+AR 526
+DI 10.3390/fractalfract6090526
+PG 46
+WC Mathematics, Interdisciplinary Applications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Mathematics
+GA 4T5WL
+UT WOS:000858187000001
+OA Green Submitted, gold
+DA 2026-11-03
+ER
+
+PT J
+AU Methekar, RN
+   Prasad, V
+   Gudi, RD
+AF Methekar, R. N.
+   Prasad, V.
+   Gudi, R. D.
+TI Dynamic analysis and linear control strategies for proton exchange
+   membrane fuel cell using a distributed parameter model
+SO JOURNAL OF POWER SOURCES
+LA English
+DT Article
+DE identification; linear control; ratio control; PEMFC
+ID WATER; MANAGEMENT; TRANSPORT
+AB To satisfy high power density demand in proton exchange membrane fuel cells (PEMFCs), a robust control strategy is essential. A linear ratio control strategy is examined in this work. The manipulated variables are selected using steady-state relative gain array (RGA) analysis to be the inlet molar flow rates of hydrogen and coolant, and the controlled variables are average power density and average solid temperature, respectively. By selecting proper manipulated variables, the PEMFC does not exhibit sign change in gain and hence can be controlled by using a linear controller. Transfer function models obtained from step tests on the distributed parameter PEMFC model are used to design controllers for the multiple input-multiple output (MIMO) system. In addition, a ratio control strategy is proposed and evaluated, where the inlet molar flow rate of oxygen is used as a dependent manipulated variable and changed in a constant ratio with respect to the inlet molar flow rate of hydrogen. Simulation results show that the ratio control strategy provides a faster response than a MIMO control strategy. This ratio control strategy is able to circumvent the problem of oxygen starvation, and the increase in average solid temperature is small as compared to the MIMO control strategy. (c) 2006 Elsevier B.V. All rights reserved.
+C1 Indian Inst Technol, Dept Chem Engn, Bombay 400076, Maharashtra, India.
+C3 Indian Institute of Technology System (IIT System); Indian Institute of
+   Technology (IIT) - Bombay
+RP Prasad, V (corresponding author), Indian Inst Technol, Dept Chem Engn, Bombay 400076, Maharashtra, India.
+EM prasad@che.iitb.ac.in
+NR 21
+TC 81
+Z9 87
+U1 0
+U2 18
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 0378-7753
+EI 1873-2755
+J9 J POWER SOURCES
+JI J. Power Sources
+PD FEB 25
+PY 2007
+VL 165
+IS 1
+BP 152
+EP 170
+DI 10.1016/j.jpowsour.2006.11.047
+PG 19
+WC Chemistry, Physical; Electrochemistry; Energy & Fuels; Materials
+   Science, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Chemistry; Electrochemistry; Energy & Fuels; Materials Science
+GA 148SB
+UT WOS:000245093800023
+DA 2026-11-03
+ER
+
+PT J
+AU Liao, PZ
+   Wu, X
+   Li, YG
+   Wang, MH
+   Shen, J
+   Lawal, A
+   Xu, CL
+AF Liao, Peizhi
+   Wu, Xiao
+   Li, Yiguo
+   Wang, Meihong
+   Shen, Jiong
+   Lawal, Adekola
+   Xu, Chuanlong
+TI Application of piece-wise linear system identification to solvent-based
+   post-combustion carbon capture
+SO FUEL
+LA English
+DT Article
+DE Post-combustion carbon capture; Solvent-based carbon capture; System
+   identification; Piece-wise model; Nonlinearity analysis
+ID CO2 CAPTURE; FLEXIBLE OPERATION; POWER-PLANTS; CONTROL STRATEGIES;
+   ABSORPTION
+AB Solvent-based post-combustion carbon capture (PCC) is currently the most promising method to reduce CO2 emission. To achieve a plant-wide controller for flexible operation, it is necessary to develop a data-driven model to understand the dynamic characteristics of PCC plant. This paper aims to: (i) carry out system identification to develop a data-driven model and (ii) provide insights into the nonlinear dynamics among the key variables from the PCC process in a wide operating range. These key variables include: CO2 capture rate, reboiler temperature, condenser temperature and lean solvent temperature. Pilot-scale PCC process implemented in gCCS was used to generate simulation data for system identification and model comparison. Linear single-input-single-output (SISO) transfer function models were firstly developed at different capture rates. Open loop step tests on identified models were then introduced to report the dynamics of key variables in various operating conditions and to indicate the level of system nonlinearity graphically. The nonlinearity analysis was carried out to investigate the system nonlinearity distribution in a quantitative manner. Based on the nonlinearity analysis, a multi-input-multi-output (MIMO) piece-wise model was proposed to simulate the nonlinear characteristics of PCC plant. The piece-wise model shows a satisfactory agreement with gCCS simulation data. Results of this study successfully demonstrate the nonlinear behavior of the solvent-based PCC process, which can be applied in the design of flexible plant-wide controllers.
+C1 [Liao, Peizhi; Wu, Xiao; Li, Yiguo; Shen, Jiong; Xu, Chuanlong] Southeast Univ, Key Lab Energy Thermal Convers & Control, Minist Educ, Nanjing 210096, Jiangsu, Peoples R China.
+   [Wang, Meihong] Univ Sheffield, Dept Chem & Biol Engn, Sheffield S1 3JD, S Yorkshire, England.
+   [Lawal, Adekola] Proc Syst Enterprise Ltd, 26-28 Hammersmith Grove, London W6 7HA, England.
+C3 Southeast University - China; University of Sheffield
+RP Li, YG (corresponding author), Southeast Univ, Key Lab Energy Thermal Convers & Control, Minist Educ, Nanjing 210096, Jiangsu, Peoples R China.; Wang, MH (corresponding author), Univ Sheffield, Dept Chem & Biol Engn, Sheffield S1 3JD, S Yorkshire, England.
+EM wang_2003_uk@yahoo.co.uk
+RI PEIZHI, LIAO/HKM-6106-2023; Shen, Jiong/HCI-8116-2022; Wang,
+   Meihong/A-6843-2011
+OI Shen, Jiong/0000-0001-5702-7317; Wang, Meihong/0000-0001-9752-270X; Wu,
+   Xiao/0000-0003-0013-8520
+FU National Natural Science Foundation of China (NSFC) [51506029]; Natural
+   Science Foundation of Jiangsu Province, China [BK20150631]; China
+   Postdoctoral Science Foundation; EU FP7 International Staff Research
+   Exchange Scheme on power plant and carbon capture
+   [PIRSES-GA-2013-612230]; China Scholarship Council (CSC) [201606090176]
+FX The authors would like to acknowledge the National Natural Science
+   Foundation of China (NSFC) under Grant 51506029, the Natural Science
+   Foundation of Jiangsu Province, China under Grant BK20150631, China
+   Postdoctoral Science Foundation, EU FP7 International Staff Research
+   Exchange Scheme on power plant and carbon capture (Ref:
+   PIRSES-GA-2013-612230) and China Scholarship Council (CSC no:
+   201606090176) for funding this work.
+NR 31
+TC 14
+Z9 18
+U1 0
+U2 40
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0016-2361
+EI 1873-7153
+J9 FUEL
+JI Fuel
+PD DEC 15
+PY 2018
+VL 234
+BP 526
+EP 537
+DI 10.1016/j.fuel.2018.07.045
+PG 12
+WC Energy & Fuels; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Engineering
+GA GU4KR
+UT WOS:000445253100056
+DA 2026-11-03
+ER
+
+PT J
+AU Liu, T
+   Tian, HY
+   Rong, SL
+   Zhong, CQ
+AF Liu, Tao
+   Tian, Hongyu
+   Rong, Shili
+   Zhong, Chongquan
+TI Heating-up control with delay-free output prediction for industrial
+   jacketed reactors based on step response identification
+SO ISA TRANSACTIONS
+LA English
+DT Article
+DE Step response identification; Integrating type process model; Time
+   delay; Temperature control; Output prediction; Jacketed reactors
+ID INTEGRATING PROCESSES; DEAD-TIME; PARAMETER-ESTIMATION; TEMPERATURE
+   CONTROL; DESIGN; COMPENSATOR; SYSTEMS; GAIN
+AB To improve the heating-up control performance for industrial jacketed reactors typically involved with long input delay, a predictor-based two-degree-of-freedom (2DOF) control scheme is proposed for the heating-up process operation, based on model identification from a practical step response test. By performing a simple step test (i.e., turning on the electrical heater with certain power (e.g., 50% or 100% of the heating power) to observe the heating-up temperature response), a transfer function identification method is developed to establish an integrating type process model with time delay for describing fundamental dynamics of the heating-up response. Based on the identified model, a predictor-based 2DOF control structure is established, where the delay-free output prediction is obtained by constructing two filters. The 2DOF controllers are analytically derived by proposing the desired transfer functions for the set-point tracking and load disturbance rejection, respectively. There is a single adjustable parameter in each controller (or filter), which may be monotonically tuned to obtain the desired control (or prediction) performance. Illustrative examples from the existing references and a practical application to a 4 liter jacketed reactor for pharmaceutical crystallization are given to demonstrate the effectiveness and advantage of the proposed identification and control methods in comparison with the existing methods. (C) 2018 ISA. Published by Elsevier Ltd. All rights reserved.
+C1 [Liu, Tao; Tian, Hongyu; Rong, Shili; Zhong, Chongquan] Dalian Univ Technol, Inst Adv Control Technol, Dalian 116024, Peoples R China.
+C3 Dalian University of Technology
+RP Liu, T (corresponding author), Dalian Univ Technol, Inst Adv Control Technol, Dalian 116024, Peoples R China.
+EM liurouter@ieee.org; hytiandlut@sina.com; rsldlut@sina.com;
+   zhongcq@dlut.edu.cn
+RI Liu, Tao/M-6048-2013
+FU NSF China [61633006, 61473054]; Fundamental Research Funds for the
+   Central Universities of China
+FX This work was supported in part by the NSF China Grants 61633006 and
+   61473054, and the Fundamental Research Funds for the Central
+   Universities of China.
+NR 37
+TC 8
+Z9 8
+U1 0
+U2 12
+PU ELSEVIER SCIENCE INC
+PI NEW YORK
+PA STE 800, 230 PARK AVE, NEW YORK, NY 10169 USA
+SN 0019-0578
+EI 1879-2022
+J9 ISA T
+JI ISA Trans.
+PD DEC
+PY 2018
+VL 83
+BP 227
+EP 238
+DI 10.1016/j.isatra.2018.09.001
+PG 12
+WC Automation & Control Systems; Engineering, Multidisciplinary;
+   Instruments & Instrumentation
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering; Instruments & Instrumentation
+GA HG4TL
+UT WOS:000454967800019
+DA 2026-11-03
+ER
+
+PT J
+AU Chen, FX
+   Duan, YY
+   Pei, YW
+   Zhang, B
+AF Chen, Fengxiang
+   Duan, Yuanyuan
+   Pei, Yaowang
+   Zhang, Bo
+TI Internal Model Control for Onboard Methanol-Reforming Hydrogen
+   Production Systems
+SO ENERGIES
+LA English
+DT Article
+DE methanol reforming hydrogen production system; internal model control
+   (IMC); temperature and pressure control; system identification
+ID FUEL-CELL APPLICATIONS; GASOLINE; REACTOR; CU/ZNO/AL2O3; GENERATION;
+   CATALYSTS; DESIGN; HEAT
+AB Methanol reforming is considered to be one of the most promising hydrogen production technologies for hydrogen fuel cells. It is expected to solve the problem of hydrogen storage and transportation because of its high hydrogen production rate, low cost, and good safety. However, the strong nonlinearity and slow response of the pressure and temperature subsystems pose challenges to the tracking control of the methanol reforming hydrogen production system. In this paper, two internal model-based temperature and pressure controllers are proposed, in which the temperature is adjusted by controlling the air flow and the pressure is adjusted by controlling the opening of the back-pressure valve. Firstly, a lumped parameter model of the methanol reforming hydrogen production system is constructed using MATLAB/Simulink (R) (produced by MathWorks in Natick, Massachusetts, USA). In addition, the transfer function model of the system is obtained by system identification at the equilibrium point, and the internal model controller is further designed. The simulation results show that the control method achieves the robustness of the system, and the temperature and pressure of the reforming reactor can quickly and accurately track the target value when the load changes. Small-load step tests indicate stable tracking of the temperature and pressure for the reforming reactor, without steady-state errors. Under large-temperature step signal testing, the response time for the reforming temperature is about 148 s, while the large-pressure step signal test shows that the response time for the reforming pressure is about 8 s. Compared to the PID controller, the internal model controller exhibits faster response, zero steady-state error, and no overshoot. The results show that the internal model control method has strong robustness and dynamic characteristics.
+C1 [Chen, Fengxiang; Duan, Yuanyuan; Pei, Yaowang; Zhang, Bo] Tongji Univ, Sch Automot Studies, Shanghai 201804, Peoples R China.
+C3 Tongji University
+RP Chen, FX (corresponding author), Tongji Univ, Sch Automot Studies, Shanghai 201804, Peoples R China.
+EM fxchen@tongji.edu.cn; 2231554@tongji.edu.cn; 2011443@tongji.edu.cn;
+   2210806@tongji.edu.cn
+RI ; Pei, Yaowang/QOC-0891-2026
+OI Pei, Yaowang/0000-0003-2308-2080; 
+NR 29
+TC 2
+Z9 2
+U1 10
+U2 26
+PU MDPI
+PI BASEL
+PA MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+EI 1996-1073
+J9 ENERGIES
+JI Energies
+PD FEB
+PY 2025
+VL 18
+IS 3
+AR 476
+DI 10.3390/en18030476
+PG 26
+WC Energy & Fuels
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels
+GA W4S4X
+UT WOS:001418492500001
+OA Green Submitted, gold
+DA 2026-11-03
+ER
+
+PT J
+AU Shamsuzzoha, M
+AF Shamsuzzoha, Mohammad
+TI IMC based robust PID controller tuning for disturbance rejection
+SO JOURNAL OF CENTRAL SOUTH UNIVERSITY
+LA English
+DT Article
+DE PI/PID controller; step test; closed-loop response; IMC-PID; overshoot
+ID INTEGRATING PROCESSES; DESIGN; IDENTIFICATION; FILTER; RULES; TERMS
+AB It is well-known that the IMC-PID controller tuning gives fast and improved set point response but slow disturbance rejection. A modification has been proposed in IMC-PID tuning rule for the improved disturbance rejection. For the modified IMC-PID tuning rule, a method has been developed to obtain the IMC-PID setting in closed-loop mode without acquiring detailed information of the process. The proposed method is based on the closed-loop step set point experiment using a proportional only controller with gain K (c0). It is the direct approach to find the PID controller setting similar to classical Ziegler-Nichols closed-loop method. Based on simulations of a wide range of first-order with delay processes, a simple correlation has been derived to obtain the modified IMC-PID controller settings from closed-loop experiment. In this method, controller gain is a function of the overshoot obtained in the closed loop set point experiment. The integral and derivative time is mainly a function of the time to reach the first peak (overshoot). Simulation has been conducted for the broad class of processes and the controllers were tuned to have the same degree of robustness by measuring the maximum sensitivity, M (s), in order to obtain a reasonable comparison. The PID controller settings obtained in the proposed tuning method show better performance and robustness with other two-step tuning methods for the broad class of processes. It has also been applied to temperature control loop in distillation column model. The result has been compared to the open loop tuning method where it gives robust and fast response.
+C1 [Shamsuzzoha, Mohammad] King Fahd Univ Petr & Minerals, Dept Chem Engn, Dhahran 31261, Saudi Arabia.
+C3 King Fahd University of Petroleum & Minerals
+RP Shamsuzzoha, M (corresponding author), King Fahd Univ Petr & Minerals, Dept Chem Engn, Dhahran 31261, Saudi Arabia.
+EM mshams@kfupm.edu.sa
+FU King Abdulaziz City for Science and Technology (KACST) through the
+   Science & Technology Unit at King Fahd University of Petroleum and
+   Minerals (KFUPM) [11-ENE1643-04]
+FX The author would like to acknowledge the support provided by King
+   Abdulaziz City for Science and Technology (KACST) through the Science &
+   Technology Unit at King Fahd University of Petroleum and Minerals
+   (KFUPM) for funding this work through project number 11-ENE1643-04 as
+   part of the Notional Science Technology and Innovation Plan.
+NR 43
+TC 24
+Z9 26
+U1 0
+U2 27
+PU JOURNAL OF CENTRAL SOUTH UNIV
+PI HUNAN
+PA EDITORIAL OFF, CHANGSHA, CHINA MAINLAND, HUNAN 410083, PEOPLES R CHINA
+SN 2095-2899
+EI 2227-5223
+J9 J CENT SOUTH UNIV
+JI J. Cent. South Univ.
+PD MAR
+PY 2016
+VL 23
+IS 3
+BP 581
+EP 597
+DI 10.1007/s11771-016-3105-1
+PG 17
+WC Metallurgy & Metallurgical Engineering
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Metallurgy & Metallurgical Engineering
+GA DJ7QE
+UT WOS:000374405100011
+DA 2026-11-03
+ER
+
+PT J
+AU Shelembe, L
+   Barendse, P
+AF Shelembe, Linda
+   Barendse, Paul
+TI An Adaptive Amplitude-Modulated Pseudo-Random Binary Sequence Excitation
+   for Converter-Based Impedance Spectroscopy Characterization of
+   Photovoltaic Modules
+SO IEEE TRANSACTIONS ON INDUSTRY APPLICATIONS
+LA English
+DT Article
+DE APRBS; BIS; PRBS; SOLAR PV
+AB Pseudo-random binary sequence (PRBS) has been implemented through DC-DC converters for internal impedance identification and shown to be faster and easier to implement than analogue multiple frequency signals; this is because a PRBS is a digitally generated binary signal, thus has faster transients, and requires a few samples for excitation signal reconstruction. PRBS however, is strictly designed for linear excitation, but because both converter and PV module being non-linear and operated in their pseudo-linear range for system identification, presents linearity issues in induced excitation systems. As the excitation frequency and module operating point vary, the induced excitation signal also varies, which may push the system into its non-linear range of operation - this can cause significant inaccuracies in the impedance measurements. This study thus, demonstrates the use of an adaptive, two-level optimized APRBS parametric excitation signal, designed by defining an input space, for the signal design points, characterized by the dynamic system from the converter's APRBS modulating duty ratio signal to the induced APRBS excitation signal. This will mitigate frequency and variable operating point induced system non-linearities, while producing fast and accurate online impedance estimation. The results show that the APRBS achieves good tolerance for the induced system non-linearities this is demonstrated by a small impedance error between the designed system and a Frequency Response Analyzer (FRA) at low frequencies compared to PRBS excitation.
+C1 [Shelembe, Linda; Barendse, Paul] Univ Cape Town, Dept Elect Engn, ZA-7700 Cape Town, South Africa.
+C3 University of Cape Town
+RP Shelembe, L (corresponding author), Univ Cape Town, Dept Elect Engn, ZA-7700 Cape Town, South Africa.
+EM shllin007@myuct.ac.za; paul.barendse@uct.ac.za
+OI Barendse, Paul/0000-0002-5598-5068; shelembe, linda/0000-0002-8368-5847
+FU South African National Research Foundation (NRF) [2022-SECSC-0495.R1]
+FX This work was supported by the South African National Research
+   Foundation (NRF) Paper 2022-SECSC-0495.
+NR 21
+TC 12
+Z9 12
+U1 0
+U2 6
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0093-9994
+EI 1939-9367
+J9 IEEE T IND APPL
+JI IEEE Trans. Ind. Appl.
+PD MAR-APR
+PY 2023
+VL 59
+IS 2
+BP 2007
+EP 2018
+DI 10.1109/TIA.2022.3218752
+PG 12
+WC Engineering, Multidisciplinary; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA N5YO7
+UT WOS:001037766800070
+DA 2026-11-03
+ER
+
+PT J
+AU Davidson, JN
+   Stone, DA
+   Foster, MP
+   Gladwin, DT
+AF Davidson, Jonathan N.
+   Stone, David A.
+   Foster, Martin P.
+   Gladwin, Daniel T.
+TI Improved Bandwidth and Noise Resilience in Thermal Impedance
+   Spectroscopy by Mixing PRBS Signals
+SO IEEE TRANSACTIONS ON POWER ELECTRONICS
+LA English
+DT Article
+DE Noise; pseudonoise coding; pseudonoise processes; spectroscopy; thermal
+   variables measurement
+ID POWER; IDENTIFICATION
+AB This paper presents a method of mixing pseudo-random binary sequences (PRBSs) to form a new signal that can be used to obtain the thermal impedance spectrum of power electronic systems. The proposed technique increases the useful frequency range of a PRBS by mixing two identical sequences at different frequencies. The new signal incorporates the frequency responses of both contributions. Mixing can be performed using a number of mathematical operators and analysis reveals that AND is the operator of choice since it has the lowest average input power for the same effectiveness. The bandwidth, frequency-domain representation, and noise resilience of PRBS signals are also reported. It is shown that the noise floor is significantly reduced under the mixed technique, which allows lower impedances to be measured under noisy measurement conditions. For a typical 8-bit PRBS, mixing reduces the noise floor by a factor of 10.5. Simulated and experimental validation are performed and results show the mixed scheme offers increased bandwidth, reduced computation and improved noise resilience compared to single PRBS techniques.
+C1 [Davidson, Jonathan N.; Stone, David A.; Foster, Martin P.; Gladwin, Daniel T.] Univ Sheffield, Dept Elect & Elect Engn, Sheffield S1 3JD, S Yorkshire, England.
+C3 University of Sheffield
+RP Davidson, JN (corresponding author), Univ Sheffield, Dept Elect & Elect Engn, Mappin St, Sheffield S1 3JD, S Yorkshire, England.
+EM Jonathan.Davidson@sheffield.ac.uk; D.A.Stone@sheffield.ac.uk;
+   M.P.Foster@sheffield.ac.uk; D.Gladwin@sheffield.ac.uk
+RI Gladwin, Daniel/G-2346-2012; Davidson, Jonathan/M-4105-2013
+OI Gladwin, Daniel/0000-0001-7195-5435; Stone, David/0000-0002-5770-3917;
+   Davidson, Jonathan/0000-0002-6576-3995
+NR 28
+TC 15
+Z9 17
+U1 0
+U2 18
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0885-8993
+EI 1941-0107
+J9 IEEE T POWER ELECTR
+JI IEEE Trans. Power Electron.
+PD SEP
+PY 2014
+VL 29
+IS 9
+BP 4817
+EP 4828
+DI 10.1109/TPEL.2013.2288936
+PG 12
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA AH2OD
+UT WOS:000335959900038
+DA 2026-11-03
+ER
+
+PT C
+AU Hambali, N
+   Taib, MN
+   Yassin, AIM
+   Rahiman, MHF
+AF Hambali, Najidah
+   Taib, Mohd Nasir
+   Yassin, Ahmad Ihsan Mohd
+   Rahiman, Mohd Hezri Fazalul
+GP IEEE
+TI Nonlinear Modelling for Steam Temperature of Distillation Column: A
+   Comparison between PRBS and MPRS Perturbation Signals
+SO 2018 IEEE CONFERENCE ON SYSTEMS, PROCESS AND CONTROL (ICSPC)
+LA English
+DT Proceedings Paper
+CT IEEE Conference on Systems, Process and Control (ICSPC)
+CY DEC 14-15, 2018
+CL Melaka, MALAYSIA
+SP IEEE, IEEE Malaysia Sect Control Syst Chapter, IEEE Control Syst Soc, IEEE Xplore, SCOPUS
+DE System identification; Time-varying Temperature; Nonlinear model;
+   Particle Swarm Optimisation; Distillation column; Perturbation signal
+ID PURITY DISTILLATION; SYSTEM-IDENTIFICATION; STRUCTURE SELECTION;
+   OPTIMIZATION; NETWORK; DESIGN; NARX
+AB Nowadays, countless research efforts have been reported for distillation column on nonlinear modelling. Several studies have shown the importance of appropriate perturbation signal for the nonlinear system applications. This study focuses on a nonlinear modelling for steam temperature using Pseudo Random Binary Signal (PRBS) and Multi-level Pseudo Random Sequence (MPRS) perturbation signals. A Binary Particle Swarm Optimisation (BPSO) algorithm was utilised in the model structure selection for polynomial Nonlinear Auto-Regressive with eXogenous (NARX) input for Steam Distillation Pilot Plant (SDPP). Three model's selection criteria were examined; Akaike Information Criterion (AIC), Model Descriptor Length (MDL), and Final Prediction Error (FPE). The performance analysis included output model analysis and model validation of the nonlinear model. The results demonstrated fewer number of input and output lags and lesser amount of output model parameter using MPRS perturbation signal compared with PRBS. Model validation showed high R-squared and low MSE for both signals' application.
+C1 [Hambali, Najidah; Taib, Mohd Nasir; Yassin, Ahmad Ihsan Mohd; Rahiman, Mohd Hezri Fazalul] Univ Teknol MARA, Fac Elect Engn, Shah Alam 40450, Selangor, Malaysia.
+C3 Universiti Teknologi MARA
+RP Rahiman, MHF (corresponding author), Univ Teknol MARA, Fac Elect Engn, Shah Alam 40450, Selangor, Malaysia.
+EM hezrif@ieee.org
+RI Yassin, Ihsan/LWJ-6381-2024; Hambali, Najidah/CAH-1869-2022; Taib, Mohd
+   Nasir/C-9433-2009
+OI Yassin, Ihsan/0000-0001-6419-4797; Hambali, Najidah/0000-0003-0622-1536;
+   Taib, Mohd Nasir/0000-0003-1050-3341
+FU Institute of Research Management & Innovation (IRMI), Universiti
+   Teknologi MARA (UiTM) Shah Alam, Selangor, Malaysia [600-IRMI/DANA 5/3
+   BESTARI 9049/2017]; Kementerian Pendidikan Tinggi Malaysia [SLAI
+   Scholarship]; Jabatan Pengurusan Sumber Manusia (JPSM), Universiti
+   Teknologi MARA (UiTM) Shah Alam, Selangor, Malaysia; Faculty of
+   Electrical Engineering, Universiti Teknologi MARA (UiTM) Shah Alam
+FX This project was funded by Faculty of Electrical Engineering, Universiti
+   Teknologi MARA (UiTM) Shah Alam, Institute of Research Management &
+   Innovation (IRMI), Universiti Teknologi MARA (UiTM) Shah Alam, Selangor,
+   Malaysia [grant number 600-IRMI/DANA 5/3 BESTARI 9049/2017)] and
+   Kementerian Pendidikan Tinggi Malaysia [SLAI Scholarship] for the first
+   author. The first author would like to thank Jabatan Pengurusan Sumber
+   Manusia (JPSM), Universiti Teknologi MARA (UiTM) Shah Alam, Selangor,
+   Malaysia for the scholarship management.
+NR 38
+TC 2
+Z9 2
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-5386-6327-1
+PY 2018
+BP 78
+EP 83
+PG 6
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science; Engineering
+GA BM8FY
+UT WOS:000469099300015
+DA 2026-11-03
+ER
+
+PT J
+AU Roinila, T
+   Messo, T
+AF Roinila, Tomi
+   Messo, Tuomas
+TI Online Grid-Impedance Measurement Using Ternary-Sequence Injection
+SO IEEE TRANSACTIONS ON INDUSTRY APPLICATIONS
+LA English
+DT Article
+DE Data acquisition; frequency response; impedance measurement; inverters;
+   stability
+ID NONLINEAR-SYSTEM IDENTIFICATION; PERTURBATION SIGNALS; DESIGN; BINARY
+AB Grid impedance affects the stability and control performance of grid-connected power-electronics devices, such as inverters, used to integrate wind and solar energy. Adaptive control of such inverters, to guarantee stability under different grid conditions, requires online measurement of the grid impedance performed in real time. Wideband frequency-response-measurement techniques based on the pseudo-random binary sequence (PRBS) or impulse injection have been often applied for grid-impedance measurements. However, while using the PRBS or impulse, it is assumed that the system under study is linear. Because such an assumption does not typically hold for grid-connected systems, the measured impedances are usually prone to distortions caused by nonlinearities. This paper proposes the use of periodic ternary sequences for online grid-impedance measurements. Using appropriately designed periodic ternary signals, the linear component of the grid impedance can be identified, eliminating errors from even-order nonlinear distortions. In addition, the ternary sequences can be designed for a much wider range of sequence length compared to the conventional PRBS, enabling more efficient optimization of computing power and frequency resolution. Experimental measurements are shown from a grid-connected photovoltaic inverter.
+C1 [Roinila, Tomi] Tampere Univ Technol, Lab Automat & Hydraul, Tampere 33720, Finland.
+   [Messo, Tuomas] Tampere Univ Technol, Lab Elect Energy Engn, Tampere 33720, Finland.
+C3 Tampere University; Tampere University
+RP Roinila, T (corresponding author), Tampere Univ Technol, Lab Automat & Hydraul, Tampere 33720, Finland.
+EM tomi.roinila@tut.fi; tuomas.messo@tut.fi
+RI Roinila, Tomi/AAN-7039-2020
+OI Roinila, Tomi/0000-0002-6822-6482
+FU Academy of Finland
+FX This work was supported by the Academy of Finland.
+NR 29
+TC 84
+Z9 99
+U1 2
+U2 22
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0093-9994
+EI 1939-9367
+J9 IEEE T IND APPL
+JI IEEE Trans. Ind. Appl.
+PD SEP-OCT
+PY 2018
+VL 54
+IS 5
+SI SI
+BP 5097
+EP 5103
+DI 10.1109/TIA.2018.2825938
+PN 2
+PG 7
+WC Engineering, Multidisciplinary; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA GU6GA
+UT WOS:000445404500009
+DA 2026-11-03
+ER
+
+PT C
+AU Korampally, V
+   Bhattacharya, S
+   Gao, YF
+   Grant, SA
+   Kleiboeker, SB
+   Gangopadhyay, K
+   Tan, JL
+   Gangopadhyay, S
+AF Korampally, Venumadhav
+   Bhattacharya, Shantanu
+   Gao, Yuanfang
+   Grant, Sheila A.
+   Kleiboeker, Steven B.
+   Gangopadhyay, Keshab
+   Tan, Jinglu
+   Gangopadhyay, Shubhra
+BE Lee, DJ
+   Nutter, B
+   Antani, S
+   Mitra, S
+   Archibald, J
+TI Optimization of fabrication process for a PDMS-SOG-Silicon based PCR
+   Micro Chip through system identification techniques
+SO 19TH IEEE INTERNATIONAL SYMPOSIUM ON COMPUTER-BASED MEDICAL SYSTEMS,
+   PROCEEDINGS
+SE IEEE International Symposium on Computer-Based Medical Systems
+LA English
+DT Proceedings Paper
+CT 19th IEEE Symposium on Computer-Based Medical Systems
+CY JUN 22-23, 2006
+CL Salt Lake City, UT
+SP IEEE Comp Soc, TCCM, Texas Tech Univ Coll Engn, Brigham Young Univ
+ID POLYMERASE-CHAIN-REACTION; DNA AMPLIFICATION; DEVICES
+AB A polymerase chain reaction (PCR) micro-chip with integrated thin film heaters and temperature detectors has been realized on a silicon-SOG-PDMS (polydi(methyl) siloxane) platform. Accurate temperature sensing and control.-is important for a PCR reaction. This precludes the placement of the temperature sensor anywhere else but within the PCR chamber which can, in certain microchip designs complicate the fabrication methodology. This', paper presents the design and optimal placement of a thin film resistance based temperature detector (RTD) for sensing of temperature response on the bottom of the chip (heater side) and predicting the temperature response on the top of the chip (PCR chamber side). Thermal modeling of the system has been performed using a parametric black-box approach based on the input-output data. From the steady state response of the system, Pseudo random binary sequences (PRBS) have been generated and used to excite it. Second and fourth order ARX (Auto regressive with exogenous inputs) models have been derived for optimal control and their performances have been compared. Reduction of fabrication complexity in regards to optimal placement of temperature sensor has been proposed.
+C1 [Korampally, Venumadhav; Gao, Yuanfang; Gangopadhyay, Keshab; Gangopadhyay, Shubhra] Univ Missouri, Dept Elect Engn, Columbia, MO 65211 USA.
+   [Bhattacharya, Shantanu; Grant, Sheila A.; Tan, Jinglu] Univ Missouri, Dept Biol Engn, Columbia, MO 65211 USA.
+   [Kleiboeker, Steven B.] Univ Missouri, Coll Vet Med, Columbia, MO 65211 USA.
+C3 University of Missouri System; University of Missouri Columbia;
+   University of Missouri System; University of Missouri Columbia;
+   University of Missouri System; University of Missouri Columbia
+RP Korampally, V (corresponding author), Univ Missouri, Dept Elect Engn, Columbia, MO 65211 USA.
+EM vrkfd4@mizzou.edu
+OI Bhattacharya, Shantanu/0000-0002-7902-2119
+NR 13
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE COMPUTER SOC
+PI LOS ALAMITOS
+PA 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
+SN 2372-9198
+J9 COMP MED SY
+PY 2006
+BP 329
+EP +
+DI 10.1109/CBMS.2006.125
+PG 3
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Interdisciplinary Applications; Engineering,
+   Biomedical; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Engineering
+GA BFB38
+UT WOS:000240724000054
+DA 2026-11-03
+ER
+
+PT J
+AU Yang, DY
+   Wang, JC
+   Ban, NY
+   Zhong, YJ
+   Wong, DSH
+   Razminia, A
+   Cui, CT
+AF Yang, Daye
+   Wang, Jingcheng
+   Ban, Naiyi
+   Zhong, Yanjiu
+   Wong, David Shan-Hill
+   Razminia, Abolhassan
+   Cui, Chengtian
+TI Model predictive control of pressure-swing distillation via closed-loop
+   system identification
+SO JOURNAL OF PROCESS CONTROL
+LA English
+DT Article
+DE System identification; Model predictive control; Pressure-swing
+   distillation; Temperature control; Composition-temperature cascade
+   control
+ID SEPARATION
+AB Pressure-swing distillation (PSD) is a proven technique for separating azeotropic mixtures by exploiting pressure-dependent shifts in azeotropic composition. Despite its efficacy, PSD systems present significant control challenges due to inherent nonlinearities, complex multivariable interactions, and internal recycle loops. This study proposes a model predictive control (MPC) framework for PSD systems, founded on closed-loop system identification. A comprehensive plantwide nonlinear dynamic model of a PSD process for separating a maximum-boiling azeotrope of acetone and chloroform is developed using Aspen Dynamics and interfaced with MATLAB/Simulink for controller design and testing. To address the limitations of open-loop excitation in systems with recycles, pseudo-random binary sequence (PRBS) signals are applied under closed-loop operation to sufficiently excite the process. Subsequently, linear state-space models are identified using the prediction error method. Based on these models, two MPC configurations are developed: temperature control (TC) and composition-temperature cascade control (CC-TC). Simulation results demonstrate that the proposed MPC strategies quantitatively outperform proportional-integral (PI) controllers. Specifically, under the TC strategy, the total integral of absolute error (IAE) values of XD1,ACE and XD2,CHL are reduced by approximately 10% and 3%, respectively; while under the CC-TC strategy, the reductions reach about 26% and 55%. Moreover, across four disturbance scenarios, the steady convergence times of both composition purities are shortened by more than 5 h compared with PI controllers. These results highlight the advantages of the proposed MPC strategies in disturbance rejection and transient product quality regulation. These findings underscore the effectiveness of closed-loop system identification as a basis for advanced control of PSD processes.
+C1 [Yang, Daye; Wang, Jingcheng] Shanghai Jiao Tong Univ, Sch Automat & Intelligent Sensing, Shanghai 200240, Peoples R China.
+   [Yang, Daye; Wang, Jingcheng] Shanghai Jiao Tong Univ, Key Lab Syst Control & Informat Proc, Minist Educ China, Shanghai 200240, Peoples R China.
+   [Ban, Naiyi] Xian Technol Univ, Sch Elect Informat Engn, Xian 710032, Peoples R China.
+   [Zhong, Yanjiu] Hefei Univ Technol, Sch Management, Hefei 230009, Peoples R China.
+   [Wong, David Shan-Hill] Natl Tsing Hua Univ, Dept Chem Engn, Hsinchu 30043, Taiwan.
+   [Razminia, Abolhassan] Persian Gulf Univ, Dept Elect Engn, Bushehr 75169, Iran.
+   [Razminia, Abolhassan; Cui, Chengtian] Abo Akad Univ, Fac Sci & Engn, Proc & Syst Engn Lab, Turku 20500, Finland.
+C3 Shanghai Jiao Tong University; Shanghai Jiao Tong University; Xi'an
+   Technological University; Hefei University of Technology; National Tsing
+   Hua University; Persian Gulf University; Abo Akademi University
+RP Wang, JC (corresponding author), Shanghai Jiao Tong Univ, Sch Automat & Intelligent Sensing, Shanghai 200240, Peoples R China.; Wang, JC (corresponding author), Shanghai Jiao Tong Univ, Key Lab Syst Control & Informat Proc, Minist Educ China, Shanghai 200240, Peoples R China.; Cui, CT (corresponding author), Abo Akad Univ, Fac Sci & Engn, Proc & Syst Engn Lab, Turku 20500, Finland.
+EM jcwang@sjtu.edu.cn; ccui@abo.fi
+RI zhong, yanjiu/JRX-6216-2023; Wong, David/I-6233-2012; Cui,
+   Chengtian/GQZ-5356-2022; Razminia, Abolhassan/G-5920-2018
+OI Cui, Chengtian/0000-0002-1270-2275; Razminia,
+   Abolhassan/0000-0001-5139-4255
+FU Oil & Gas Major Project [2025ZD1403600]; National Natural Science
+   Foundation of China [62273234]
+FX Acknowledgments This work was supported by the Oil & Gas Major
+   Project (Grant No. 2025ZD1403600) , the National Natural Science
+   Foundation of China (Grant No. 22208154) , and the National Natural
+   Science Foundation of China (Grant No. 62273234) .
+NR 47
+TC 1
+Z9 2
+U1 2
+U2 12
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0959-1524
+EI 1873-2771
+J9 J PROCESS CONTR
+JI J. Process Control
+PD DEC
+PY 2025
+VL 156
+AR 103589
+DI 10.1016/j.jprocont.2025.103589
+EA NOV 2025
+PG 17
+WC Automation & Control Systems; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 9XV3O
+UT WOS:001617600800001
+OA Green Submitted, hybrid
+DA 2026-11-03
+ER
+
+PT J
+AU Bagle, ME
+   Sartori, I
+   Goia, F
+AF Bagle, Marius Eide
+   Sartori, Igor
+   Goia, Francesco
+TI Adaptive system identification to support model-based controls in
+   buildings
+SO APPLIED ENERGY
+LA English
+DT Article
+DE System identification; Model predictive control; Grey-box modeling;
+   Adaptive identification; Building thermal dynamics; Living lab;
+   Performance assessment
+ID PREDICTIVE CONTROL; IMPLEMENTATION
+AB Model-and optimization-based control (MBC) strategies are increasingly regarded as promising technologies in the building and energy engineering domains, due to their ability to respond to price signals and enable buildings to contribute flexibility to the energy system. A key barrier to broader adoption is the identification of suitable control-oriented building models, including characterization of system noise and tuning of state estimators. In this work, we propose a system identification algorithm comprising several novel elements aimed at reducing implementation effort in commercial buildings. The method features decomposed identification of physical and statistical parameters, continuous re-identification of both parameter sets, and supports a time-varying modeling paradigm to capture unobservable inputs and varying uncertainty. Performance verification is carried out on two datasets from a medium-sized office building equipped with radiator-based heating and dedicated energy metering. For each dataset, models are initially identified using two weeks of normal operation data, followed by continuous re-identification over an additional two-week period. The resulting models exhibit (i) good day-ahead simulation performance on test data and (ii) white noise residuals on training data in most experiments. Compared to a reference model identified using pseudo-random binary sequence (PRBS) excitation, the proposed method improves normalized root mean squared error (NRMSE) by up to 200%. These findings suggest that the proposed method and modeling approach can support the deployment of room-level, model-based controllers without the need for intrusive excitation experiments, and may be suitable for scalable implementation in well-instrumented non-domestic buildings.
+C1 [Bagle, Marius Eide; Sartori, Igor] SINTEF Community, Oslo, Norway.
+   [Bagle, Marius Eide; Goia, Francesco] Norwegian Univ Sci & Technol, Dept Architecture & Technol, NTNU, Trondheim, Norway.
+C3 Norwegian University of Science & Technology (NTNU)
+RP Goia, F (corresponding author), Norwegian Univ Sci & Technol, Dept Architecture & Technol, NTNU, Trondheim, Norway.
+EM francesco.goia@ntnu.no
+RI Goia, Francesco/O-5871-2015
+FU Research Centre on Zero Emission Neighbourhoods in Smart Cities
+   (FME-ZEN) (Research Council of Norway) [257660]; Norwegian Zero Emission
+   Building Laboratory (Research Council of Norway) [245663]
+FX The authors gratefully acknowledge the funding received from the
+   Research Centre on Zero Emission Neighbourhoods in Smart Cities
+   (FME-ZEN) (Research Council of Norway, No. 257660) and the sup port from
+   the Norwegian Zero Emission Building Laboratory (Research Council of
+   Norway, No. 245663) .
+NR 62
+TC 0
+Z9 0
+U1 1
+U2 1
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0306-2619
+EI 1872-9118
+J9 APPL ENERG
+JI Appl. Energy
+PD JUL 1
+PY 2026
+VL 414
+AR 127756
+DI 10.1016/j.apenergy.2026.127756
+EA APR 2026
+PG 23
+WC Energy & Fuels; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Engineering
+GA GU8LU
+UT WOS:001745584100001
+OA hybrid
+DA 2026-11-03
+ER
+
+PT C
+AU Rahiman, MHF
+   Taib, MN
+   Salleh, YM
+AF Rahiman, Mohd Hezri Fazalul
+   Taib, Mohd Nasir
+   Salleh, Yusof Md
+GP IEEE
+TI Black Box Modeling of Steam Distillation Essential Oil Extraction System
+   using ARMAX Structure
+SO ICIAS 2007: INTERNATIONAL CONFERENCE ON INTELLIGENT & ADVANCED SYSTEMS,
+   VOLS 1-3, PROCEEDINGS
+LA English
+DT Proceedings Paper
+CT International Conference on Intelligent and Advanced Systems
+CY NOV 25-28, 2007
+CL Kuala Lumpur, MALAYSIA
+SP Petronas, IET, Mitsubishi Corp, Techsource
+DE Essential oil extraction system; steam temperature model; autoregressive
+   moving average with exogenous input (ARMAX); model order selection;
+   normalized sum of squared errors (NSSE); Akaike's information criterion
+   (AIC); final prediction error (FPE) and Rissanen's minimum description
+   length (MDL)
+AB In this paper, the temperature response of a steam distillation essential oil extraction system with a refilling line is modeled based on data collected using a dedicated acquisition system. The autoregressive moving average with exogenous input (ARMAX) model structure is assumed and the pseudo-random binary sequences (PRBS) signal was used to perturb the process. The optimization of ARMAX model structure such as model order criterions is discussed. The model order criterions includes the normalized sum of squared error (NSSE), Akaike's Information Criterion (AIC), Akaike's Final Prediction Error (FPE) and Rissanen's Minimum Description Length (MDL). All criterions will be used to estimate the model order of the system based on the data. The system identification will be performed based on these selected model orders and the estimated models are denoted as ARMAX-NSSE, ARMAX-AIC, ARMAX-FPE and ARMAX-MDL respectively. All the models will be validated and compared in terms of coefficient of determination (R-2), adjusted-R-2 and normalized mean-square-error (NMSE). Overall, ARMAX-MDL provides best results. Finally, the results are discussed and concluded.
+C1 [Rahiman, Mohd Hezri Fazalul; Taib, Mohd Nasir; Salleh, Yusof Md] Univ Teknol MARA, Fac Elect Engn, Shah Alam 40450, Malaysia.
+C3 Universiti Teknologi MARA
+RP Rahiman, MHF (corresponding author), Univ Teknol MARA, Fac Elect Engn, Shah Alam 40450, Malaysia.
+RI Taib, Mohd Nasir/C-9433-2009
+OI Taib, Mohd Nasir/0000-0003-1050-3341; fazalul rahiman, mohd
+   hezri/0000-0002-5691-4894
+NR 10
+TC 4
+Z9 6
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-4244-1355-3
+PY 2007
+BP 1059
+EP 1062
+PG 4
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Computer Science, Theory & Methods; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science; Engineering
+GA BIK13
+UT WOS:000260249900211
+DA 2026-11-03
+ER
+
+PT J
+AU Özkan, G
+   Hapoglu, H
+   Alpbaz, M
+AF Özkan, G
+   Hapoglu, H
+   Alpbaz, M
+TI Non-linear generalised predictive control of a jacketed well mixed tank
+   as applied to a batch process -: A polymerisation reaction
+SO APPLIED THERMAL ENGINEERING
+LA English
+DT Article
+DE non-linear generalised predictive control; batch stirred tank;
+   polymerisation reaction
+ID ALGORITHM
+AB The purpose of this study is to control the temperature of a well mixed jacketed tank under set-point changes with the use of nonlinear generalised predictive control (NLGPC) system. Firstly, perturbations were given to the cooling flow rates so as to investigate the dynamic behaviour of the process. The emphasis was put on the use of polynomial non-linear autoregressive moving average with external input (NARIMAX) model related with tank temperature and heat input for non-linear control. The second part of the study deals with the presentation of identification algorithm for the construction of polynomial NARIMAX and autoregressive moving average with external input (ARIMAX) models. A pseudo random binary sequence (PRBS) signal was utilised as a forcing function in order to determine the parameters of the models. Levenberg-Marquardt algorithm was applied in the estimation of relevant parameters of NARIMAX model. Similar studies were performed for the ARIMAX model using Bierman algorithm. Next linear and non-linear models with generalised predictive control (GPC) algorithm were applied to test the performance of the available control in response to disturbances. Finally the results from NLGPC were compared with linear generalised predictive control (LGPC) to see the efficiency of the batch control system. (c) 2005 Elsevier Ltd. All rights reserved.
+C1 Ankara Univ, Dept Chem Engn, TR-06100 Ankara, Turkey.
+C3 Ankara University
+RP Özkan, G (corresponding author), Ankara Univ, Dept Chem Engn, TR-06100 Ankara, Turkey.
+EM gozkan@eng.ankara.edu.tr
+RI özkan, gülay/Y-8119-2018; Hapoglu, Hale/AAH-1462-2020
+OI özkan, gülay/0000-0002-9165-5541; Hapoglu, Hale/0000-0003-0464-9483
+NR 13
+TC 19
+Z9 22
+U1 0
+U2 10
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 1359-4311
+J9 APPL THERM ENG
+JI Appl. Therm. Eng.
+PD MAY
+PY 2006
+VL 26
+IS 7
+BP 720
+EP 726
+DI 10.1016/j.applthermaleng.2005.09.008
+PG 7
+WC Thermodynamics; Energy & Fuels; Engineering, Mechanical; Mechanics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Thermodynamics; Energy & Fuels; Engineering; Mechanics
+GA 021XB
+UT WOS:000236018100007
+DA 2026-11-03
+ER
+
+PT J
+AU Davidson, JN
+   Stone, DA
+   Foster, MP
+AF Davidson, Jonathan N.
+   Stone, David A.
+   Foster, Martin P.
+TI Real-Time Prediction of Power Electronic Device Temperatures Using
+   PRBS-Generated Frequency-Domain Thermal Cross Coupling Characteristics
+SO IEEE TRANSACTIONS ON POWER ELECTRONICS
+LA English
+DT Article
+DE Infinite impedance response (IIR) digital filters; prediction methods;
+   pseudonoise processes; spectroscopy; thermal variables measurement
+ID IDENTIFICATION
+AB This paper presents a technique to predict the temperature response of a multielement thermal system based on the thermal cross coupling between elements. The complex frequency-domain cross coupling of devices is first characterized using a pseudorandom binary sequence technique. The characteristics are then used to predict device temperatures for a known input power waveform using a discrete Fourier transform-based technique. The resulting prediction shows good agreement with an example practical system used for evaluation. To reduce the computational complexity of the initial method, a digital infinite impedance response (IIR) filter is fitted to each cross coupling characteristic. A high correlation fit is demonstrated that produces a near-identical temperature response compared to the initial procedure while requiring fewer mathematical operations. Experimental validation on the practical system shows good agreement between IIR filter predictions and practical results. It is further demonstrated that this agreement can be substantially improved by taking feedback from an internal reference temperature. Additionally, the proposed IIR filter technique allows the efficient calculation of future device temperatures based on simulated input, facilitating future temperature predictions.
+C1 [Davidson, Jonathan N.; Stone, David A.; Foster, Martin P.] Univ Sheffield, Dept Elect & Elect Engn, Sheffield S1 3JD, S Yorkshire, England.
+C3 University of Sheffield
+RP Davidson, JN (corresponding author), Univ Sheffield, Dept Elect & Elect Engn, Sir Frederick Mappin Bldg,Mappin St, Sheffield S1 3JD, S Yorkshire, England.
+EM jonathan.davidson@sheffield.ac.uk; d.a.stone@sheffield.ac.uk;
+   m.p.foster@sheffield.ac.uk
+RI ; Davidson, Jonathan/M-4105-2013
+OI Stone, David/0000-0002-5770-3917; Davidson, Jonathan/0000-0002-6576-3995
+FU Engineering and Physical Sciences Research Council [EP/I038543/1,
+   1035492] Funding Source: researchfish; UKRI [EP/I038543/1] Funding
+   Source: UKRI
+NR 27
+TC 12
+Z9 17
+U1 0
+U2 17
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 0885-8993
+EI 1941-0107
+J9 IEEE T POWER ELECTR
+JI IEEE Trans. Power Electron.
+PD JUN
+PY 2015
+VL 30
+IS 6
+BP 2950
+EP 2961
+DI 10.1109/TPEL.2014.2331285
+PG 12
+WC Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA AZ4PW
+UT WOS:000348205700010
+DA 2026-11-03
+ER
+
+PT J
+AU Wang, H
+   Zhu, T
+   Zhu, XX
+   Bai, XJ
+   Yang, K
+   Yang, QT
+AF Wang, Hui
+   Zhu, Tao
+   Zhu, Xinxin
+   Bai, Xiaojuan
+   Yang, Kai
+   Yang, Qingtao
+TI Inverse Estimation of Dynamic Heat Flux Using Proportional Integral
+   Derivative Control
+SO JOURNAL OF THERMOPHYSICS AND HEAT TRANSFER
+LA English
+DT Article
+DE Dynamic heat flux; Discrete transfer function; Inverse estimation;
+   Feedforward model; PID control
+ID PHYSICS-BASED CALIBRATION; PREDICTION
+AB To improve long-term dynamic heat flux prediction using an embedded thermocouple, a novel inverse estimation approach using a proportional integral derivative (PID) control scheme is proposed. A feedforward model of the discrete integer-order transfer function was identified from a one-dimensional dynamic heat-flux sensor using the calibrated heat flux with varying amplitudes of the pseudo-random binary sequence and its single-temperature response data. Using the model and unit-step temperature response as the controlled plant and reference input signal, the PID controller with a low-pass filter was designed. Using the on-site temperature measurement data as the reference signal instead of the unit-step temperature, the time-history control output values, that is, the inverse estimated dynamic heat flux of the designed PID controller, were obtained. The comparison of the test results and the discussion indicate that 1) the proposed inverse method avoids the impact of the thermal inertia of the thermocouple and significantly alleviates the effects of measurement noise, and 2) in addition to high identification efficiency and measurement fidelity, further improvement in the effective measuring time of the dynamic heat flux was observed.
+C1 [Wang, Hui; Zhu, Tao; Zhu, Xinxin; Bai, Xiaojuan; Yang, Kai; Yang, Qingtao] Hyperveloc Aerodynam Inst, China Aerodynam Res & Dev Ctr, Mianyang 621000, Peoples R China.
+RP Wang, H; Zhu, XX (corresponding author), Hyperveloc Aerodynam Inst, China Aerodynam Res & Dev Ctr, Mianyang 621000, Peoples R China.
+EM wang_sunshine@163.com; zhutao00011@sina.com; xinxincomplex@126.com;
+   289113205@qq.com; yg.hit@hotmail.com; yangqt06@163.com
+RI Kai, Yang/X-3526-2019; Bai, Xiaojuan/A-3466-2019
+OI Kai, Yang/0000-0002-5260-571X; 
+FU National Natural Science Foundationof China (NSFC) [11872068]
+FX The authors acknowledge the financial support of this research by the
+   National Natural Science Foundation of China (NSFC) under Grant No.
+   11872068. The authors would also like to thank J. I. Frankel and Stefan
+   Lohle et al. for their unchanged transfer function and system
+   identification consideration of heat conduction to motivate our research
+   work in this paper.
+NR 31
+TC 1
+Z9 3
+U1 1
+U2 12
+PU AMER INST AERONAUTICS  ASTRONAUTICS
+PI RESTON
+PA 1801 ALEXANDER BELL DRIVE, STE 500, RESTON, VA 22091-4344 USA
+SN 0887-8722
+EI 1533-6808
+J9 J THERMOPHYS HEAT TR
+JI J. Thermophys. Heat Transf.
+PD APR-JUN
+PY 2024
+VL 38
+IS 2
+BP 222
+EP 231
+DI 10.2514/1.T6855
+EA FEB 2024
+PG 10
+WC Thermodynamics; Engineering, Mechanical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Thermodynamics; Engineering
+GA OD4U1
+UT WOS:001160534200001
+DA 2026-11-03
+ER
+
+PT J
+AU Choi, JW
+   Lee, G
+   Kim, MS
+AF Choi, Jong Won
+   Lee, Gilbong
+   Kim, Min Soo
+TI Capacity control of a heat pump system applying a fuzzy control method
+SO APPLIED THERMAL ENGINEERING
+LA English
+DT Article
+DE Heat pump system; Discharge superheating; System identification; Fuzzy
+   controller; Genetic algorithm
+ID IDENTIFICATION
+AB This paper presents the capacity control of a heat pump system using the discharge superheating of the compressor, concerns the design of a fuzzy controller for a heat pump at the outlet of a compressor and compares an optimized fuzzy controller with one that is not optimized. The design of a controller is based on a proper system identification model which determines the system modeling from inputs and outputs and completes the state-space system modeling. The type of input signals is pseudo-random binary sequence and the order of system is 7. The fuzzy controller is selected to modulate the discharge superheating of the compressor, and then, genetic algorithm is used as a searching tool for obtaining the optimized fuzzy rule table. The experiment results show that the optimized fuzzy controller makes undershoot and overshoot alleviated significantly in the discharge superheating, outlet temperature of secondary fluid and refrigerant mass flow rate. (C) 2011 Elsevier Ltd. All rights reserved.
+C1 [Choi, Jong Won; Kim, Min Soo] Seoul Natl Univ, Sch Mech & Aerosp Engn, Div WCU Multiscale Mech Design, Seoul 151744, South Korea.
+   [Lee, Gilbong] LG Elect, HAC Res Ctr, Seoul 153802, South Korea.
+C3 Seoul National University (SNU); LG Corporation; LG Electronics
+RP Kim, MS (corresponding author), Seoul Natl Univ, Sch Mech & Aerosp Engn, Div WCU Multiscale Mech Design, Seoul 151744, South Korea.
+EM minskim@snu.ac.kr
+RI Kim, Min Soo/R-7255-2018
+OI Kim, Min Soo/0000-0002-4996-5976
+FU IAMD of Seoul National University; WCU through KRF
+   [R31-2008-000-10083-0]; Ministry of Education, Science and Technology
+   and the Ministry of Knowledge Economy
+FX This work was supported by the IAMD of Seoul National University.
+   Support by the WCU program through KRF (R31-2008-000-10083-0), BK21 and
+   NRL programs of the Ministry of Education, Science and Technology and
+   the Ministry of Knowledge Economy is also greatly appreciated.
+NR 13
+TC 12
+Z9 13
+U1 0
+U2 10
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 1359-4311
+J9 APPL THERM ENG
+JI Appl. Therm. Eng.
+PD OCT
+PY 2011
+VL 31
+IS 14-15
+BP 2332
+EP 2339
+DI 10.1016/j.applthermaleng.2011.03.032
+PG 8
+WC Thermodynamics; Energy & Fuels; Engineering, Mechanical; Mechanics
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Thermodynamics; Energy & Fuels; Engineering; Mechanics
+GA 809XH
+UT WOS:000294089500018
+DA 2026-11-03
+ER
+
+PT J
+AU Widanage, WD
+   Queisser, O
+   Paarmann, S
+   Cloos, L
+   Wetzel, T
+AF Widanage, W. D.
+   Queisser, O.
+   Paarmann, S.
+   Cloos, L.
+   Wetzel, T.
+TI A System Identification Approach to Estimate Lithium-Ion Battery Entropy
+   Coefficients
+SO JOURNAL OF THE ELECTROCHEMICAL SOCIETY
+LA English
+DT Article
+DE entropy coefficient; system identification; batteries - lithium;
+   potentiometry; Reversible heat
+ID VOLTAGE HYSTERESIS; MULTISINE SIGNALS; PART 2; CATHODES; DESIGN; RICH
+AB Improving lithium-ion battery thermal simulations requires identification of all the relevant heat source terms. While Joule heating is always considered, reversible heat is important for mild to low C-rates, but is often ignored. Characterising reversible heat requires determining the cell's entropy coefficient as a function of the state-of-charge, which is experimentally time-consuming. In this paper, we take a dynamic view point between the cell open-circuit-voltage and cell temperature to arrive at the entropy coefficient. Called the kernel-based method, a system identification procedure in the frequency domain is developed to estimate the entropy coefficient at each state-of-charge (SoC). The methodology is validated against the potentiometric method, which is considered as the reference procedure. The entropy coefficient was estimated over 21 SoC points and compared against the potentiometric approach and showed very good agreement across the entire SoC interval with a 57% reduction in time. All the experimental data and the Matlab code for data processing and reproducing of the results is made available together with the paper.
+C1 [Widanage, W. D.] Univ Warwick, WMG, Coventry CV4 7AL, England.
+   [Queisser, O.; Paarmann, S.; Cloos, L.; Wetzel, T.] Karlsruhe Inst Technol, Inst Thermal Proc Engn TVT, Kaiserstr 12, D-76131 Karlsruhe, Germany.
+   [Paarmann, S.] Imperial Coll London, Dept Mech Engn, London SW7 2AZ, England.
+C3 University of Warwick; Helmholtz Association; Karlsruhe Institute of
+   Technology; Imperial College London
+RP Widanage, WD (corresponding author), Univ Warwick, WMG, Coventry CV4 7AL, England.
+EM Dhammika.Widanalage@warwick.ac.uk
+OI Cloos, Lisa/0009-0006-1001-2891; Queisser, Oliver/0000-0003-1653-4683
+FU Deutsche Forschungsgemeinschaft https://doi.org/10.13039/501100001659
+   [EP/S003053/1, FIRG059]; Faraday Institution Multiscale Modelling
+   Project [281041241/GRK2218]; Deutsche Forschungsgemeinschaft (DFG)
+FX This work was in part supported by the Faraday Institution Multiscale
+   Modelling Project [EP/S003053/1 grant number and FIRG059]. This work was
+   in part funded by the Deutsche Forschungsgemeinschaft (DFG) within the
+   framework of the research training group SiMET (281041241/GRK2218).
+NR 37
+TC 3
+Z9 3
+U1 4
+U2 11
+PU ELECTROCHEMICAL SOC INC
+PI PENNINGTON
+PA 65 SOUTH MAIN STREET, PENNINGTON, NJ 08534 USA
+SN 0013-4651
+EI 1945-7111
+J9 J ELECTROCHEM SOC
+JI J. Electrochem. Soc.
+PD SEP 1
+PY 2025
+VL 172
+IS 9
+AR 090514
+DI 10.1149/1945-7111/adfe1f
+PG 14
+WC Electrochemistry; Materials Science, Coatings & Films
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Electrochemistry; Materials Science
+GA 6ZW5K
+UT WOS:001565981800001
+OA hybrid
+DA 2026-11-03
+ER
+
+PT J
+AU Bai, M
+   Lyu, C
+   Yang, DZ
+   Cui, HY
+   Shen, DX
+   Xu, SC
+   Hinds, G
+   Ma, K
+   Lan, T
+AF Bai, Miao
+   Lyu, Chao
+   Yang, Dazhi
+   Cui, Huiyang
+   Shen, Dongxu
+   Xu, Shaochun
+   Hinds, Gareth
+   Ma, Kai
+   Lan, Tu
+TI Converter-Based Online Battery Impedance Spectrum Measurement Using a
+   Random Low-Frequency-Modulated Multisine Excitation
+SO IEEE TRANSACTIONS ON TRANSPORTATION ELECTRIFICATION
+LA English
+DT Article
+DE Frequency measurement; Batteries; Impedance measurement; Battery charge
+   measurement; Impedance; Frequency conversion; Temperature measurement;
+   Harmonic analysis; Frequency modulation; Accuracy; battery management;
+   dual-active bridge (DAB) converter; electrochemical impedance
+   spectroscopy (EIS); impedance measurement
+ID PSEUDORANDOM SEQUENCE; PERTURBATION SIGNALS; ION BATTERY;
+   IDENTIFICATION; SPECTROSCOPY; POWER
+AB Electrochemical impedance spectroscopy (EIS) can access intrinsic information on various physical and chemical processes within batteries and thus has become popular for battery state estimation and fault diagnosis. Impedance spectrum measurements based on power converters with battery management systems facilitate the practical deployment of this method. However, existing excitation signals have shortcomings, such as low measurement accuracy or difficulty in being implemented to converters. In view of this, this article proposes a random low-frequency-modulated multisine (RLMMS) excitation, which is free of higher-order harmonics and exhibits a relatively low frequency of level switching. The RLMMS excitation is applied to measure the impedance spectrum of individual cells in series-connected battery packs based on a dual-active bridge (DAB) converter. The experimental results demonstrate that this excitation is easy to generate and exhibits superior measurement accuracy compared to existing excitation signals across different battery types, even under varying temperature conditions.
+C1 [Bai, Miao; Lyu, Chao; Yang, Dazhi; Cui, Huiyang; Shen, Dongxu; Xu, Shaochun] Harbin Inst Technol, Dept Elect Engn & Automat, Harbin 150001, Heilongjiang, Peoples R China.
+   [Hinds, Gareth] Middlesex, Natl Phys Lab, London TW11 0LW, England.
+   [Ma, Kai] Guangdong Power Grid Co Ltd, Elect Power Res Inst, Guangzhou 510062, Guangdong, Peoples R China.
+   [Lan, Tu] Shanghai Univ, Mat Genome Inst, Baoshan 200444, Shanghai, Peoples R China.
+C3 Harbin Institute of Technology; National Physical Laboratory - UK;
+   University of London; University College London; China Southern Power
+   Grid; Shanghai University
+RP Lyu, C (corresponding author), Harbin Inst Technol, Dept Elect Engn & Automat, Harbin 150001, Heilongjiang, Peoples R China.
+EM miaobai08@163.com; lu_chao@hit.edu.cn; yangdazhi.nus@gmail.com;
+   huiyangcui@163.com; shendongxu08@gmail.com; Shaochun_Xu@163.com;
+   gareth.hinds@npl.co.uk; makai20023711@163.com; tu_lan@shu.edu.cn
+RI Lan, Tu/CAG-1095-2022; xu, shaochun/HQD-8279-2023; Yang,
+   Dazhi/M-8209-2015
+OI Yang, Dazhi/0000-0003-2162-6873
+NR 34
+TC 11
+Z9 13
+U1 8
+U2 30
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2332-7782
+J9 IEEE T TRANSP ELECTR
+JI IEEE Trans. Transp. Electrif.
+PD APR
+PY 2025
+VL 11
+IS 2
+BP 6763
+EP 6774
+DI 10.1109/TTE.2024.3516075
+PG 12
+WC Engineering, Electrical & Electronic; Transportation Science &
+   Technology
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering; Transportation
+GA 0QD5I
+UT WOS:001453364700013
+DA 2026-11-03
+ER
+
+PT J
+AU Mehrpanahi, A
+   Payganeh, G
+   Arbabtafti, M
+AF Mehrpanahi, Abdollah
+   Payganeh, Gholamhassan
+   Arbabtafti, Mohammadreza
+TI Linear Transfer Functions Extraction for a Power Generation Three-Shaft
+   Gas Turbine Based on Actual Specifications
+SO PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART C-JOURNAL OF
+   MECHANICAL ENGINEERING SCIENCE
+LA English
+DT Article
+DE System identification; industrial gas turbine; linearization; ARMAX;
+   Wiener-Hammerstein
+ID SYSTEM-IDENTIFICATION; FAULT-DETECTION; DYNAMIC-MODELS; WIENER;
+   SIMULATION
+AB The design and testing of various types of controllers require accurate and reliable transfer functions that are compatible with the performance condition of the system. In this paper, the linear and the nonlinear methods have been utilized for extracting the transfer functions for a three-shaft industrial gas turbine. The main variables are the fuel input and environment temperature, while the main outputs are the LPT exhaust gas temperature and the generated power. According to the nonlinear structure of the system and the input variation intervals, the quasi-amplitude-modulated pseudo random binary sequence signals have been utilized for generating input parameters. Finally, the results extracted from the selected methods were compared to the outputs of real performance data under loading and unloading conditions. Based on the comparison between the accuracies obtained by the results, the auto-regressive moving average with eXogenous, try and error transfer function and linearized Hammerstein model methods are proposed, respectively. The outcome of using the controller indicated higher compatibility from transfer functions as compared to the reference dynamic model.
+C1 [Mehrpanahi, Abdollah; Payganeh, Gholamhassan; Arbabtafti, Mohammadreza] Shahid Rajaee Teacher Training Univ, Dept Mech Engn, Tehran, Iran.
+C3 Shahid Rajaee Teacher Training University (SRTTU)
+RP Payganeh, G (corresponding author), Shahid Rajaee Teacher Training Univ, Sh Shabanloo St, Tehran 1678815811, Iran.
+EM g.payganeh@sru.ac.ir
+RI /P-8411-2019
+FU MAPNA Turbine Engineering and Manufacturing Company (TUGA)
+   [RD-THD-94-01]
+FX The author(s) disclosed receipt of the following financial support for
+   the research, authorship, and/or publication of this article: This
+   research was supported by MAPNA Turbine Engineering and Manufacturing
+   Company (TUGA) (under Grant RD-THD-94-01).
+NR 65
+TC 0
+Z9 0
+U1 0
+U2 7
+PU SAGE PUBLICATIONS LTD
+PI LONDON
+PA 1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND
+SN 0954-4062
+EI 2041-2983
+J9 P I MECH ENG C-J MEC
+JI Proc. Inst. Mech. Eng. Part C-J. Eng. Mech. Eng. Sci.
+PD JUL
+PY 2020
+VL 234
+IS 14
+BP 2781
+EP 2802
+AR 0954406220910451
+DI 10.1177/0954406220910451
+EA MAR 2020
+PG 22
+WC Engineering, Mechanical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA MH3AM
+UT WOS:000524228500001
+DA 2026-11-03
+ER
+
+PT J
+AU Lee, IH
+   Choi, JW
+   Kim, MS
+AF Lee, Il Hwan
+   Choi, Jong Won
+   Kim, Min Soo
+TI Studies on the heating capacity control of a multi-type heat pump system
+   applying a multi-input multi-output (MIMO) method
+SO INTERNATIONAL JOURNAL OF REFRIGERATION-REVUE INTERNATIONALE DU FROID
+LA English
+DT Article
+DE Capacity control; Multi-input; Multi-output; Heat pump; System; Control;
+   Variable; Integral
+ID VAPOR COMPRESSION SYSTEMS; MULTIVARIABLE SYSTEMS; MODEL
+AB This paper describes a method to control capacity of a multi-type heat pump system. Because indoor units are interconnected, alteration of the heating or cooling setting of one indoor unit can influence the performance of the other indoor units. Proportional-integral (PI) controllers were used to assess system performance, and the PI controllers' gain values were optimized by using a genetic algorithm. A system model was established following a system identification optimization process, and a pseudo random binary sequence was selected as the system identification input signal. A multi-input multi-output (MIMO) controller was more effective in reducing such cross-coupling effects than a single-input single-output (SISO) controller. The temperature at the secondary fluid outlet in the condenser and the saturation pressure at the evaporator were selected as the control variables in the MIMO controller. The experimental results showed that an optimized MIMO controller could reduce overshoot by up to 40% compared with the results using a SISO controller. (C) 2010 Elsevier Ltd and IIR. All rights reserved.
+C1 [Choi, Jong Won; Kim, Min Soo] Seoul Natl Univ, Sch Mech & Aerosp Engn, Seoul 151744, South Korea.
+   [Lee, Il Hwan] KISTEP, Natl R&D Coordinat & Evaluat Ctr, Seoul 137130, South Korea.
+C3 Seoul National University (SNU)
+RP Kim, MS (corresponding author), Seoul Natl Univ, Sch Mech & Aerosp Engn, Seoul 151744, South Korea.
+EM minskim@snu.ac.kr
+RI Kim, Min Soo/R-7255-2018
+OI Kim, Min Soo/0000-0002-4996-5976
+FU IAMD of Seoul National University; Ministry of Education, Science and
+   Technology; Ministry of Knowledge Economy
+FX This work was supported by the IAMD of Seoul National University.
+   Supports by the WCU and NRL programs of the Ministry of Education,
+   Science and Technology and the Ministry of Knowledge Economy are also
+   greatly appreciated.
+NR 16
+TC 7
+Z9 8
+U1 1
+U2 14
+PU ELSEVIER SCI LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+SN 0140-7007
+EI 1879-2081
+J9 INT J REFRIG
+JI Int. J. Refrig.-Rev. Int. Froid
+PD MAR
+PY 2011
+VL 34
+IS 2
+BP 416
+EP 428
+DI 10.1016/j.ijrefrig.2010.09.012
+PG 13
+WC Thermodynamics; Engineering, Mechanical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Thermodynamics; Engineering
+GA 734TH
+UT WOS:000288360700004
+DA 2026-11-03
+ER
+
+PT J
+AU Su, XJ
+   Sun, BX
+   Wang, JJ
+   Zhang, WG
+   Ma, SC
+   He, XT
+   Ruan, HJ
+AF Su, Xiaojia
+   Sun, Bingxiang
+   Wang, Jiaju
+   Zhang, Weige
+   Ma, Shichang
+   He, Xitian
+   Ruan, Haijun
+TI Fast capacity estimation for lithium-ion battery based on online
+   identification of low-frequency electrochemical impedance spectroscopy
+   and Gaussian process regression
+SO APPLIED ENERGY
+LA English
+DT Article
+DE Lithium-ion battery; Fast capacity estimation; Low-frequency
+   electrochemical impedance spectroscopy (LEIS); Online identification;
+   Step wave; Empirical mode decomposition (EMD); Gaussian process
+   regression (GPR)
+ID OF-HEALTH ESTIMATION; CATHODE MATERIAL; STATE; CELLS; MECHANISM; ANODES;
+   MODEL
+AB Accurate capacity estimation is critical to improving the safety and reliability of lithium-ion (Li-ion) battery systems. Traditional capacity estimation mainly extracts capacity-related features by passively collecting the battery voltage, current, and temperature signals, which requires high integrity and regularity of charging curves. In this paper, six health indicators (HIs) are extracted through the online identification of Low-frequency electrochemical impedance spectroscopy (LEIS) by step wave, combined with Gaussian process regression (GPR) to achieve a fast capacity estimation for Li-ion batteries. The step wave is injected into the battery system during the charging process through BMS and bi-directional converter cooperation. Compared with square and multisine waves, the stress and response of each frequency step wave are equivalent to that of the sine wave. Moreover, HIs are resolved from the actual Warburg impedance angle instead of the empirical angle pi/4. Three novel HIs related to the Li-ion diffusion coefficient are proposed: Warburg factor W-d, pseudo-Li-ion diffusion state PLDS and residual signal of empirical mode decomposition PLDSr. The volume of GPR training data is only 34% of the whole frequency band EIS data. The results show that the identified LEIS achieves 0.96 goodness-offit (R-2) at the minimum sampling frequency of 50 Hz, and the novel HIs significantly improve the state of health (SOH) estimation accuracy with R-2 above 0.95, root mean squared error below 1%, and mean absolute percentage error of about 0.9%. This method is an effective way to the active SOH detection for Li-ion battery, which is vital for the online SOH evaluation and early safety warning.
+C1 [Su, Xiaojia; Sun, Bingxiang; Wang, Jiaju; Zhang, Weige; Ma, Shichang; He, Xitian] Beijing Jiaotong Univ, Natl Act Distribut Network Technol Res Ctr NANTEC, Beijing 100044, Peoples R China.
+   [Ruan, Haijun] Imperial Coll London, Dyson Sch Design Engn, London SW7 2AZ, England.
+C3 Beijing Jiaotong University; Imperial College London
+RP Sun, BX (corresponding author), Beijing Jiaotong Univ, Natl Act Distribut Network Technol Res Ctr NANTEC, Beijing 100044, Peoples R China.
+EM bxsun@bjtu.edu.cn
+RI ; Ruan, Haijun/AAI-6621-2020
+OI , haijun/0000-0002-4088-1733; 
+FU National Natural Science Foundation of China [52177206, 51907005]
+FX This work was supported by the National Natural Science Foundation of
+   China (Grant No. 52177206 and 51907005)
+NR 61
+TC 114
+Z9 120
+U1 6
+U2 152
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0306-2619
+EI 1872-9118
+J9 APPL ENERG
+JI Appl. Energy
+PD SEP 15
+PY 2022
+VL 322
+AR 119516
+DI 10.1016/j.apenergy.2022.119516
+PG 15
+WC Energy & Fuels; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Engineering
+GA 3J4PP
+UT WOS:000833378800007
+DA 2026-11-03
+ER
+
+EF

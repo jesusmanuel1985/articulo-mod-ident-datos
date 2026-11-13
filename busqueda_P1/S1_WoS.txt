@@ -1,0 +1,1019 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT C
+AU Liu, CL
+   Liu, JZ
+   Niu, YG
+   Yao, WY
+AF Liu, CL
+   Liu, JZ
+   Niu, YG
+   Yao, WY
+BE Yuan, BZ
+   Tang, XF
+TI The application of genetic algorithm in model identification
+SO 2002 IEEE REGION 10 CONFERENCE ON COMPUTERS, COMMUNICATIONS, CONTROL AND
+   POWER ENGINEERING, VOLS I-III, PROCEEDINGS
+LA English
+DT Proceedings Paper
+CT IEEE Region 10 Technical Conference on Computers, Communications,
+   Control and Power Engineering
+CY OCT 28-31, 2002
+CL BEIJING, PEOPLES R CHINA
+SP IEEE Reg 10, IEEE Comp Soc Beijing Chapter, IEEE Commun Soc, IEEE Control Syst Soc Beijing Chapter, IEEE Power Engn Soc Beijing Chapter, IEEE Power Electr Soc Beijing Chapter, IEEE Signal Proc Soc Beijing Chapter, IEEE Beijing Chapter
+AB A kind of improved genetic algorithm for identifying transfer function of thermal process in power plant is introduced. In the algorithm, floating-point coding, rank-based selection, elitist reservation and grouping method are used, the premature convergence is restrained the global and local searching ability is improved. The genetic algorithm-based model identification MATLAB program is designed, the transfer, functions of thermal process can be got with it according to the operating data log files. The identification results to topical thermal process is given. It is shown by simulation research that accurate identification results can be got no matter what kind of input signal is used, such as step signal, random operating signal, even if there is a strong noise in the input signal.
+C1 No China Elect Power Univ, Baoding 071003, Peoples R China.
+C3 North China Electric Power University
+RP Liu, CL (corresponding author), No China Elect Power Univ, Baoding 071003, Peoples R China.
+NR 4
+TC 3
+Z9 3
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 0-7803-7490-8
+PY 2002
+BP 1261
+EP 1264
+PG 4
+WC Automation & Control Systems; Computer Science, Artificial Intelligence;
+   Energy & Fuels; Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science; Energy & Fuels;
+   Engineering
+GA BW21E
+UT WOS:000181201500306
+DA 2026-11-03
+ER
+
+PT C
+AU Liu, CL
+   Liang, WP
+   Sun, WY
+   Su, J
+AF Liu, CL
+   Liang, WP
+   Sun, WY
+   Su, J
+GP IEEE
+TI Model identification of thermal process in power plant
+SO TENCON 2004 - 2004 IEEE REGION 10 CONFERENCE, VOLS A-D, PROCEEDINGS:
+   ANALOG AND DIGITAL TECHNIQUES IN ELECTRICAL ENGINEERING
+SE TENCON IEEE Region 10 Conference Proceedings
+LA English
+DT Proceedings Paper
+CT IEEE Region 10 Conference on Analog and Digital Techniques in Electrical
+   Engineering
+CY NOV 21-24, 2004
+CL Chiang Mai, THAILAND
+SP IEEE Thialand Sect, IEEE Reg 10
+AB The identification methods of industrial process are discussed The applied MATLAB program of least squares method is given and used to identify pulse transfer function. A kind of improved genetic algorithm is introduced to identify the transfer function and parameters of nonlinear dynamic model of thermal process. In the algorithm, floating-point coding, rank-based selection, elitist reservation and grouping method are used, the premature convergence is restrained, the global and local searching ability is improved With the genetic algorithm, the transfer function of topical thermal process can be identified accurately. The parameters of nonlinear model can be modified according to operating data of power plant, no matter what kind of input signal is used, such as step signal, random operating signal.
+C1 N China Elect Power Univ, Baoding 071003, Peoples R China.
+C3 North China Electric Power University
+RP Liu, CL (corresponding author), N China Elect Power Univ, Baoding 071003, Peoples R China.
+NR 3
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2159-3442
+BN 0-7803-8560-8
+J9 TENCON IEEE REGION
+PY 2004
+BP C303
+EP C306
+PG 4
+WC Computer Science, Artificial Intelligence; Engineering, Electrical &
+   Electronic; Imaging Science & Photographic Technology
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Engineering; Imaging Science & Photographic Technology
+GA BCP37
+UT WOS:000230528902077
+DA 2026-11-03
+ER
+
+PT C
+AU Zhang, RF
+   Li, XJ
+   Wen, XK
+   Nan, H
+   Zhang, YH
+AF Zhang, Ruifeng
+   Li, Xiaojun
+   Wen, Xiankui
+   Nan, Hao
+   Zhang, Yihao
+BE Du, W
+   Zhou, X
+TI State Distinction Based Identification Method for a Thermal Process
+SO PROCEEDINGS OF THE 2015 3RD INTERNATIONAL CONFERENCE ON MACHINERY,
+   MATERIALS AND INFORMATION TECHNOLOGY APPLICATIONS
+SE ACSR-Advances in Comptuer Science Research
+LA English
+DT Proceedings Paper
+CT 3rd International Conference on Machinery, Materials and Information
+   Technology Applications (ICMMITA)
+CY NOV 28-29, 2015
+CL Qingdao, PEOPLES R CHINA
+DE system identification; state distinction; least-square algorithm;
+   thermal process
+AB At present, the closed-loop identification methods of nonlinear systems can not provide an satisfied performance. Generally, the step responses are performed to obtain the acceptable models of industrial processes. In consideration of this, the paper proposes a state distinction based identification method. According to the slopes of response, the approximated step responses can be distinguished from the living operating data and stored in the predefined array firstly. Based on the obtained data, the least square identification (LSI) is introduced to identify the linearized model of the process. The sum-square error (SSE) is used to determine the validity of the identified model. The example for a thermal process is employed to demonstrate the effectiveness of the proposed identification method. The results show that the identification method can provide an acceptable accuracy of the identified process in comparison with the results of step response.
+C1 [Zhang, Ruifeng; Li, Xiaojun; Wen, Xiankui] Guizhou Elect Power Test & Res Inst, Guiyan 550000, Guizhou, Peoples R China.
+   [Nan, Hao] Beijing Sifang Automat Co Ltd, Beijing 100084, Peoples R China.
+   [Zhang, Yihao] North China Elect Power Univ, Beijing 102206, Peoples R China.
+C3 Beijing Sifang Automation Co. Ltd.; North China Electric Power
+   University
+RP Zhang, RF (corresponding author), Guizhou Elect Power Test & Res Inst, Guiyan 550000, Guizhou, Peoples R China.
+EM euajin@126.com
+RI Zhang, Yihao/KCJ-5814-2024
+NR 12
+TC 0
+Z9 0
+U1 0
+U2 0
+PU ATLANTIS PRESS
+PI PARIS
+PA 29 AVENUE LAVMIERE, PARIS, 75019, FRANCE
+SN 2352-538X
+BN 978-94-6252-120-9
+J9 ACSR ADV COMPUT
+PY 2015
+VL 35
+BP 825
+EP 833
+PG 9
+WC Automation & Control Systems; Computer Science, Theory & Methods;
+   Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Computer Science; Engineering
+GA BE4CW
+UT WOS:000371522300154
+DA 2026-11-03
+ER
+
+PT J
+AU Braun, MW
+   Ortiz-Mojica, R
+   Rivera, DE
+AF Braun, MW
+   Ortiz-Mojica, R
+   Rivera, DE
+TI Application of minimum crest factor multisinusoidal signals for
+   "plant-friendly" identification of nonlinear process systems
+SO CONTROL ENGINEERING PRACTICE
+LA English
+DT Article; Proceedings Paper
+CT 12th IFAC Symposium on System Identification
+CY JUN 21, 2000
+CL SANTA BARBARA, CA
+SP IFAC
+DE nonlinear model identification; local modeling; nonlinear model
+   predictive control; multisine signals; input signal design
+AB Guidelines for specifying the design parameters of minimum crest factor multisine signals generated per the approach of Guillaume et al. are presented. These guidelines are evaluated in the identification and control of nonlinear process systems. The minimum crest factor multisine signals offer some distinct advantages over both Schroeder phased multisine signals and multi-level Pseudo-Random Sequences (multi-level PRS) with respect to "plant-friendliness" considerations. These signals can be used to reduce the effects of nonlinearity in obtaining an Empirical Transfer Function Estimate (ETFE). As an example, the ETFE of a Rapid Thermal Processing (RTP) reactor simulation is presented. The effectiveness of the minimum crest factor multisine signals is also discussed and illustrated in the identification and control of a simulated continuous stirred tank reactor using "Model-on-Demand" estimation and Model Predictive Control. Since the performance of the "Model-on-Demand" estimator is highly dependent upon the quality of the identification data, the CSTR case study provides a compelling example of the usefulness of the proposed design procedure. (C) 2002 Elsevier Science Ltd. All rights reserved.
+C1 Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+C3 Arizona State University; Arizona State University-Tempe
+RP Rivera, DE (corresponding author), Arizona State Univ, Dept Chem & Mat Engn, Control Syst Engn Lab, Tempe, AZ 85287 USA.
+EM daniel.rivera@asu.edu
+RI Rivera, Daniel/AAF-6772-2019
+OI Rivera, Daniel/0000-0002-3141-0577
+NR 21
+TC 37
+Z9 40
+U1 0
+U2 5
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0967-0661
+J9 CONTROL ENG PRACT
+JI Control Eng. Practice
+PD MAR
+PY 2002
+VL 10
+IS 3
+BP 301
+EP 313
+AR PII S0967-0661(01)00137-X
+DI 10.1016/S0967-0661(01)00137-X
+PG 13
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED); Conference Proceedings Citation Index - Science (CPCI-S)
+SC Automation & Control Systems; Engineering
+GA 536FW
+UT WOS:000174690900005
+DA 2026-11-03
+ER
+
+PT J
+AU Lepsien, A
+   Kügler, P
+   Schaum, A
+AF Lepsien, Arthur
+   Kugler, Philipp
+   Schaum, Alexander
+TI On the Structural Analysis and Optimal Input Design for Joint State and
+   Parameter Estimation
+SO IEEE ACCESS
+LA English
+DT Article
+DE Observability; Vectors; Parameter estimation; Kalman filters; Time
+   measurement; Particle measurements; Optimal control; Observers;
+   Nonlinear systems; Atmospheric measurements; State and parameter
+   estimation; nonlinear systems; closed-loop identification; Kalman
+   filtering; process control; optimization; design of experiments
+ID DIFFERENTIATION; MODEL; OBSERVABILITY; STABILITY; SYSTEMS
+AB This paper addresses the problem of joint state and parameter estimation for nonlinear affine-input systems with positive parameters including the design of a closed-loop optimal input adaptation to increase an identifiability measure for the system. The identifiability itself is considered in the context of structural observability of the system dynamics based on structural analysis of the system including the unknown parameters as additional states. In particular, the network graph-based interpretation of structural observability is employed at this point. This analysis motivates to include time derivatives of the measurements as additional system outputs to enhance the structural observability properties. For this purpose robust exact differentiation is considered, relying on the super-twisting algorithm to obtain finite time convergent estimates of these signals. Using the extended measurement signal, a continuous-discrete Extended Kalman filter is proposed that ensures strictly positive estimates for the parameters. Based on the estimates of states and parameters the input signal is determined using a moving horizon optimal predictive control that evaluates the condition number of the Fisher information matrix, thus maximizing the information content of the measurements with respect to the parameters. The proposed scheme extends and combines different previously discussed approaches from the literature and is evaluated by means of a thermal process example in simulation and experiment, showing high potential for similar system identification problems.
+C1 [Lepsien, Arthur; Schaum, Alexander] Univ Hohenheim, Dept Proc Analyt, D-70599 Stuttgart, Germany.
+   [Kugler, Philipp] Univ Hohenheim, Inst Math & Stat, D-70599 Stuttgart, Germany.
+   [Lepsien, Arthur; Kugler, Philipp; Schaum, Alexander] Univ Hohenheim, Computat Sci Hub, D-70599 Stuttgart, Germany.
+C3 University Hohenheim; University Hohenheim; University Hohenheim
+RP Lepsien, A (corresponding author), Univ Hohenheim, Dept Proc Analyt, D-70599 Stuttgart, Germany.; Lepsien, A (corresponding author), Univ Hohenheim, Computat Sci Hub, D-70599 Stuttgart, Germany.
+EM arthur.lepsien@uni-hohenheim.ed
+RI Schaum, Alexander/AAQ-2831-2021; /B-4444-2015
+OI Lepsien, Arthur/0009-0002-2125-8441
+FU Funding Program Open Access Publishing of University of Hohenheim
+FX This work was supported by the Funding Program Open Access Publishing of
+   University of Hohenheim
+NR 51
+TC 0
+Z9 0
+U1 1
+U2 1
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2025
+VL 13
+BP 211944
+EP 211959
+DI 10.1109/ACCESS.2025.3636666
+PG 16
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA AA4LH
+UT WOS:001643474000004
+OA gold
+DA 2026-11-03
+ER
+
+PT J
+AU Huang, CJ
+   Yu, CC
+   Shen, SH
+AF Huang, CJ
+   Yu, CC
+   Shen, SH
+TI Identification and nonlinear control for rapid thermal processor
+SO JOURNAL OF THE CHINESE INSTITUTE OF CHEMICAL ENGINEERS
+LA English
+DT Article
+DE RTP; nonlinear control; temperature uniformity; system identification
+ID TEMPERATURE UNIFORMITY; MODEL; LAMP; SYSTEMS; DESIGN
+AB Based on a nonlinear RTP model, low order linear models are derived. The model structures offer physical insight into design and control of RTP systems. Internal model control (IMC) is employed for the design of multivariable temperature controller. The characteristics of the RTP temperature cycle lead to a PID type of controller with double integrators followed by a static decoupler. Since the steady-state gains and time constants vary simultaneously with temperature by the same factor, a simple nonlinear compensation scheme is derived. This results in a very simple and yet effective nonlinear compensation element. In an operating environment, system identification becomes an integral part of control system design. The derived model structures offer insights for the input design in system identification. An identification procedure is proposed to find the nominal process model as well as nonlinear compensation elements. Results show that effective identification and control can be achieved based on insights gained from model structures.
+C1 Natl Taiwan Univ Sci & Technol, Dept Chem Engn, Taipei 10607, Taiwan.
+   Appl Mat Taiwan Ltd, Hsinchu 300, Taiwan.
+C3 National Taiwan University of Science & Technology
+RP Yu, CC (corresponding author), Natl Taiwan Univ Sci & Technol, Dept Chem Engn, Taipei 10607, Taiwan.
+NR 27
+TC 2
+Z9 2
+U1 0
+U2 0
+PU CHINESE INST CHEMICAL ENGINEER
+PI TAIPEI
+PA NATL TSING HUA UNIV, HSINCHU, DEPT CHEMICAL ENGINEERING, TAIPEI 300,
+   TAIWAN
+SN 0368-1653
+J9 J CHIN INST CHEM ENG
+JI J. Chin. Inst. Chem. Eng.
+PD NOV
+PY 2000
+VL 31
+IS 6
+BP 585
+EP 594
+PG 10
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 395GR
+UT WOS:000166573000005
+DA 2026-11-03
+ER
+
+PT C
+AU Ozbot, M
+   Skrjanc, I
+AF Ozbot, Miha
+   Skrjanc, Igor
+BE Mota, MM
+   Scala, P
+TI Evolving Neuro-Fuzzy Design of Experiments: A Novel Approach of
+   Nonlinear Process Identification
+SO SIMULATION FOR A SUSTAINABLE FUTURE, PT II, EUROSIM 2023
+SE Communications in Computer and Information Science
+LA English
+DT Proceedings Paper
+CT 11th Congress on Simulation for a Sustainable Future
+CY JUL 03-05, 2023
+CL Amsterdam University of Applied Sciences, Amsterdam, NETHERLANDS
+SP Wolfram Research Inc, UNAM
+HO Amsterdam University of Applied Sciences
+DE Evolving neuro-fuzzy; Space-filling; Optimal design of experiments;
+   Plate heat exchanger; Filtered recursive least squares
+ID MODEL; NETWORKS
+AB This paper presents a novel model-oriented sequential online design of experiments for model identification. An evolving neuro-fuzzy model identification of nonlinear dynamical systems is combined with two approaches to experiment design. First, a sequential design based on the maximin space-filling criterion was used to select an input space with the least model coverage. Second, an optimal experiment design method was used to select the optimal input signal online near the operating point selected with the first step. The use of an evolving model allows online generation of a model-based optimal input signal for identification of nonlinear dynamical processes without the need for multiple iterations or an initial model. The method was validated on a multiple-input single-output theoretical model of a plate heat exchanger.
+C1 [Ozbot, Miha; Skrjanc, Igor] Univ Ljubljana, Fac Elect Engn, Ljubljana, Slovenia.
+C3 University of Ljubljana
+RP Ozbot, M (corresponding author), Univ Ljubljana, Fac Elect Engn, Ljubljana, Slovenia.
+EM miha.ozbot@fe.uni-lj.si; igor.skrjanc@fe.uni-lj.si
+OI Ožbot, Miha/0000-0003-2754-3059; Skrjanc, Igor/0000-0002-0502-5376
+FU Slovenian Research Agency ARRS [P2-0219]
+FX The authors acknowledge the financial support from the Slovenian
+   Research Agency ARRS (Ph.D. grant for Miha Ozbot, funding number
+   P2-0219).
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 1865-0929
+EI 1865-0937
+BN 978-3-031-68437-1; 978-3-031-68438-8
+J9 COMM COM INF SC
+PY 2024
+VL 2033
+BP 301
+EP 316
+DI 10.1007/978-3-031-68438-8_22
+PG 16
+WC Computer Science, Interdisciplinary Applications; Green & Sustainable
+   Science & Technology
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Science & Technology - Other Topics
+GA BY3JH
+UT WOS:001417838800022
+DA 2026-11-03
+ER
+
+PT C
+AU Lima, RBC
+   Barros, PR
+   Acioli, G
+AF Lima, Rafael B. C.
+   Barros, Pericles R.
+   Acioli Junior, George
+GP IEEE
+TI System Identification of a Pilot Scale Heat Exchanger: a State-Space
+   Realization Approach
+SO PROCEEDINGS OF THE IECON 2016 - 42ND ANNUAL CONFERENCE OF THE IEEE
+   INDUSTRIAL ELECTRONICS SOCIETY
+SE IEEE Industrial Electronics Society
+LA English
+DT Proceedings Paper
+CT 42nd Annual Conference of the IEEE-Industrial-Electronics-Society
+   (IECON)
+CY OCT 24-27, 2016
+CL Florence, ITALY
+SP IEEE Ind Elect Soc, Inst Elect & Elect Engineers
+AB It is presented a state-space realization approach for identification of a pilot scale heat exchanger plant. The proposed methodology is a computational efficient way to estimate state-space models from experimental data with pulsed input signals. It is specially suitable for short data batches.
+C1 [Lima, Rafael B. C.] Univ Fed Campina Grande, COPELE, Postgrad Program Elect Engn PPgEE, Campina Grande, Paraiba, Brazil.
+   [Barros, Pericles R.; Acioli Junior, George] Univ Fed Campina Grande, Dept Elect Engn, Campina Grande, Paraiba, Brazil.
+C3 Universidade Federal de Campina Grande; Universidade Federal de Campina
+   Grande
+RP Lima, RBC (corresponding author), Univ Fed Campina Grande, COPELE, Postgrad Program Elect Engn PPgEE, Campina Grande, Paraiba, Brazil.
+EM rafael.lima@ee.ufcg.edu.br; prbarros@dee.ufcg.edu.br;
+   georgeacioli@dee.ufcg.edu.br
+RI /AAO-1540-2021
+NR 15
+TC 3
+Z9 3
+U1 0
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 1553-572X
+BN 978-1-5090-3474-1
+J9 IEEE IND ELEC
+PY 2016
+BP 330
+EP 335
+PG 6
+WC Engineering, Electrical & Electronic
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering
+GA BH2LH
+UT WOS:000399031200055
+DA 2026-11-03
+ER
+
+PT J
+AU Xenitopoulos, T
+   Papadopoulos, AI
+   Seferlis, P
+AF Xenitopoulos, Theofilos
+   Papadopoulos, Athanasios I.
+   Seferlis, Panos
+TI Nonlinear autoregressive network with exogenous inputs for dynamic
+   modeling and control of electrochemical CO2 regeneration cells
+SO COMPUTERS & CHEMICAL ENGINEERING
+LA English
+DT Article
+DE CO2 capture; Artificial intelligence; Electrochemical cell; NARX;
+   Dynamic modeling
+ID REAL-TIME OPTIMIZATION; NARX MODELS; SYSTEMS; REDUCTION; CAPTURE;
+   IDENTIFICATION; ORDER
+AB Electrochemical CO2 regeneration is a promising alternative to conventional thermal processes, offering lower energy requirements and compatibility with renewable electricity. However, the dynamic behavior of electrochemical cells is complex, nonlinear, and not yet well understood, making robust control design challenging. This study proposes a multi-step, data-driven methodology for dynamic modeling and control of an electrochemical CO2 regeneration cell, using experimental data from two cathode spacer geometries. Raw experimental signals were preprocessed using a Kalman filter to suppress high-frequency noise. Partial autocorrelation analysis guided the selection of autoregressive orders, and a systematic grid search identified optimal nonlinear autoregressive models with exogenous inputs (NARX). A comprehensive methodology is presented that connects data preprocessing, model architecture selection and controller optimization into a coherent pipeline. The bestperforming models achieved a greater than 97% fit and root mean squared (RMSE) values below 0.005 for both geometries, accurately reproducing transient CO2 flux responses to stepwise current excitation. The analysis revealed that the rhomboidal spacer cell configuration exhibits longer memory effects and allows more consistent system identification compared to the parallel spacer. Closed-loop control studies with a discrete-time PI controller, tuned via a genetic algorithm, demonstrated accurate set-point tracking, disturbance rejection, and safe operation under actuator saturation. These findings highlight that NARX-based system identification not only enables accurate control-oriented modeling but also provides new insights into how cell geometry influences dynamic behavior.
+C1 [Xenitopoulos, Theofilos; Seferlis, Panos] Aristotle Univ Thessaloniki, Dept Mech Engn, Thessaloniki 54124, Greece.
+   [Xenitopoulos, Theofilos] Y Squared PC, Perea 57019, Greece.
+   [Papadopoulos, Athanasios I.] Chem Proc & Energy Resources Inst CPERI, Ctr Res & Technol Hellas CERTH, 6th km Charilaou Thermi Rd, GR-57001 Thessaloniki, Greece.
+C3 Aristotle University of Thessaloniki; Centre for Research & Technology
+   Hellas
+RP Seferlis, P (corresponding author), Aristotle Univ Thessaloniki, Dept Mech Engn, Thessaloniki 54124, Greece.
+EM seferlis@auth.gr
+RI Seferlis, Panos/N-2725-2015
+FU European Union's Horizon Europe research and innovation programme
+   [101172954]
+FX This project has received funding from the European Union's Horizon
+   Europe research and innovation programme under grant agreement 101172954
+   - REUSE-HORIZON-CL5-2024-D3-01. Views and opinions expressed are however
+   those of the author (s) only and do not necessarily reflect those of the
+   European Union or European Climate, Infrastructure and Environment
+   Executive Agency (CINEA) . Neither the European Union nor the granting
+   authority can be held responsible for them.
+NR 69
+TC 0
+Z9 0
+U1 1
+U2 1
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0098-1354
+EI 1873-4375
+J9 COMPUT CHEM ENG
+JI Comput. Chem. Eng.
+PD AUG
+PY 2026
+VL 211
+AR 109677
+DI 10.1016/j.compchemeng.2026.109677
+PG 22
+WC Computer Science, Interdisciplinary Applications; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering
+GA HL8DP
+UT WOS:001757098700001
+OA hybrid
+DA 2026-11-03
+ER
+
+PT J
+AU Zambrano, J
+   Sanchis, J
+   Herrero, JM
+   Martínez, M
+AF Zambrano, J.
+   Sanchis, J.
+   Herrero, J. M.
+   Martinez, M.
+TI A Unified Approach for the Identification of Wiener, Hammerstein, and
+   Wiener-Hammerstein Models by Using WH-EA and Multistep Signals
+SO COMPLEXITY
+LA English
+DT Article
+ID PREDICTIVE CONTROL; SYSTEMS; PERFORMANCE; ALGORITHMS
+AB Wiener, Hammerstein, and Wiener-Hammerstein structures are useful for modelling dynamic systems that exhibit a static type nonlinearity. Many methods to identify these systems can be found in the literature; however, choosing a method requires prior knowledge about the location of the static nonlinearity. In addition, existing methods are rigid and exclusive for a single structure. This paper presents a unified approach for the identification of Wiener, Hammerstein, and Wiener-Hammerstein models. This approach is based on the use of multistep excitation signals and WH-EA (an evolutionary algorithm for Wiener-Hammerstein system identification). The use of multistep signals will take advantage of certain properties of the algorithm, allowing it to be used as it is to identify the three types of structures without the need for the user to know a priori the process structure. In addition, since not all processes can be excited with Gaussian signals, the best linear approximation (BLA) will not be required. Performance of the proposed method is analysed using three numerical simulation examples and a real thermal process. Results show that the proposed approach is useful for identifying Wiener, Hammerstein, and Wiener-Hammerstein models, without requiring prior information on the type of structure to be identified.
+C1 [Zambrano, J.] Univ Politecn Salesiana, Cuenca, Ecuador.
+   [Sanchis, J.; Herrero, J. M.; Martinez, M.] Univ Politecn Valencia, Inst Univ Automat & Informat Ind, Valencia, Spain.
+C3 Universidad Politecnica Salesiana; Universitat Politecnica de Valencia
+RP Zambrano, J (corresponding author), Univ Politecn Salesiana, Cuenca, Ecuador.
+EM jzambranoa@ups.edu.ec; jsanchis@isa.upv.es; juaherdu@isa.upv.es;
+   mmiranzo@isa.upv.es
+RI Herrero, Juan M/N-4049-2019; Sanchis, Javier/L-1043-2014; Martínez,
+   Miguel/L-1099-2014
+OI Herrero, Juan M/0000-0003-1914-7494; Sanchis,
+   Javier/0000-0001-9697-2696; Zambrano, Julio César/0000-0002-2935-8458;
+   Martínez, Miguel/0000-0002-1444-0651
+FU Spanish Ministry of Economy and Competitiveness [DPI2015-71443-R,
+   RTI2018-096904-B-I00]; Salesian Polytechnic University in Ecuador
+FX This work was partially supported by projects DPI2015-71443-R and
+   RTI2018-096904-B-I00 from the Spanish Ministry of Economy and
+   Competitiveness and was also supported by Salesian Polytechnic
+   University in Ecuador through a PhD scholarship granted to J. Z.
+NR 42
+TC 6
+Z9 6
+U1 1
+U2 9
+PU WILEY-HINDAWI
+PI LONDON
+PA ADAM HOUSE, 3RD FL, 1 FITZROY SQ, LONDON, WIT 5HE, ENGLAND
+SN 1076-2787
+EI 1099-0526
+J9 COMPLEXITY
+JI Complexity
+PD FEB 21
+PY 2020
+VL 2020
+AR 7132349
+DI 10.1155/2020/7132349
+PG 23
+WC Mathematics, Interdisciplinary Applications; Multidisciplinary Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Mathematics; Science & Technology - Other Topics
+GA KT3LJ
+UT WOS:000518918000003
+OA Green Submitted, gold
+DA 2026-11-03
+ER
+
+PT C
+AU Ozbot, M
+   Skrjanc, I
+AF Ozbot, Miha
+   Skrjanc, Igor
+BE Martinez, JAI
+   Baruah, RD
+   Kangin, D
+   Souza, PVD
+TI Online Design of Experiments with Fuzzy Confidence Interval for
+   Identification of Nonlinear Dynamical Processes
+SO IEEE CONFERENCE ON EVOLVING AND ADAPTIVE INTELLIGENT SYSTEMS 2024, IEEE
+   EAIS 2024
+SE IEEE Conference on Evolving and Adaptive Intelligence Systems
+LA English
+DT Proceedings Paper
+CT IEEE Conference on Evolving and Adaptive Intelligent Systems (IEEE EAIS)
+CY MAY 23-24, 2024
+CL Madrid, SPAIN
+SP IEEE
+DE evolving fuzzy system; system identification; design of experiments;
+   confidence interval; nonlinear dynamical system
+ID EVOLVING FUZZY; MODEL; IMPLEMENTATION; SYSTEMS
+AB This paper presents a new online Design of Experiments methodology for identifying dynamical nonlinear systems. The approach is based on an evolving neuro-fuzzy identification framework that uses the confidence interval of fuzzy rules to measure model convergence. Informative data are crucial for system identification, particularly in the context of nonlinear dynamical processes. When control over the input signals is possible, a tailored experiment can be designed to minimize experiment duration and resource consumption. In contrast to traditional Design of Experiments approaches, which are iterative, our proposed method selects the inputs online at each time step, while identifying the model. We have investigated the use of the Confidence Interval in unsupervised clustering, parameter identification, and Design of Experiments. The performance of the method is compared to related evolving systems on the Mackey-Glass chaotic time series, and its effectiveness is demonstrated on a Piecewise Linear dynamical system with outliers and a real Plate Heat Exchanger pilot plant. The outlying data were successfully rejected online by the proposed methodology, while the real-world experiments detected the initial cold start behaviors and excluded them from the final model. The methodology shows robust Design of Experiments and outlier rejection capabilities, making it a promising approach for identifying dynamical nonlinear systems in a noisy environment.
+C1 [Ozbot, Miha; Skrjanc, Igor] Univ Ljubljana, Fac Elect Engn, Ljubljana, Slovenia.
+C3 University of Ljubljana
+RP Ozbot, M (corresponding author), Univ Ljubljana, Fac Elect Engn, Ljubljana, Slovenia.
+EM miha.ozbot@fe.uni-lj.si; igor.skrjanc@fe.uni-lj.si
+FU Slovenian Research Agency (Ph.D. grant for Miha O.zbot) [P2-0219]
+FX The authors acknowledge the financial support from the Slovenian
+   Research Agency (Ph.D. grant for Miha O.zbot, funding number P2-0219).
+NR 37
+TC 1
+Z9 1
+U1 0
+U2 2
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2330-4863
+BN 979-8-3503-6623-5; 979-8-3503-6624-2
+J9 IEEE CONF EVOL ADAPT
+PY 2024
+BP 153
+EP 160
+DI 10.1109/EAIS58494.2024.10569113
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Theory & Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BX2ID
+UT WOS:001261404700016
+DA 2026-11-03
+ER
+
+PT J
+AU Nimbona, F
+   Jai, ME
+   Akhrif, I
+   Rihani, N
+   Fahime, BE
+   Radouani, M
+AF Nimbona, Fabrice
+   Jai, Mostapha El
+   Akhrif, Iatimad
+   Rihani, Nadir
+   Fahime, Benaissa El
+   Radouani, Mohammed
+TI Simulation-based optimization and parametric identification of a new
+   skeletal shape-based fins' heat exchanger
+SO JOURNAL OF THERMAL ANALYSIS AND CALORIMETRY
+LA English
+DT Article
+DE Skeletal fins' heat exchanger; Multi-objective genetic algorithm; Energy
+   efficiency; System identification; Industrial system cooling;
+   Simulation-based optimization
+ID MASS-TRANSFER; DESIGN; SINKS; PERFORMANCE; FATIGUE; STORAGE; FLOW;
+   BEHAVIOR
+AB This study introduces a new type of fins' heat sinks, namely the skeleton-based heat exchanger; it combines multi-objective optimization along with the parametric identification of the new design to improve the heat exchange performances. Then, the materials and geometry features were selected according to multi-objective genetic algorithm optimization based on thermal/CFD simulations. By taking advantages of ANSYS Fluent platform, including design of experiments and MOGA, the optimal feasible space of the skeletal geometry features was detected; optimal materials' performance was obtained near AlSi10Mg aluminum alloy. The second step focused on the system identification of the optimal design; it was mainly based on thermal solicitations namely the Dirac impulse along with the corresponding temperature output; the optimal design was detected to be a 1st-order system, while the validation involved both step and ramp input signals. In sum, results indicate a strong potential to improve heat exchangers using MOGA of the skeletal geometry with the AlSi10Mg; this includes the system effectiveness, the fins' efficiency, and the overall efficiency that ranged above 90% according to the simulations. In addition, the study was corroborated by a benchmark that allowed positioning the present findings within existing literature; the authors especially pointed out the existing contribution and those of the current work. However, this opens new prospects to further research and practical applications in electronics cooling where future studies are currently under development, focusing on experimenting the proposed design integrating along with the phase change materials integration to enhance this new system.
+C1 [Nimbona, Fabrice; Jai, Mostapha El; Fahime, Benaissa El; Radouani, Mohammed] Moulay Ismail Univ, Mech Mechatron & Command Lab, ENSAM Meknes, Marjane 2, Meknes, Morocco.
+   [Nimbona, Fabrice; Jai, Mostapha El] Euromed Univ Fes, UEMF, Fes, Morocco.
+   [Nimbona, Fabrice; Akhrif, Iatimad; Rihani, Nadir] Ecole Normale Super, Bujumbura, Burundi.
+C3 Moulay Ismail University of Meknes
+RP Jai, ME (corresponding author), Moulay Ismail Univ, Mech Mechatron & Command Lab, ENSAM Meknes, Marjane 2, Meknes, Morocco.; Jai, ME (corresponding author), Euromed Univ Fes, UEMF, Fes, Morocco.
+EM m.eljai@ueuromed.org
+RI ; Akhrif, Iatimad/NUQ-0824-2025; EL JAI, Mostapha/AAB-3669-2021
+OI NIMBONA, Fabrice/0009-0002-7490-1365; Rihani, Nadir/0009-0005-8753-7859;
+   EL JAI, Mostapha/0000-0001-8545-771X; EL FAHIME,
+   Benaissa/0000-0002-9495-9372
+NR 144
+TC 5
+Z9 5
+U1 1
+U2 16
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 1388-6150
+EI 1588-2926
+J9 J THERM ANAL CALORIM
+JI J. Therm. Anal. Calorim.
+PD JUL
+PY 2025
+VL 150
+IS 14
+BP 11463
+EP 11493
+DI 10.1007/s10973-025-14376-5
+EA JUN 2025
+PG 31
+WC Thermodynamics; Chemistry, Analytical; Chemistry, Physical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Thermodynamics; Chemistry
+GA 5LW9A
+UT WOS:001511662100001
+DA 2026-11-03
+ER
+
+PT C
+AU Lin, SC
+   Armin, W
+   Wolfgang, P
+AF Lin, Strobio Chen
+   Armin, Witte
+   Wolfgang, Polifke
+BE Crocker, MJ
+   Pawelczyk, M
+   Pedrielli, F
+   Carletti, E
+   Luzzi, S
+TI THERMO-ACOUSTIC CHARACTERIZATION OF A HEAT EXCHANGER IN CROSS FLOW USING
+   COMPRESSIBLE AND WEAKLY COMPRESSIBLE NUMERICAL SIMULATION
+SO PROCEEDINGS OF THE 22ND INTERNATIONAL CONGRESS ON SOUND AND VIBRATION:
+   MAJOR CHALLENGES IN ACOUSTICS, NOISE AND VIBRATION RESEARCH, 2015
+LA English
+DT Proceedings Paper
+CT 22nd International Congress on Sound and Vibration (ICSV)
+CY JUL 12-16, 2015
+CL Florence, ITALY
+AB In the present work, a heat exchanger as used for hot water supply in domestic boilers is investigated numerically. The objective of the study is to identify the frequency response of the heat transfer rate with respect to perturbations of flow velocity, and the acoustic scattering matrix of the heat exchanger. These response functions are determined by CFD simulation of flow with heat transfer combined with system identification. Unsteadiness is imposed on the simulations by broad-band excitation of the variables at the boundaries. The resulting time series are post-processed to obtain the frequency responses. Particular emphasis is placed on the comparability between compressible and weakly compressible simulations in terms of heat release response. The response functions may be used subsequently in thermo-acoustic stability analysis of combustion systems.
+C1 [Lin, Strobio Chen; Armin, Witte; Wolfgang, Polifke] Tech Univ Munich, Thermofluiddynam, D-85747 Garching, Germany.
+C3 Technical University of Munich
+RP Lin, SC (corresponding author), Tech Univ Munich, Thermofluiddynam, D-85747 Garching, Germany.
+EM strobio@tfd.mw.tum.de
+RI Polifke, Wolfgang/C-3602-2012
+FU German Research Foundation DFG [PO 710/15-1]; Technische Universitat
+   Munchen; European Commission
+FX The presented work is part of the Marie Curie Initial Training Network
+   Thermo-acoustic and aero-acoustic nonlinearities in green combustors
+   with orifice structures (TANGO). We gratefully acknowledge the financial
+   support from the European Commission under call
+   FP7-PEOPLE-ITN-2012.Financial support for Armin Witte by the German
+   Research Foundation DFG, project PO 710/15-1 and the Technische
+   Universitat Munchen are gratefully acknowledged.
+NR 10
+TC 0
+Z9 0
+U1 0
+U2 0
+PU INT INST ACOUSTICS & VIBRATION
+PI AUBURN
+PA AUBURN UNIV, MECHANICAL ENGINEERING DEPT, 270 ROSS HALL, AUBURN, AL
+   36849 USA
+BN 978-88-88942-48-3
+PY 2015
+PG 8
+WC Acoustics; Engineering, Mechanical
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Acoustics; Engineering
+GA BH2JX
+UT WOS:000398997002087
+DA 2026-11-03
+ER
+
+PT J
+AU Gresham, JL
+   Simmons, BM
+   Fahmi, JMW
+   Hopwood, JW
+   Woolsey, CA
+AF Gresham, James L.
+   Simmons, Benjamin M.
+   Fahmi, Jean-Michel W.
+   Hopwood, Jeremy W.
+   Woolsey, Craig A.
+TI Remote Uncorrelated Pilot Input Excitation Assessment for Unmanned
+   Aircraft Aerodynamic Modeling
+SO JOURNAL OF AIRCRAFT
+LA English
+DT Article
+DE Aircrew; Flight Testing; System Identification; Time Domain Analysis;
+   Space Exploration and Technology; Structural Reliability Analysis;
+   Discrete Probability Distributions; Mars Ascent Vehicle; Heat
+   Exchangers; Planets
+ID SIGNALS
+C1 [Gresham, James L.; Simmons, Benjamin M.; Fahmi, Jean-Michel W.; Hopwood, Jeremy W.; Woolsey, Craig A.] Virginia Tech, Kevin T Crofton Dept Aerosp & Ocean Engn, Blacksburg, VA 24061 USA.
+   [Gresham, James L.] US Air Force, Washington, DC USA.
+C3 Virginia Polytechnic Institute & State University; United States
+   Department of Defense; United States Air Force
+RP Gresham, JL (corresponding author), Virginia Tech, Kevin T Crofton Dept Aerosp & Ocean Engn, Blacksburg, VA 24061 USA.
+EM james.gresham.2@us.af.mil; benjamin.m.simmons@nasa.gov; fahmi@vt.edu;
+   jeremyhopwood@vt.edu; cwoolsey@vt.edu
+RI ; Hopwood, Jeremy/JGD-0325-2023
+OI Simmons, Benjamin/0000-0001-6732-3291; Woolsey,
+   Craig/0000-0003-3483-7135; Hopwood, Jeremy/0000-0003-3708-137X; Gresham,
+   James/0000-0002-1987-9276
+FU United States Air Force (USAF) Test Pilot School under USAF
+   [FA9302-18-P-5227]; NASA [80NSSC20M0162]
+FX The authors gratefully acknowledge financial support from the United
+   States Air Force (USAF) Test Pilot School under USAF Contract No.
+   FA9302-18-P-5227 and from NASA under Grant No. 80NSSC20M0162. The
+   authors are grateful for the flight test support provided by Mekonen
+   Halefom, Chris Gahan, Wade Foster, Sourav Sinha, and Patrick Corrigan.
+NR 33
+TC 7
+Z9 7
+U1 1
+U2 2
+PU AMER INST AERONAUTICS  ASTRONAUTICS
+PI RESTON
+PA 1801 ALEXANDER BELL DRIVE, STE 500, RESTON, VA 22091-4344 USA
+SN 0021-8669
+EI 1533-3868
+J9 J AIRCRAFT
+JI J. Aircr.
+PD MAY
+PY 2023
+VL 60
+IS 3
+BP 955
+EP 967
+DI 10.2514/1.C036942
+EA MAR 2023
+PG 13
+WC Engineering, Aerospace
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA OP7RD
+UT WOS:000960669600001
+OA Green Submitted
+DA 2026-11-03
+ER
+
+PT J
+AU Misra, P
+   Nikolaou, M
+AF Misra, P
+   Nikolaou, M
+TI Input design for model order determination in subspace identification
+SO AICHE JOURNAL
+LA English
+DT Article
+ID SYSTEM-IDENTIFICATION; ALGORITHMS; LOOP
+AB Subspace identification methods require that the inputs to the process being identified be persistently exciting. This may be inadequate for subspace identification of ill-conditioned multivariable processes, because the process model order may be underestimated, leading to subsequent identification of poor models. To remedy the problem, it is proposed that inputs must be used that excite a process to be identified in a way that produces as uncorrelated process outputs as possible. This can be accomplished either in open or in closed-loop fashion. Simulations on a high-purity distillation column and on a heat exchanger illustrate the merit of the proposed approach.
+C1 Univ Houston, Houston, TX 77204 USA.
+C3 University of Houston System; University of Houston
+RP Nikolaou, M (corresponding author), Univ Houston, Houston, TX 77204 USA.
+RI /AAK-7119-2021; Nikolaou, Michael/HKE-2651-2023
+OI Nikolaou, Michael/0000-0003-0241-6600
+NR 17
+TC 19
+Z9 24
+U1 0
+U2 3
+PU AMER INST CHEMICAL ENGINEERS
+PI NEW YORK
+PA 3 PARK AVE, NEW YORK, NY 10016-5901 USA
+SN 0001-1541
+J9 AICHE J
+JI AICHE J.
+PD AUG
+PY 2003
+VL 49
+IS 8
+BP 2124
+EP 2132
+DI 10.1002/aic.690490820
+PG 9
+WC Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 712JX
+UT WOS:000184795500019
+DA 2026-11-03
+ER
+
+PT J
+AU Lamarche, L
+   Raymond, J
+   Giordano, N
+AF Lamarche, Louis
+   Raymond, Jasmin
+   Giordano, Nicolo
+TI Oscillatory thermal response tests to estimate the ground thermal
+   diffusivity
+SO APPLIED ENERGY
+LA English
+DT Article
+DE Thermal response test; Oscillatory; Oscillation; Ground heat exchangers;
+   Thermal diffusivity; Heat capacity
+ID SHORT-TIME ANALYSIS; PARAMETER-ESTIMATION; HEAT-EXCHANGER
+AB Thermal Response Tests (TRT) have been extensively studied in the past decades and is an important area of research belonging to ground heat exchanger design. The most important thermal property inferred in a TRT is the equivalent subsurface thermal conductivity. Previous studies were presented where the thermal diffusivity was estimated but with limited success. In this paper, a TRT with an oscillatory excitation (OTRT) is used to obtain a better uncoupling between thermal conductivity found from constant heat injection and thermal diffusivity. The method was already used in the past with a simplified ground model. It is presented here with a better model that takes into account the ground and the borehole thermal response. The method is based on the concept of concentric composite cylinder where the equivalent radius is used for the U-tube arrangement. Results obtained with this method were successfully correlated to those obtained with numerical simulations and the method was then used to analyze an experimental field test.
+C1 [Lamarche, Louis] Ecole Technol Super, 1100 Notre Dame St West, Montreal, PQ H3C 1K3, Canada.
+   [Raymond, Jasmin] Inst Natl Rech Sci, Ctr Eau Terre Environm, 490 Rue Couronne, Quebec City, PQ G1K 9A9, Canada.
+   [Giordano, Nicolo] Geotherma solut Inc, 490 rue Couronne,Off 4332, Quebec City, PQ G1K 9A9, Canada.
+C3 University of Quebec; Ecole de Technologie Superieure - Canada;
+   University of Quebec; Institut national de la recherche scientifique
+   (INRS)
+RP Lamarche, L (corresponding author), Ecole Technol Super, 1100 Notre Dame St West, Montreal, PQ H3C 1K3, Canada.
+EM louis.lamarche@etsmtl.ca
+RI ; Giordano, Nicolò/AAR-7173-2020
+OI Raymond, Jasmin/0000-0002-7486-9185; 
+FU Natural Sciences and Engineering Research Council of Canada (NSERC)
+   [RGPIN-2019-05793]
+FX We would like to thank the Natural Sciences and Engineering Research
+   Council of Canada (NSERC) , which partly financed this research
+   (RGPIN-2019-05793) .
+NR 25
+TC 3
+Z9 3
+U1 0
+U2 3
+PU ELSEVIER SCI LTD
+PI London
+PA 125 London Wall, London, ENGLAND
+SN 0306-2619
+EI 1872-9118
+J9 APPL ENERG
+JI Appl. Energy
+PD JAN 1
+PY 2024
+VL 353
+AR 122078
+DI 10.1016/j.apenergy.2023.122078
+EA OCT 2023
+PN A
+PG 9
+WC Energy & Fuels; Engineering, Chemical
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Engineering
+GA W4WP2
+UT WOS:001091646900001
+DA 2026-11-03
+ER
+
+PT J
+AU Tubic, A
+   Gögele, L
+   Kozek, M
+   Wehinger, S
+   Jakubek, S
+AF Tubic, Aleksandar
+   Goegele, Lukas
+   Kozek, Martin
+   Wehinger, Stefan
+   Jakubek, Stefan
+TI Introduction of the Excitation-Modulated Thermal Response Test (EM-TRT)
+   for the improved Evaluation of Vertical Ground Heat Exchangers
+SO GEOTHERMICS
+LA English
+DT Article
+DE Borehole heat exchanger; Thermal Response Test; Shallow geothermal
+   energy; Multi-layer parameter estimation; Short-time response; APRBS;
+   POD model reduction
+ID SHORT-TIME ANALYSIS; NUMERICAL-ANALYSIS; MODEL; SOIL
+AB Ground-Source Heat Pump (GSHP) systems are crucial for reducing the building sector's carbon footprint by providing efficient and sustainable heating and cooling solutions. Their performance relies on the ground's thermal properties at depth, which are identified through Thermal Response Tests (TRTs). These tests are vital for accurately sizing and optimizing the economic efficiency of GSHP systems. However, conventional TRTs are time-consuming, costly, prone to disturbances, and only determine the soil's average thermal conductivity across the entire borehole depth. Especially in the presence of underground water streams classic TRTs yield insufficient results. In this paper we introduce a new Excitation Modulated Thermal Response Test (EM-TRT), utilizing an Amplitude-Modulated Pseudo-Random Binary Sequence (APRBS) signal. This method significantly shortens test duration and enables the simultaneous detection of different geological layers and estimation of their thermophysical parameters. EM-TRT proves to be highly practical, functioning seamlessly with standard TRT devices without the need for additional equipment. The method is validated with model-generated data, historical TRT measurements, and employed on a dedicated experimental TRT at a geothermal borehole in Austria. EM-TRT provides a robust solution for rapid and accurate geophysical assessments, representing a substantial improvement over traditional methods.
+C1 [Tubic, Aleksandar; Goegele, Lukas; Kozek, Martin; Jakubek, Stefan] TU Wien, Inst Mech & Mechatron, Dept Control Engn & Proc Automat, Getreidemarkt 9, A-1060 Vienna, Austria.
+   [Wehinger, Stefan] ENERCRET Installationen GmbH, Interpk Focus 2, A-6832 Rothis, Austria.
+C3 TU Wien
+RP Tubic, A (corresponding author), TU Wien, Inst Mech & Mechatron, Dept Control Engn & Proc Automat, Getreidemarkt 9, A-1060 Vienna, Austria.
+EM aleksandar.tubic@tuwien.ac.at; lukas.goegele@tuwien.ac.at;
+   martin.kozek@tuwien.ac.at; stefan.wehinger@energreen.group;
+   stefan.wehinger@energreen.group
+RI Kozel, Martin/HTL-9813-2023
+OI Tubić, Aleksandar/0009-0003-2140-1399
+NR 43
+TC 2
+Z9 2
+U1 2
+U2 7
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0375-6505
+EI 1879-3576
+J9 GEOTHERMICS
+JI Geothermics
+PD NOV
+PY 2025
+VL 132
+AR 103407
+DI 10.1016/j.geothermics.2025.103407
+EA JUN 2025
+PG 14
+WC Energy & Fuels; Geosciences, Multidisciplinary
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Energy & Fuels; Geology
+GA 4OJ6V
+UT WOS:001522818200001
+OA hybrid
+DA 2026-11-03
+ER
+
+PT J
+AU Alvarez, JD
+   Guzmán, JL
+   Rivera, DE
+   Berenguel, M
+   Dormido, S
+AF Alvarez, J. D.
+   Guzman, J. L.
+   Rivera, D. E.
+   Berenguel, M.
+   Dormido, S.
+TI Perspectives on control-relevant identification through the use of
+   interactive tools
+SO CONTROL ENGINEERING PRACTICE
+LA English
+DT Article
+DE Control-relevant identification; Process control; Interactive tools;
+   Prediction-error estimation; Experimental design
+ID PREDICTIVE CONTROL; HEAT-EXCHANGERS; CONTROL DESIGN; COMPENSATORS;
+   SYSTEMS
+AB System identification is an essential part of control design. Control engineers must devote substantial effort to identification issues in order to obtain suitable models for closed-loop control. Control-relevant identification seeks to both simplify the modelling task and improve the usefulness of the model by taking into account controller requirements during system identification. The advantages of this methodology can be better understood and appreciated through the interactive software tool described in this paper. The Interactive Tool for Control Relevant Identification (ITCRI) comprehensively captures the control-relevant identification process for the monovariable problem, from input design to closed-loop control, depicting these stages simultaneously and interactively in one screen. By simultaneously displaying both open- and closed-loop responses of the estimated models, ITCRI enables the user to readily assess how design variable choices during identification and control performance requirements impact model error and ultimately, closed-loop performance. Moreover, the work presents several examples which the aim to illustrate the tool and the considerations that arise when control requirements are taken into account during the identification stage. (C) 2012 Elsevier Ltd. All rights reserved.
+C1 [Alvarez, J. D.] Univ Seville, Dep Ingn Sistemas & Automat, Seville 41092, Spain.
+   [Guzman, J. L.; Berenguel, M.] Univ Almeria, Dep Lenguajes & Comp, Almeria 04120, Spain.
+   [Rivera, D. E.] Arizona State Univ, Sch Engn Matter Transport & Energy, Tempe, AZ 85287 USA.
+   [Dormido, S.] UNED, Dep Informat & Automat, Madrid 28040, Spain.
+C3 University of Sevilla; Universidad de Almeria; Arizona State University;
+   Arizona State University-Tempe; Universidad Nacional de Educacion a
+   Distancia (UNED)
+RP Alvarez, JD (corresponding author), Univ Seville, Dep Ingn Sistemas & Automat, Camino Descubrimientos S-N, Seville 41092, Spain.
+EM jalvarez19@us.es; joguzman@ual.es; daniel.rivera@asu.edu; beren@ual.es;
+   sdormido@dia.uned.es
+RI Rivera, Daniel/AAF-6772-2019; Berenguel, Manuel/K-9415-2014; Guzman,
+   Jose Luis/K-9608-2014; Álvarez Hervás, José Domingo/B-5656-2014;
+   Dormido, Sebastian/K-6918-2014
+OI Rivera, Daniel/0000-0002-3141-0577; Berenguel,
+   Manuel/0000-0002-3349-7506; Guzman, Jose Luis/0000-0001-5312-0776;
+   Álvarez Hervás, José Domingo/0000-0003-2791-8105; Dormido,
+   Sebastian/0000-0002-2405-8771
+FU Spanish Ministry of Education [DPI2010-21589-C05-04, PHB2009-0008]
+FX The authors wish to thank the Spanish Ministry of Education for
+   providing both FEDER funds (Project DPI2010-21589-C05-04) and Project
+   PHB2009-0008 funds which have been used to support this work.
+NR 38
+TC 22
+Z9 23
+U1 0
+U2 14
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0967-0661
+EI 1873-6939
+J9 CONTROL ENG PRACT
+JI Control Eng. Practice
+PD FEB
+PY 2013
+VL 21
+IS 2
+BP 171
+EP 183
+DI 10.1016/j.conengprac.2012.09.019
+PG 13
+WC Automation & Control Systems; Engineering, Electrical & Electronic
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Automation & Control Systems; Engineering
+GA 078DG
+UT WOS:000314077900003
+DA 2026-11-03
+ER
+
+EF
