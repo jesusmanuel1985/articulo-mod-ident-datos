@@ -1,5 +1,5 @@
 {
-  "P5": "v1.2",
+  "P5": "v1.3",
   "semillas": {
     "IS": 20261104,
     "A": 20261105,
@@ -15,8 +15,8 @@
     "mascara_B.csv": "d8d922efafaa2786b0cd5cd799e4e388f00ffec465fafa6364718ab8ca6174d3",
     "mascara_C.csv": "9f60f89803c4aa0b99a450f392ae32bdfbc95811cd692846546f77c66f5ea80f",
     "mascara_PS.csv": "8520cd9e57b0b64a3c31358f13eb9e2c99ba6b7387dc9f3c8b035fd9fe063b83",
-    "comando_K.csv": "8846c6a8c7b4148a06085dc8916f378e4d806055af74d4cebb3a3a9ed2391ddc",
-    "mascara_K.csv": "76bfe6d836c362d8073416a6dece7f4090883e9844279493162d5eacb082ef61",
+    "comando_K.csv": "5bc8fa30947cc92c9d102cb7bb729351b582a93d1f9c0bc1d233287bf4c27a5c",
+    "mascara_K.csv": "0511e81006860bea096bfebd432205c6f8ef921e98e5441f231654002dea7bdd",
     "comando_NL.csv": "96bee0e8e1287248dbced038056dd57f4b7e8f40a2912125c96fd7496235426a",
     "mascara_NL.csv": "ac8fc41a9c5427075faea36242258dfd2b13edd42e70535a52d9d76163b235a5"
   },

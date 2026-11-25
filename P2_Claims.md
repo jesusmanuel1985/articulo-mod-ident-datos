@@ -12,7 +12,7 @@ Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P2.
 | Frase | El modelo bilineal de bajo orden del banco, identificado con un comando de caudal suave, predice T4 a 1000 s con un RMSE no mayor que máx(1.5·RMSE_PRBS, RMSE_PRBS + 0.5 °C), donde RMSE_PRBS es el del mismo modelo identificado con PRBS de caudal |
 | Tipo | **B — comparativa** (no inferioridad frente a un rival) `[AUTOR, 2026-11-03]`. Alternativa A (umbral absoluto RMSE_H ≤ X °C) desaconsejada: cambiaría H0 (criterio relativo a PRBS), perdería la dimensión abierta por P1 (R12) y exigiría una referencia de P0 que no existe (R14) |
 | Etiqueta | confirmatorio (igual que H0) |
-| Condición de validez | Comando de caudal 200–400 L/h; suave = tasa ≤ 2 L/h·s y amplitud ≥ 100 L/h; potencia binaria 0 ↔ 100 % por resistencia, con la potencia al 100 % tomada de una caracterización única por resistencia (tensión y corriente medidas una vez; ver L5); Ts ≈ 2.2 s; ensayo de validación de operación PI con 2 máscaras de nubes distintas entre sí y de la de identificación, 3 réplicas por máscara (H0 v1.1); identificación (ambas ramas) y validación en condiciones ambientales comparables y registradas (T ambiente, T0, estado inicial) |
+| Condición de validez | Comando de caudal 200–400 L/h; suave = tasa ≤ 2 L/h·s y amplitud ≥ 100 L/h; potencia binaria 0 ↔ 100 % por resistencia, con la potencia medida en cada muestra como R_i·I_i² a partir de la corriente calibrada (ver L5) `[AUTOR, 2026-11-25]`; Ts ≈ 2.2 s; ensayo de validación de operación PI con 2 máscaras de nubes distintas entre sí y de la de identificación, 3 réplicas por máscara (H0 v1.1); identificación (ambas ramas) y validación en condiciones ambientales comparables y registradas (T ambiente, T0, estado inicial) |
 | Modo | A |
 | Falsador | Promediando las 3 réplicas, RMSE_H(suave) > máx(1.5·RMSE_H(PRBS), RMSE_H(PRBS) + 0.5 °C) |
 | Evidencia exigida | RMSE_H de ambas ramas sobre las mismas 3 réplicas de validación, mismo modelo, mismo procedimiento de estimación |
@@ -53,7 +53,7 @@ C3 y C4 provienen de la motivación del autor en P0 (el riesgo de que, con cauda
 | L2 | C0 se probó en una sola campaña y con 2 máscaras de nubes de validación; no se probó en otras condiciones ambientales ni en otras campañas | declarado `[AUTOR, 2026-11-03]` (reducido: antes una sola máscara) | C0 | Ensayo de validación de H0 v1.1 |
 | L3 | (se crea en P6 si C0 resulta PAR: tramo donde no se sostiene) | medido | C0 | — |
 
-| L5 | La potencia de las resistencias se caracterizó una sola vez; su variación entre ensayos (p. ej., por la tensión de red) no se midió | declarado `[AUTOR, 2026-11-03]` | C0 (y la lectura de C3) | Potencia binaria 0 ↔ 100 % de P0 |
+| L5 | La escala absoluta de la potencia no tiene referencia certificada: los medidores DIN usados para calibrar no están certificados y en R2 los instrumentos discrepan ≈ ±4.5 % en corriente (≈ ±9 % en potencia). La variación entre muestras y ensayos sí se mide | declarado `[AUTOR, 2026-11-25]` (antes: potencia caracterizada una sola vez, sin medir su variación) | C0 (y la lectura de C3) | Potencia binaria 0 ↔ 100 % de P0 |
 | L4 | C0 se afirma para el banco, cuyo aporte de calor son resistencias; no se ha contrastado con una planta solar real | declarado (fuera del rango de P0: no cuenta para R13, pero se declara en el paper) | C0 | — |
 
 Fuera del rango de P0, y por tanto vacuos para R13 (se mencionan en el paper, pero no cuentan): potencia continua en vez de binaria, caudal < 200 L/h o > 400 L/h, plantas solares reales (L4).
@@ -94,3 +94,4 @@ Sin decisiones pendientes en P2.
 | 2026-11-03 | Retorno RTP desde P3: el falsador de C2 se evalúa sobre el comando, no sobre el caudal medido (C-set v1.1) | P0 define la excitación suave sobre el comando; el caudal medido está cuantizado y filtrado. Aprobado por el autor |
 | 2026-11-04 | Retorno RTP desde P5: **nuevo C7** (no linealidad caudal–potencia), recuperado de la corrida de no linealidad de P0, que se había perdido al renumerar S1 en P3 (C-set v1.6) | Decisión del autor: visibilidad y peso en el análisis |
 | 2026-11-04 | C7: tipo A y umbral 1.5 confirmados | Decisión del autor |
+| 2026-11-25 | Retorno RTP desde P5: condición de validez de C0 con potencia medida (R·I²) y L5 reducido a la escala absoluta de la potencia (C-set v1.7) | Reguladores de fase y pinza no true RMS invalidan V·I; transmisores de corriente calibrados; decisión del autor |

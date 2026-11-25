@@ -9,7 +9,7 @@ Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P3.
 
 | S# | Premisa | Origen | Respaldo | Sostiene a | ¿Acota C0? |
 | --- | --- | --- | --- | --- | --- |
-| S1 | La potencia de cada resistencia en estado encendido es la obtenida en una caracterización única (tensión y corriente medidas una vez con la resistencia al 100 %) y no varía de forma relevante entre ensayos | derivada (riesgo señalado en P0 por el segundo predictor) | Caracterización única del autor (a realizar antes de la campaña; registro en P5/P6) `[AUTOR, 2026-11-03]` | C0, C3 | Sí: entra en la condición de validez de C0 y en el límite L5 (variación entre ensayos no medida) |
+| S1 | La potencia de cada resistencia es Q_i = estado_i·R_i·I_i², con I_i del transmisor de corriente calibrado y R_i en frío, y la calibración sigue válida durante la campaña | derivada (riesgo señalado en P0 por el segundo predictor) | Calibración del 24-11-2026, verificada en la corrida K y por corrida con la compuerta V6 (P5 v1.3) `[AUTOR, 2026-11-25]` | C0, C3 | Sí: entra en la condición de validez de C0; la escala absoluta queda en el límite L5 |
 | S2 | Los PT100 (T0–T4) miden con exactitud ±0.15 °C (clase A) en todo el ensayo | implícita típica: calibración | Hoja de datos (P0) | C0, C1 | No, si se cumple: ±0.15 °C < margen de 0.5 °C (R12 de P0) |
 | S3 | El caudalímetro mide con resolución de 23.47 L/h y ≈ 1 % de exactitud | implícita típica: calibración | Hoja de datos / análisis del autor (P0) | C2, C4 | No para C0; sí para leer C4 por tramos de caudal |
 | S4 | El balance por etapa (mezcla perfecta por colector, cp constante, pérdidas incluidas en los parámetros identificados, sin retardo entre etapas y con un retardo global constante) describe la dinámica de T4 en 200–400 L/h | implícita típica: validez del modelo | R21 (Roca 2008), R5 (Ampuño 2019): misma estructura en campos de colectores; **C7** (no linealidad medida en el banco) `[AUTOR, 2026-11-04]` | C0, C1, C3 | Sí, como condición de validez: régimen 200–400 L/h |
@@ -17,14 +17,14 @@ Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P3.
 | S6 | H = 1000 s (≈ t0 + 4τ del canal caudal→T4) es el horizonte relevante para el MPC del banco | derivada (decisión del autor en P0) | FOPDT identificado con datos del banco (escalones de 2026-01-05) | C0 | Sí, como condición de validez (ya figura) |
 | S7 | 2 L/h·s es la tasa máxima de comando que produce el PI en operación normal (definición de "suave") | derivada | Análisis de caudal del autor, P0 (comando PI ≤ ≈ 2 L/h·s) | C2, C0 | Sí, como condición de validez (ya figura) |
 
-**Por qué S1 es aceptable aunque sea débil.** C0 es comparativo: un error de potencia común a las dos ramas afecta a ambos modelos de forma parecida y se cancela en buena parte. El riesgo es que la potencia difiera entre ensayos (por ejemplo, por la tensión de red); eso no se mide y queda como límite declarado L5. Hacer los ensayos cercanos en el tiempo (S5, en P5) reduce ese riesgo.
+**Por qué S1 es aceptable** `[AUTOR, 2026-11-25]`. La potencia se mide en cada muestra, así que las variaciones entre muestras y ensayos (tensión de red, número de resistencias encendidas, perillas) entran a los modelos. Lo que no se puede certificar es la escala absoluta, porque los medidores DIN de referencia no están certificados; un error de escala constante por resistencia lo absorbe la ganancia identificada g_i y es igual en todos los modelos. Queda como límite declarado L5.
 
 ### Revisión de supuestos implícitos típicos (R8)
 
 | Supuesto típico | Resultado |
 | --- | --- |
 | Validez del modelo | S4 |
-| Calibración de instrumentos | S2 (temperatura), S3 (caudal), S1 (potencia: caracterización única, punto débil declarado en L5) |
+| Calibración de instrumentos | S2 (temperatura), S3 (caudal), S1 (potencia: calibración de corriente verificada en K y V6; escala absoluta en L5) |
 | Representatividad de la plataforma | **No aplica como premisa**: C5 se descartó en P2 y las conclusiones se acotan al banco (L4). Confirmado `[AUTOR, 2026-11-03]` |
 
 ## Grafo J2
@@ -37,18 +37,18 @@ graph TD
   C3["C3 · C · parámetros ṁ·cp iguales (expl.)"]
   C4["C4 · C · error mayor a caudal bajo (expl.)"]
   C7["C7 · A · ganancia potencia→T4 decrece con el caudal"]
-  S1["S1 · potencia por caracterización única"]
+  S1["S1 · potencia medida (R·I²)"]
   S2["S2 · PT100 ±0.15 °C · hoja de datos"]
   S3["S3 · caudalímetro · hoja de datos"]
   S4["S4 · balance por etapa · R21, R5"]
   S5["S5 · condiciones comparables · ∅"]
   S6["S6 · H = 1000 s · FOPDT del banco"]
   S7["S7 · 2 L/h·s = PI normal · análisis P0"]
-  K1["Caracterización única de potencia"]
+  K1["Calibración de corriente y R en frío"]
   L1["L1 · sin desempeño de control"]
   L2["L2 · una campaña, una máscara"]
   L4["L4 · no contrastado con planta solar"]
-  L5["L5 · potencia no medida entre ensayos"]
+  L5["L5 · escala absoluta de potencia no certificada"]
   C0 --> C1
   C0 --> C2
   C0 --> S1
@@ -84,7 +84,7 @@ graph TD
 | falla | falla | La rama suave identificó mal el término bilineal (mecanismo de falla previsto en P0) |
 | falla | se cumple | El término bilineal está bien; el error viene de otra parte (retardo, ruido) |
 
-Con S1 débil, la lectura de C3 es más prudente: una diferencia de parámetros ṁ·cp entre ramas podría deberse en parte a diferencias de potencia no medidas (L5).
+Con S1 débil, la lectura de C3 es más prudente: una diferencia de parámetros ṁ·cp entre ramas podría deberse en parte a un error de escala de potencia distinto entre resistencias (L5).
 
 ## Control
 
@@ -92,7 +92,7 @@ Con S1 débil, la lectura de C3 es más prudente: una diferencia de parámetros 
 | --- | --- |
 | Ciclos | Ninguno (las aristas "interpreta" van de C3 y C4 a C0; C0 no depende de ellos) |
 | Camino a la raíz | C1, C2 → C0 como apoyos; C3, C4 → C0 como "interpreta"; L1, L2, L4, L5 indexados a C0 |
-| Propagación (R6) | S1 respaldada por la caracterización única y acotada por L5; S5 (sin respaldo) figura en la condición de validez de C0. Ningún supuesto silencioso |
+| Propagación (R6) | S1 respaldada por la calibración de corriente (K, V6) y acotada por L5; S5 (sin respaldo) figura en la condición de validez de C0. Ningún supuesto silencioso |
 
 ## Decisiones sobre S1 y S5 `[AUTOR, 2026-11-03]`
 
@@ -107,12 +107,12 @@ Con S1 débil, la lectura de C3 es más prudente: una diferencia de parámetros 
 
 ## Lectura
 
-C0 se sostiene en dos claims propios (C1: el rival PRBS es un buen modelo; C2: la señal suave cumple su definición) y en siete premisas. La potencia (S1) se apoya solo en una caracterización única y la comparabilidad de condiciones (S5) no tiene respaldo; ambas figuran en la condición de validez de C0. C3 y C4 interpretan su resultado. Lo limitan L1 (solo error de predicción, no control), L2 (una campaña y una máscara de nubes), L4 (banco, no planta solar) y L5 (potencia no medida entre ensayos).
+C0 se sostiene en dos claims propios (C1: el rival PRBS es un buen modelo; C2: la señal suave cumple su definición) y en siete premisas. La potencia (S1) se mide en cada muestra con una calibración verificada y la comparabilidad de condiciones (S5) no tiene respaldo; ambas figuran en la condición de validez de C0. C3 y C4 interpretan su resultado. Lo limitan L1 (solo error de predicción, no control), L2 (una campaña y una máscara de nubes), L4 (banco, no planta solar) y L5 (potencia no medida entre ensayos).
 
 ## Entrada para P4 (R13)
 
 - Claims que requieren evidencia propia: C0, C1, C2, C3, C4.
-- Premisas que acotan C0: S1 (caracterización única), S5 (sin respaldo).
+- Premisas que acotan C0: S1 (potencia medida; escala en L5), S5 (sin respaldo).
 - Pendientes para P5: protocolo de la caracterización de potencia; cómo asegurar S5; ampliación de L2 a 2 secuencias de nubes.
 - Límites: L1, L2, L5 (declarados, dentro del rango), L4 (declarado, fuera de rango); L3 (medido) se crea en P6 si C0 resulta parcial.
 
@@ -129,3 +129,4 @@ C0 se sostiene en dos claims propios (C1: el rival PRBS es un buen modelo; C2: l
 | J2 | 2026-11-03 | C1 pasa a tipo B en el grafo. **P3 cerrada** | Decisión y visto bueno del autor |
 | J2.1 | 2026-11-04 | C7 respalda S4 (RTP desde P5) | Decisión del autor |
 | J2.2 | 2026-11-04 | S4 precisa el retardo: global constante, sin retardo entre etapas | Decisión del autor en P5 |
+| J2.3 | 2026-11-25 | S1 pasa a potencia medida (R·I²) con calibración de corriente; nodo de respaldo y L5 actualizados (RTP desde P5) | Decisión del autor en P5 v1.3 |

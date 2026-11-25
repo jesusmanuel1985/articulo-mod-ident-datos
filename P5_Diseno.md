@@ -3,7 +3,7 @@
 Entrada: E-set v1.1 (`P4_Evidencia.md`), J2.2 (`P3_Jerarquia.md`), C-set v1.6 (`P2_Claims.md`), H0 v1.1 y campaña base (`P0_H0_Tesis_Loreto.md`).
 Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P5. **Modo A** (campaña principal).
 
-**Estado: v1.2 CONGELADA — 2026-11-04. Reemplaza a la v1.1 (archivada en `P5_Diseno_v1.1.md`) y a la v1 (`P5_Diseno_v1.md`). Autor responsable: Jesús García.** Cualquier cambio posterior exige una nueva versión fechada antes de la corrida afectada; tras una corrida INV solo se admiten los cambios que permite la sección P5 de la metodología. **Ningún dato de la campaña puede adquirirse bajo una versión posterior a su fecha de aprobación (R10).** Las corridas P y PS son piloto: se rotulan como tales y no entran al E-set. K es la caracterización que entrega E8 y sí entra.
+**Estado: v1.3 CONGELADA — 2026-11-25. Reemplaza a la v1.2 (archivada en `P5_Diseno_v1.2.md`); versiones anteriores en `P5_Diseno_v1.1.md` y `P5_Diseno_v1.md`. Autor responsable: Jesús García.** Cualquier cambio posterior exige una nueva versión fechada antes de la corrida afectada; tras una corrida INV solo se admiten los cambios que permite la sección P5 de la metodología. **Ningún dato de la campaña puede adquirirse bajo una versión posterior a su fecha de aprobación (R10).** Las corridas P y PS son piloto: se rotulan como tales y no entran al E-set. K verifica la calibración de corriente en la que se apoya E8 y sí entra.
 
 ---
 
@@ -25,13 +25,26 @@ La tabla de campaña de P0 asigna **potencia PRBS 0/100 % por panel** a la rama 
 | --- | --- | --- |
 | Plataforma | Banco de 4 colectores FP3.0E en serie (lab. FCI, UACh), ≈ 9.5 L de inventario; PLC LOGO!8; Raspberry Pi + tarjeta RTD | P0 |
 | Variables manipuladas | Comando de caudal 200–400 L/h (lazo interno de caudal del banco); estado de las 4 resistencias 0/100 % | P0 |
-| Variables medidas | T0–T4 con PT100 clase A; caudal (Flow3) con resolución 23.47 L/h; estado de resistencias (HR1–HR4); T ambiente (sensor existente: se registra para comparar condiciones entre corridas, E9 y V3; **no es entrada de los modelos**) `[AUTOR, 2026-11-04]` | P0 |
-| Incertidumbre estática | PT100: ±0.15 °C; caudal: ≈ 1 % y resolución 23.47 L/h; potencia: corriente con pinza **ANENG ST181** y tensión con multímetro **UNI-T UT89X** `[AUTOR, 2026-11-04]`. Resolución: 0.01 A (rango de 40 A) y 0.1 V `[AUTOR, 2026-11-04]`. Exactitud nominal: pinza ±(2.5 % + 3 dígitos) en corriente AC y multímetro ±(0.8 % + 5 dígitos) en tensión AC, según fuentes secundarias (tiendas), por confirmar en los manuales | P0, P4 |
+| Variables medidas | T0–T4 con PT100 clase A; caudal (Flow3) con resolución 23.47 L/h; estado de resistencias (HR1–HR4); corriente de cada resistencia (§1.1); T ambiente (sensor existente: se registra para comparar condiciones entre corridas, E9 y V3; **no es entrada de los modelos**) `[AUTOR, 2026-11-04]` | P0 |
+| Incertidumbre estática | PT100: ±0.15 °C; caudal: ≈ 1 % y resolución 23.47 L/h; potencia: ver §1.1 `[AUTOR, 2026-11-25]`. Multímetro **UNI-T UT89X** para R en frío (resolución 0.1 Ω); pinza **ANENG ST181** (no true RMS, resolución 0.01 A) solo para comparaciones relativas | P0, P4 |
 | Muestreo | Ts ≈ 2.2 s (fs ≈ 0.45 Hz) | P0 |
 | Nyquist (R6) | Canal caudal→T4: τ ≈ 233 s, t0 ≈ 62 s → ancho de banda ≈ 1/(2π·233) ≈ 0.0007 Hz. fs supera ese ancho de banda más de 600 veces | P0 |
 | Filtro anti-aliasing | No aplica (dinámica mucho más lenta que fs); sin filtro en la tarjeta RTD, según el autor `[AUTOR, 2026-11-04]` | — |
 | Conversión A/D | No se exige en bits: se declara la **resolución efectiva** observada en datos existentes del banco (menor salto de T y de caudal) | Datos de otros proyectos (solo lectura) |
 | Almacenamiento | Datos crudos sin filtrar, un archivo por corrida con marca de tiempo, versión de P5 y rol de la corrida (piloto / identificación / validación / INV). CSV del sistema de adquisición actual (`run_18_Test_taken_at_…`) en `datos_campana/crudos/` `[AUTOR, 2026-11-04]` | — |
+
+### 1.1 Potencia de las resistencias (E8) `[AUTOR, 2026-11-25]`
+
+La potencia entra a los modelos medida en cada muestra, no como un valor nominal:
+
+Q_i(t) = estado_i(t) · R_i · I_i(t)²
+
+- **Por qué no un valor nominal.** Los reguladores de ángulo de fase siguen en el circuito: sin ellos, las 4 resistencias al 100 % sobrecargarían la red. La potencia de cada resistencia cae de 1.5–1.6 kW (sola) a 1.3–1.4 kW (las 4 encendidas) por la caída de tensión de la red, así que un P_nom constante erraría hasta en ≈ 19 %. Con corriente recortada, V·I es potencia aparente, y la pinza ANENG ST181 no es true RMS: no se usa para E8.
+- **I_i(t):** transmisor de corriente (entrada AC 0–20 A, salida 0–10 V) con fuente de 24 V exclusiva y filtro RC (5.1 kΩ, 1000 µF, τ ≈ 5 s) hacia el LOGO. Calibración del 24-11-2026 contra los medidores DIN TYZHBOUL ZS-6035VAKW: I = (N − N0)/S, con S = 37.6 / 43.7 / 38.6 / 38.1 cuentas/A y N0 = 4.9 / 4.2 / 4.1 / 4.0 cuentas (R1 a R4), en `C-digos-Sistema-de-Control/Diagnostico sensores corriente/CALIBRACION.md` (commit `1ab8ad0`). El CSV de adquisición registra `Current sensor k` = N × 0.02, así que N se recupera sin cambiar el código. Ruido ≤ 0.03 A; linealidad ≤ 1.1 % entre la resistencia sola y las 4 encendidas; repetibilidad ≤ 0.2 %. Válida solo con duty 0 o 100 % y con las perillas en su posición del 24-11.
+- **R_i:** resistencia en frío medida con el multímetro UNI-T UT89X el 2026-11-25 a 17.8 °C (resolución 0.1 Ω; puntas en corto 0 Ω): 17.2, 17.7, 17.6 y 17.6 Ω (R1 a R4; media de dos lecturas). Datos en `campana/resistencias_en_frio.csv`.
+- **Retardo del filtro.** τ ≈ 5 s frente a ≈ 100 s de la dinámica térmica: despreciable. Multiplicar por estado_i anula la cola del filtro tras cada apagado.
+- **Escala absoluta (límite L5).** Los medidores DIN no están certificados. Contraste de I²·R_i con sus kW: R1, R3 y R4 coinciden dentro de −4.5 % a +2.2 % (resolución del medidor, 0.1 kW). En el circuito de R2 los instrumentos discrepan, y la discrepancia sigue al circuito al intercambiar los medidores (`campana/pinza_R2_R3*.csv`): la corriente de R2 está entre 9.05 A (medidor) y 9.88 A (pinza), ≈ ±4.5 % en corriente y ≈ ±9 % en potencia. Un error de escala constante por resistencia lo absorbe la ganancia identificada g_i y es igual en todos los modelos, así que no afecta a C0, C1, C3 ni C7; solo a los valores absolutos de potencia que se informen.
+- **Los medidores DIN** de R2 y R3 quedan intercambiados desde el 2026-11-25 (contraste de R2). No afecta a E8: los modelos usan la corriente de los transmisores, que no se movieron, y K compara cuentas del LOGO, no lecturas de los medidores. Ambos medidores leen lo mismo dentro de ≈ 1 % en cada circuito. Las lecturas de K y cualquier recalibración registran qué medidor está en cada circuito.
 
 ---
 
@@ -41,7 +54,7 @@ La tabla de campaña de P0 asigna **potencia PRBS 0/100 % por panel** a la rama 
 
 | Corrida | Rol | Comando de caudal | Potencia (binaria) | Duración | n |
 | --- | --- | --- | --- | --- | --- |
-| K | Caracterización de potencia (E8) | Fijo 300 L/h | Cada resistencia al 100 %, una a la vez | ≈ 30 min | 1 |
+| K | Verificación de la calibración de corriente (E8) `[AUTOR, 2026-11-25]` | Fijo 300 L/h | Apagadas 60 s; cada resistencia sola 60 s, con 60 s apagadas entre ellas; las 4 juntas 90 s; apagadas 60 s | 690 s más reposo | 1 |
 | P | Piloto (no entra al E-set) | Prueba de las señales y del registro, más **dos repeticiones idénticas de un tramo de 2500 s de la validación** (secuencia PI y una máscara de prueba distinta de A, B y C) | Prueba | 2 × 2500 s (≈ 1.4 h) más reposo | 1 |
 | IS | Identificación, rama suave | Señal suave (§2.2) | Máscara A | 6000 s | 1 |
 | IP | Identificación, rama PRBS | PRBS de caudal (§2.2) | Máscara A (misma) | 6000 s | 1 |
@@ -54,7 +67,7 @@ Subconjuntos declarados para la regla de desenlace "parcial": **las dos máscara
 
 La corrida NL recupera la corrida de no linealidad de P0, que había quedado fuera del C-set por un error de numeración (P0 la asignó a "premisa S1"; en P3 S1 pasó a ser la potencia). Ahora sostiene el claim C7 (retorno RTP a P2–P4, registrado). Las ganancias se calculan como ΔT4/ΔQ entre los promedios de los últimos 300 s de mesetas consecutivas.
 
-En K, cada resistencia queda encendida 450 s. El sistema de adquisición no registra tensión ni corriente: se miden con la pinza y el multímetro y se anotan a mano en ese intervalo, junto con el rango usado en cada instrumento.
+**Corrida K** `[AUTOR, 2026-11-25]`. Repite la secuencia de la calibración del 24-11 dentro del script de campaña. A los 25 s de cada etapa con resistencias encendidas, el script avisa en pantalla y el operador lee en voz alta V, A y kW de los medidores DIN encendidos; la grabación se transcribe junto al CSV. Para cada resistencia se calcula la media de las cuentas desde los 25 s de su etapa sola y de la etapa con las 4 encendidas, y se compara con la corrida v2 del 24-11 (sola / todas: R1 363.5 / 338.0; R2 393.2 / 365.9; R3 371.1 / 340.1; R4 351.6 / 327.1 cuentas). Si alguna difiere más de **5 %**, las perillas se movieron o la cadena cambió: se recalibra (procedimiento de `CALIBRACION.md` §9) y se repite K antes de seguir. Las medias de K son la referencia de la compuerta V6.
 
 ### 2.2 Señales de caudal
 
@@ -95,7 +108,7 @@ Ambas señales se generan antes de la campaña con un script con semilla fija, q
 | Regla de descarte | Detalle |
 | --- | --- |
 | Transitorio inicial | Primeros 900 s de cada corrida |
-| Fallo de sensor | Muestra con T fuera de 0–100 °C, caudal fuera de 0–500 L/h, o valor faltante |
+| Fallo de sensor | Muestra con T fuera de 0–100 °C, caudal fuera de 0–500 L/h, corriente fuera de 0–20 A, o valor faltante |
 | Saturación | Muestras con comando > 400 L/h o caudal medido > 420 L/h |
 | **Umbral a INV** | Si se descarta más del **5 %** de las muestras de una corrida (sin contar el transitorio), la corrida completa es INV `[AUTOR, 2026-11-04]` |
 
@@ -112,6 +125,7 @@ No se excluye ninguna réplica de validación por su resultado (P4).
 | V3 Paridad en línea | Ver §6 (diferencias de T ambiente y T0 entre IS e IP fuera de tolerancia). Corridas de validación: T ambiente media dentro de ± **5 °C** de la media de IS e IP; si no, INV y se repite |
 | V4 Exclusión excesiva | Descarte > 5 % (§3) |
 | **V5 Calidad de la referencia** (criterio ii de P0, E4) | En la validación, el modelo bilineal-PRBS a 1000 s **no supera a la persistencia**, **o** su FIT_H = 1 − RMSE_H / std(T4) es **< 50 %** (equivale a r²_H < 0.75 y a RMSE_H > 0.5·std(T4)) → la identificación es INV y se repite `[AUTOR, 2026-11-04]`. El IAE se informa, pero no sirve como compuerta: depende de la escala y de la duración |
+| V6 Potencia `[AUTOR, 2026-11-25]` | En cualquier corrida, para cada resistencia encendida y cada número n de resistencias encendidas, la corriente media de las muestras tomadas al menos 25 s después del último cambio de la máscara difiere más de **5 %** de la referencia de K para ese n (n = 1 y n = 4 medidos; n = 2 y 3 por interpolación lineal en n) → INV; se recalibra y se repite K. El 5 % en corriente equivale a ≈ 10 % en potencia y supera la variación de la tensión de red observada (≈ 2 %) |
 
 ---
 
@@ -123,7 +137,7 @@ No se excluye ninguna réplica de validación por su resultado (P4).
 
 **Estructura bilineal** (balance por etapa de P0), en **variables absolutas** (temperaturas en °C y caudal real, sin punto de operación) `[AUTOR, 2026-11-04]`: para i = 1…4,
 C_i·dT_i/dt = ṁ·cp·(T_{i−1} − T_i) + g_i·Q_i − h_i·(T_i − T_amb),
-con ṁ el caudal medido, cp del agua conocido, Q_i = estado_i·P_nom,i (E8) y T_0 medida.
+con ṁ el caudal medido, cp del agua conocido, Q_i(t) = estado_i(t)·R_i·I_i(t)² medida (E8, §1.1) y T_0 medida.
 Parámetros por etapa: **C_i** (capacidad térmica, que pondera el término ṁ·cp), **g_i** (ganancia de potencia) y **h_i** (pérdidas). **Retardo de transporte: sin retardo entre etapas, con un retardo global** `[AUTOR, 2026-11-04]`. Es un retardo constante d, el mismo para todas las entradas (caudal medido, T0 y potencias): las ecuaciones se alimentan con u(t − d). En un sistema invariante en el tiempo equivale a retrasar la salida, y en MPC discreto suma d/Ts estados de retardo. d se estima en cada rama por búsqueda en grilla 0–200 s cada Ts, con el mismo procedimiento en ambas (PA3); los demás parámetros se estiman para cada d de la grilla y se queda el de menor costo. En la métrica (§5.1) se usan las entradas medidas desde t − d. **T ambiente no entra como variable:** en el término de pérdidas, T_amb es una constante estimada junto con los demás parámetros, igual en ambas ramas `[AUTOR, 2026-11-04]`.
 
 **Estimación.** Minimización del error de simulación libre de T1–T4 sobre todo el registro útil (tras 900 s), con parámetros positivos y acotados, integración con paso Ts, 10 puntos de partida aleatorios con semilla fija; se queda el de menor costo. Idéntico en ambas ramas (PA3).
@@ -135,7 +149,7 @@ Parámetros por etapa: **C_i** (capacidad térmica, que pondera el término ṁ�
 
 ### 5.1 Métrica (E1, E3, E7)
 
-- Para cada instante t de la ventana de evaluación (tras el transitorio y hasta el final de la corrida menos H): se predice T4(t + 1000 s) con las entradas medidas (caudal medido y estado de las resistencias × P_nom de E8) y se compara con la medición.
+- Para cada instante t de la ventana de evaluación (tras el transitorio y hasta el final de la corrida menos H): se predice T4(t + 1000 s) con las entradas medidas (caudal medido y potencia medida Q_i de E8, §1.1) y se compara con la medición.
 - **Bilineal:** se inicializa con las temperaturas medidas en t y se simula 1000 s.
 - **FOPDT:** sus estados internos no se miden; se simula de forma continua en toda la corrida, con salida y, y se ancla al valor medido: T̂4(t + H) = T4(t) + [y(t + H) − y(t)] `[AUTOR, 2026-11-04]`. Ambos modelos parten así del T4 medido en t (PA2 de C1).
 - RMSE_H = raíz del promedio de los errores al cuadrado sobre todos los t de la ventana, por réplica.
@@ -189,7 +203,7 @@ Por máscara: R_p = RMSE_H(PRBS) medio, R_s = RMSE_H(suave) medio, M = máx(1.5�
 | PA | Implementación | Tolerancia |
 | --- | --- | --- |
 | PA1 C0 | Misma máscara A (mismo archivo) en IS e IP; mismo rango 200–400 L/h; IS e IP el mismo día | T ambiente media: |IS − IP| ≤ 3 °C; T0 al inicio: ≤ 1 °C |
-| PA2 C0 | Mismo script de adquisición; caudal medido **sin filtrar** en ambas ramas (o el mismo filtro, declarado aquí); misma P_nom (E8) | Identidad (mismo código y parámetros) |
+| PA2 C0 | Mismo script de adquisición; caudal medido **sin filtrar** en ambas ramas (o el mismo filtro, declarado aquí); misma conversión de corriente a potencia (E8: calibración y R_i de §1.1) | Identidad (mismo código y parámetros) |
 | PA3 C0 | Mismo código de estimación (hash registrado), misma estructura, inicialización y criterio de parada; minimización del error de simulación | Identidad |
 | PA5 C0 | Mismo script de métricas, mismas ventanas y descarte de 900 s | Identidad |
 | PA6 C0 | IS e IP de igual duración | Número de muestras útiles: diferencia ≤ 1 % |
@@ -213,7 +227,7 @@ Por máscara: R_p = RMSE_H(PRBS) medio, R_s = RMSE_H(suave) medio, M = máx(1.5�
 
 ## 8. Decisiones del autor para congelar P5
 
-Sin pendientes. Congelaciones de la v1, la v1.1 y la v1.2 autorizadas y efectuadas por el autor el 2026-11-04.
+Congelaciones de la v1, la v1.1 y la v1.2 autorizadas y efectuadas por el autor el 2026-11-04. v1.3 congelada por el autor el 2026-11-25 (potencia medida, umbral de 5 %).
 
 **Revisión de las secuencias PI existentes (2026-11-04).** Cinco ensayos PI (oct–nov y marzo 2026), con consigna T4 = 35 °C en los de octubre, tras los primeros 900 s: duran ≈ 4200–4540 s (se exigen 6000 s); comando entre 100 y ≈ 280 L/h; entre 38 % y 94 % del tiempo bajo 200 L/h, fuera del rango de H0. Tampoco son binarias: el ciclo de trabajo toma valores intermedios. Con T0 ≈ 18.5 °C y un índice de calor ≈ 3750 L/h·°C, un caudal medio de 300 L/h corresponde a una consigna T4 ≈ 31 °C.
 
@@ -236,3 +250,4 @@ Sin pendientes. Congelaciones de la v1, la v1.1 y la v1.2 autorizadas y efectuad
 | **v1** | 2026-11-04 | Horario 09:00 y 11:30; datos crudos en `datos_campana/crudos/`; agregación por n_rep; PRBS periódica hasta 6000 s. **P5 congelada** | Decisión del autor |
 | **v1.1** | 2026-11-04 | Orden K → PS → P; tramo de P de 2500 s (1600 s útiles para σ_T4); criterio de reposo por regresión sobre 300 s; corte a 48 °C (V1); arranque de PS sin salto; escalón de t = 0 declarado; V e I de K anotadas a mano; C3 precisa que los parámetros son los C_i; K entra al E-set por E8. **P5 congelada**, antes de adquirir datos. Código de campaña: commit `75690ba` de `banco-control-identificacion` | Revisión del código de campaña; decisión del autor sobre P |
 | **v1.2** | 2026-11-04 | ±0.1 A y ±0.1 V no eran exactitud: resolución 0.01 A y 0.1 V; exactitud nominal de fuentes secundarias, por confirmar en los manuales; rango anotado en K. **P5 congelada**, antes de adquirir datos | Corrección del autor |
+| **v1.3** | 2026-11-25 | Potencia medida en cada muestra, Q_i = estado_i·R_i·I_i² (§1.1), con transmisores calibrados el 24-11 y R en frío; K pasa a verificar la calibración (690 s, sin la etapa al 50 %) con umbral de 5 %; nueva compuerta V6 (5 % en corriente); fallo de sensor incluye la corriente; pinza solo para comparaciones relativas. Retorno RTP a P2–P4 (L5, S1, E8). Medidores DIN de R2 y R3 intercambiados, sin efecto en E8. **P5 congelada**, antes de adquirir datos | Reguladores de fase, pinza no true RMS, perillas no aseguradas y caída de tensión de red; decisión del autor |

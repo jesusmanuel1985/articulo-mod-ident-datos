@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera los comandos de caudal y las máscaras de potencia de la campaña (P5 v1.2).
+"""Genera los comandos de caudal y las máscaras de potencia de la campaña (P5 v1.3).
 
 Salidas en campana/senales/:
   comando_{IS,IP,K,NL}.csv ......... t [s], sp [L/h], cada 1 s
@@ -31,7 +31,8 @@ RELOJ_PRBS = 90            # s
 TRANSICIONES_MIN = 6       # por panel en 6000 s
 SEPARACION_PANELES = 10    # s, mínimo entre transiciones de paneles distintos
 DT_TRANSICION = 0.01       # s, separación de las dos filas de cada transición
-PASO_K = 450               # s, cada resistencia encendida en la caracterización
+ETAPA_K = 60               # s, cada etapa de la verificación de corriente
+ETAPA_K_TODAS = 90         # s, las 4 encendidas
 CAUDAL_K = 300             # L/h
 CAUDALES_NL = [200, 300, 400]  # L/h
 MESETA_NL = 1200           # s
@@ -103,14 +104,21 @@ def filas_mascara(iniciales, cambios, duracion):
 
 
 def corrida_k():
-    """Caracterización K: 300 L/h fijo y cada resistencia al 100 %, una a la vez."""
-    filas = [[0.0, 1, 0, 0, 0]]
-    for i in range(1, 4):
-        estado = [1 if j == i else 0 for j in range(4)]
-        filas.append([i * PASO_K - DT_TRANSICION] + [1 if j == i - 1 else 0 for j in range(4)])
-        filas.append([float(i * PASO_K)] + estado)
-    filas.append([float(4 * PASO_K), 0, 0, 0, 1])
-    return [float(CAUDAL_K)] * (4 * PASO_K + 1), filas
+    """Verificación de corriente K: 300 L/h fijo; apagadas, cada resistencia sola, las 4 juntas."""
+    apagadas = [0, 0, 0, 0]
+    etapas = [(apagadas, ETAPA_K)]
+    for i in range(4):
+        etapas += [([1 if j == i else 0 for j in range(4)], ETAPA_K), (apagadas, ETAPA_K)]
+    etapas += [([1, 1, 1, 1], ETAPA_K_TODAS), (apagadas, ETAPA_K)]
+    filas = [[0.0] + apagadas]
+    t = 0
+    for (estado, duracion), (siguiente, _) in zip(etapas, etapas[1:]):
+        t += duracion
+        filas.append([t - DT_TRANSICION] + estado)
+        filas.append([float(t)] + siguiente)
+    t += etapas[-1][1]
+    filas.append([float(t)] + apagadas)
+    return [float(CAUDAL_K)] * (t + 1), filas
 
 
 def corrida_nl(rng):
@@ -173,7 +181,7 @@ def escribir(nombre, encabezado, filas):
 
 def main():
     SALIDA.mkdir(exist_ok=True)
-    manifiesto = {"P5": "v1.2", "semillas": SEMILLAS, "archivos": {}, "verificaciones": {}}
+    manifiesto = {"P5": "v1.3", "semillas": SEMILLAS, "archivos": {}, "verificaciones": {}}
 
     sp, niveles = senal_suave(random.Random(SEMILLAS["IS"]))
     manifiesto["verificaciones"]["C2_IS"] = verificar_c2(sp, niveles)

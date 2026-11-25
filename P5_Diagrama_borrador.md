@@ -1,6 +1,6 @@
 # P5 — Diagrama de flujo (BORRADOR)
 
-Borrador de apoyo, no forma parte del diseño congelado. Resume `P5_Diseno.md` v1.2. Si hay diferencias, manda `P5_Diseno.md`.
+Borrador de apoyo, no forma parte del diseño congelado. Resume `P5_Diseno.md` v1.3. Si hay diferencias, manda `P5_Diseno.md`.
 
 ## Flujo general
 
@@ -10,12 +10,12 @@ Son tres etapas seguidas. Cada corrida pasa además por el control de la secció
 
 ```mermaid
 flowchart TD
-  A["P5 v1.2"] --> FZ{"¿Autor congela P5 v1.2?"}
+  A["P5 v1.3"] --> FZ{"¿Autor congela P5 v1.3?"}
   FZ -- "no" --> A
   FZ -- "sí" --> SC["Script con semilla: señal suave, PRBS, máscaras A, B, C"]
   SC --> C2{"C2 en el archivo de comando: tasa ≤ 2 L/h·s, saltos ≥ 100 L/h, máx ≤ 400 L/h"}
   C2 -- "no cumple" --> SC
-  C2 -- "cumple" --> K["K: V·I por resistencia → P_nom"]
+  C2 -- "cumple" --> K["K: verificación de la calibración de corriente (umbral 5 %)"]
   K --> PS["PS: PI en lazo cerrado → secuencia de caudal"]
   PS --> P["Piloto: 2 repeticiones de 2500 s → σ_T4"]
   P --> NR{"σ_T4 > 0.25 °C"}

@@ -1,0 +1,5 @@
+lectura,resistencia,medidor_usado,pinza_A,medidor_V,medidor_A,medidor_kW,fecha_registro
+1,R2,medidor original de R3,9.84,217,9.04,1.6,2026-11-25
+2,R3,medidor original de R2,9.12,220,9.47,1.6,2026-11-25
+3,R2,medidor original de R3,9.91,217,9.06,1.6,2026-11-25
+4,R3,medidor original de R2,9.39,218,9.36,1.5,2026-11-25

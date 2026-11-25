@@ -1,0 +1,5 @@
+calefactor,lectura_1_ohm,lectura_2_ohm,puntas_en_corto_ohm,temperatura_C,fecha_registro,instrumento
+R1,17.2,17.2,0,17.8,2026-11-25,UNI-T UT89X
+R2,17.8,17.6,0,17.8,2026-11-25,UNI-T UT89X
+R3,17.6,17.6,0,17.8,2026-11-25,UNI-T UT89X
+R4,17.6,17.6,0,17.8,2026-11-25,UNI-T UT89X
