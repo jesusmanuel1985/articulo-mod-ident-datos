@@ -1,0 +1,5 @@
+resistencia,entrada_logo,cero_cuentas,sola_cuentas,sola_medidor_A,todas_cuentas,todas_medidor_A,S_cuentas_por_A,N0_cuentas,error_rms_A,S_24-11
+R1,AI3,5.0,339.1,8.98,326.6,8.59,37.31,5.05,0.022,37.6
+R2,AI4,4.0,383.7,8.89,355.4,8.15,42.88,4.15,0.033,43.7
+R3,AI1,4.0,365.0,9.36,332.3,8.41,38.75,4.22,0.044,38.6
+R4,AI2,4.0,343.6,8.98,316.0,8.22,37.87,4.05,0.013,38.1

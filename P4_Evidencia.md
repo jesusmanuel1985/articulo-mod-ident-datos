@@ -18,7 +18,7 @@ Todas las E# están **planificadas** y **no vistas**: provienen de la campaña n
 | E5 | C2 | Tasa máxima del comando [L/h·s], amplitud [L/h] y comando máximo [L/h] de la rama suave | Absoluto: ≤ 2 L/h·s; ≥ 100 L/h; ≤ 400 L/h | Ensayo de identificación suave | — |
 | E6 | C3 | Parámetros del término ṁ·cp estimados en cada rama, con intervalo al 95 % (bootstrap o covarianza) [unidades del parámetro] | Entre ramas (solapamiento de intervalos) | Identificación de ambas ramas | — |
 | E7 | C4 | RMSE_H de la rama suave por tramo de caudal [°C]: 200–267, 267–333, 333–400 L/h | Entre tramos | Validación | — |
-| E8 | S1 | Potencia de cada resistencia en cada muestra, Q_i = estado_i·R_i·I_i² [W]: corriente del transmisor calibrado y R_i en frío | Entrada de potencia de todos los modelos, en ambas ramas | Calibración de corriente (24-11-2026), verificada en la corrida K y por corrida con la compuerta V6 de P5 `[AUTOR, 2026-11-25]` | S1; L5 queda reducido a la escala absoluta |
+| E8 | S1 | Potencia de cada resistencia en cada muestra, Q_i = estado_i·R_i·I_i² [W]: corriente del transmisor calibrado y R_i en frío | Entrada de potencia de todos los modelos, en ambas ramas | Calibración de corriente vigente (27-11-2026), verificada contra los medidores DIN en la corrida K al inicio de cada día de campaña (P5 v1.4) `[AUTOR, 2026-11-27]` | S1; L5 queda reducido a la escala absoluta |
 | E10 | C7 | Ganancia estática K = ΔT4/ΔQ [°C/kW] en cada meseta de 200, 300 y 400 L/h, y cociente K(200)/K(400), con incertidumbre | Absoluto: cociente ≥ 1.5 y K decreciente | Corrida NL (P5) | — |
 | E9 | S5 | T ambiente, T0 y temperatura inicial de los colectores [°C], por ensayo | Entre ensayos; tolerancia `[DECIDE AUTOR en P5]` | Todos los ensayos | S5 (parcialmente: muestra comparabilidad, no la garantiza) |
 
@@ -97,4 +97,5 @@ E1–E9 planificadas; tabla de paridad declarada; exclusiones; límites con subt
 | E-set v0 | 2026-11-03 | Borrador: E1–E9, paridad de C0 y C1, exclusiones, anclaje | Inicio de P4 |
 | **E-set v1** | 2026-11-03 | Potencia por caracterización única (sustituye lo decidido en P0); caudal medido como entrada; FOPDT con caudal y potencia; paridad PA1–PA6 y exclusiones aceptadas. **P4 cerrada** | Decisiones del autor |
 | E-set v1.1 | 2026-11-04 | E10 para C7 (RTP desde P5) | Decisión del autor |
+| E-set v1.3 | 2026-11-27 | E8: verificación con K diaria contra los medidores DIN; sin compuerta V6 (RTP desde P5 v1.4) | Decisión del autor |
 | E-set v1.2 | 2026-11-25 | E8 pasa de caracterización única (V·I) a potencia medida en cada muestra; L5 reducido a la escala absoluta (RTP desde P5) | Reguladores de fase, pinza no true RMS, perillas no aseguradas; decisión del autor |

@@ -9,7 +9,7 @@ Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P3.
 
 | S# | Premisa | Origen | Respaldo | Sostiene a | ¿Acota C0? |
 | --- | --- | --- | --- | --- | --- |
-| S1 | La potencia de cada resistencia es Q_i = estado_i·R_i·I_i², con I_i del transmisor de corriente calibrado y R_i en frío, y la calibración sigue válida durante la campaña | derivada (riesgo señalado en P0 por el segundo predictor) | Calibración del 24-11-2026, verificada en la corrida K y por corrida con la compuerta V6 (P5 v1.3) `[AUTOR, 2026-11-25]` | C0, C3 | Sí: entra en la condición de validez de C0; la escala absoluta queda en el límite L5 |
+| S1 | La potencia de cada resistencia es Q_i = estado_i·R_i·I_i², con I_i del transmisor de corriente calibrado y R_i en frío, y la calibración sigue válida durante la campaña | derivada (riesgo señalado en P0 por el segundo predictor) | Calibración de corriente vigente (27-11-2026), verificada contra los medidores DIN en la corrida K al inicio de cada día de campaña (P5 v1.4) `[AUTOR, 2026-11-27]` | C0, C3 | Sí: entra en la condición de validez de C0; la escala absoluta queda en el límite L5 |
 | S2 | Los PT100 (T0–T4) miden con exactitud ±0.15 °C (clase A) en todo el ensayo | implícita típica: calibración | Hoja de datos (P0) | C0, C1 | No, si se cumple: ±0.15 °C < margen de 0.5 °C (R12 de P0) |
 | S3 | El caudalímetro mide con resolución de 23.47 L/h y ≈ 1 % de exactitud | implícita típica: calibración | Hoja de datos / análisis del autor (P0) | C2, C4 | No para C0; sí para leer C4 por tramos de caudal |
 | S4 | El balance por etapa (mezcla perfecta por colector, cp constante, pérdidas incluidas en los parámetros identificados, sin retardo entre etapas y con un retardo global constante) describe la dinámica de T4 en 200–400 L/h | implícita típica: validez del modelo | R21 (Roca 2008), R5 (Ampuño 2019): misma estructura en campos de colectores; **C7** (no linealidad medida en el banco) `[AUTOR, 2026-11-04]` | C0, C1, C3 | Sí, como condición de validez: régimen 200–400 L/h |
@@ -24,7 +24,7 @@ Metodología: `Metodologia-desarrollo-de-articulo-cientifico.md`, sección P3.
 | Supuesto típico | Resultado |
 | --- | --- |
 | Validez del modelo | S4 |
-| Calibración de instrumentos | S2 (temperatura), S3 (caudal), S1 (potencia: calibración de corriente verificada en K y V6; escala absoluta en L5) |
+| Calibración de instrumentos | S2 (temperatura), S3 (caudal), S1 (potencia: calibración de corriente verificada con K diaria; escala absoluta en L5) |
 | Representatividad de la plataforma | **No aplica como premisa**: C5 se descartó en P2 y las conclusiones se acotan al banco (L4). Confirmado `[AUTOR, 2026-11-03]` |
 
 ## Grafo J2
@@ -92,7 +92,7 @@ Con S1 débil, la lectura de C3 es más prudente: una diferencia de parámetros 
 | --- | --- |
 | Ciclos | Ninguno (las aristas "interpreta" van de C3 y C4 a C0; C0 no depende de ellos) |
 | Camino a la raíz | C1, C2 → C0 como apoyos; C3, C4 → C0 como "interpreta"; L1, L2, L4, L5 indexados a C0 |
-| Propagación (R6) | S1 respaldada por la calibración de corriente (K, V6) y acotada por L5; S5 (sin respaldo) figura en la condición de validez de C0. Ningún supuesto silencioso |
+| Propagación (R6) | S1 respaldada por la calibración de corriente (K diaria) y acotada por L5; S5 (sin respaldo) figura en la condición de validez de C0. Ningún supuesto silencioso |
 
 ## Decisiones sobre S1 y S5 `[AUTOR, 2026-11-03]`
 
@@ -129,4 +129,5 @@ C0 se sostiene en dos claims propios (C1: el rival PRBS es un buen modelo; C2: l
 | J2 | 2026-11-03 | C1 pasa a tipo B en el grafo. **P3 cerrada** | Decisión y visto bueno del autor |
 | J2.1 | 2026-11-04 | C7 respalda S4 (RTP desde P5) | Decisión del autor |
 | J2.2 | 2026-11-04 | S4 precisa el retardo: global constante, sin retardo entre etapas | Decisión del autor en P5 |
+| J2.4 | 2026-11-27 | S1: respaldo por K diaria contra los medidores DIN; sin V6 (RTP desde P5 v1.4) | Decisión del autor |
 | J2.3 | 2026-11-25 | S1 pasa a potencia medida (R·I²) con calibración de corriente; nodo de respaldo y L5 actualizados (RTP desde P5) | Decisión del autor en P5 v1.3 |
