@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Genera los comandos de caudal y las máscaras de potencia de la campaña (P5 v1.3).
+"""Genera los comandos de caudal y las máscaras de potencia de la campaña (P5 v1.5).
 
 Salidas en campana/senales/:
-  comando_{IS,IP,K,NL}.csv ......... t [s], sp [L/h], cada 1 s
-  mascara_{A,B,C,PS,K,NL}.csv ...... t, p1, p2, p3, p4 (formato de fast_cloud_data)
+  comando_{IS,IP,K,NL,P}.csv ....... t [s], sp [L/h], cada 1 s
+  mascara_{A,B,C,PS,K,NL,P}.csv .... t, p1, p2, p3, p4 (formato de fast_cloud_data)
   manifiesto.json .................. semillas, parámetros, verificaciones y hashes
 
 Solo usa la biblioteca estándar. Aborta si alguna verificación falla.
 """
+import bisect
 import csv
 import hashlib
 import json
@@ -36,6 +37,10 @@ ETAPA_K_TODAS = 90         # s, las 4 encendidas
 CAUDAL_K = 300             # L/h
 CAUDALES_NL = [200, 300, 400]  # L/h
 MESETA_NL = 1200           # s
+DATOS_PS = Path(__file__).parent.parent / "datos_campana" / "crudos" / (
+    "P5v1.4_PS_r1_run_18_Test_taken_at_2026-11-27_10-22-01_part_1.csv")
+INICIO_P = 1000            # s de la PS réplica 1, tras el transitorio del PI
+DURACION_P = 2500          # s
 
 
 def senal_suave(rng):
@@ -137,6 +142,30 @@ def corrida_nl(rng):
     return sp, filas, orden
 
 
+def corrida_p(filas_ps):
+    """Piloto P: tramo [INICIO_P, INICIO_P + DURACION_P) de la PS réplica 1.
+
+    El comando es el que el PI envió en cada muestra (columna sp F1), retenido hasta la muestra
+    siguiente y llevado a 1 s; la máscara es la de PS en el mismo intervalo, desplazada a t = 0.
+    """
+    with DATOS_PS.open(encoding="utf-8") as f:
+        muestras = [(float(r["t_corrida (s)"]), float(r["sp F1"]))
+                    for r in csv.DictReader(f) if r["fase"] == "ensayo"]
+    tiempos = [t for t, _ in muestras]
+    sp = []
+    for t in range(INICIO_P, INICIO_P + DURACION_P + 1):
+        i = bisect.bisect_right(tiempos, t) - 1
+        sp.append(round(muestras[i][1], 1))
+    fin = INICIO_P + DURACION_P
+    estado = next(f[1:] for f in reversed(filas_ps) if f[0] <= INICIO_P)
+    filas = [[0.0] + estado]
+    for fila in filas_ps:
+        if INICIO_P < fila[0] < fin:
+            filas.append([round(fila[0] - INICIO_P, 2)] + fila[1:])
+    filas.append([float(DURACION_P)] + filas[-1][1:])
+    return sp, filas
+
+
 def verificar_c2(sp, niveles):
     """C2 sobre el archivo de comando (§5.4). Devuelve los valores medidos."""
     tasa = max(abs(b - a) for a, b in zip(sp, sp[1:]))
@@ -181,7 +210,7 @@ def escribir(nombre, encabezado, filas):
 
 def main():
     SALIDA.mkdir(exist_ok=True)
-    manifiesto = {"P5": "v1.3", "semillas": SEMILLAS, "archivos": {}, "verificaciones": {}}
+    manifiesto = {"P5": "v1.5", "semillas": SEMILLAS, "archivos": {}, "verificaciones": {}}
 
     sp, niveles = senal_suave(random.Random(SEMILLAS["IS"]))
     manifiesto["verificaciones"]["C2_IS"] = verificar_c2(sp, niveles)
@@ -201,6 +230,8 @@ def main():
         manifiesto["verificaciones"][f"mascara_{nombre}"] = verificar_mascara(
             iniciales, cambios, filas, duracion)
         generadas[nombre] = cambios
+        if nombre == "PS":
+            filas_ps = filas
         manifiesto["archivos"][f"mascara_{nombre}.csv"] = escribir(
             f"mascara_{nombre}.csv", ["t", "p1", "p2", "p3", "p4"], filas)
     assert len({json.dumps(c) for c in generadas.values()}) == 4, "máscaras repetidas"
@@ -217,6 +248,18 @@ def main():
         "comando_NL.csv", ["t", "sp"], [[t, v] for t, v in enumerate(sp)])
     manifiesto["archivos"]["mascara_NL.csv"] = escribir(
         "mascara_NL.csv", ["t", "p1", "p2", "p3", "p4"], filas)
+
+    sp, filas = corrida_p(filas_ps)
+    assert COMANDO_MIN <= min(sp) and max(sp) <= COMANDO_MAX
+    manifiesto["verificaciones"]["P"] = {
+        "origen": DATOS_PS.name, "sha256_origen": hashlib.sha256(DATOS_PS.read_bytes()).hexdigest(),
+        "tramo_s": [INICIO_P, INICIO_P + DURACION_P], "comando_min_L_h": min(sp),
+        "comando_max_L_h": max(sp), "comando_medio_L_h": round(sum(sp) / len(sp), 1),
+        "transiciones_mascara": (len(filas) - 2) // 2}
+    manifiesto["archivos"]["comando_P.csv"] = escribir(
+        "comando_P.csv", ["t", "sp"], [[t, v] for t, v in enumerate(sp)])
+    manifiesto["archivos"]["mascara_P.csv"] = escribir(
+        "mascara_P.csv", ["t", "p1", "p2", "p3", "p4"], filas)
 
     ruta = SALIDA / "manifiesto.json"
     ruta.write_text(json.dumps(manifiesto, ensure_ascii=False, indent=2), encoding="utf-8")

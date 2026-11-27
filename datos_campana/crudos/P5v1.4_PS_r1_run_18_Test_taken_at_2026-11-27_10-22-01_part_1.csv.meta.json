@@ -1,0 +1,10 @@
+{
+  "version_P5": "v1.4",
+  "corrida": "PS",
+  "replica": "1",
+  "commit": "99db1c4133a97b819b7e018f18148e17e72930c3",
+  "senales": [
+    "mascara_PS.csv"
+  ],
+  "duracion_s": 7000
+}

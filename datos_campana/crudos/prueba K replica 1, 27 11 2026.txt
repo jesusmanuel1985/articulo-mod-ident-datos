@@ -1,0 +1,25 @@
+Transcripción:
+ * En este momento se está ejecutando la prueba K, réplica número uno.
+ * ¿A partir de qué segundo se enciende la primera resistencia?
+ * Ya van 300 segundos de la prueba y ninguna resistencia se encendió.
+ * Por eso te pregunto desde qué punto empieza la prueba, o sea, qué es... cuál es el criterio para empezar la prueba, ¿la estabilización en temperatura o en qué o el flujo?
+ * Se acaba de encender la resistencia uno.
+ * El sensor de potencia mide 216 voltios, 8.90 amperes y 1.4 kilowatts.
+ * Se acaba de encender la resistencia número dos.
+ * La resistencia número dos indica 208 voltios, 8.47 amperes, 1.5 kilowatts.
+ * Se apagó la resistencia dos.
+ * Se acaba de encender la resistencia tres.
+ * Indica los siguientes valores el sensor de la resistencia tres: resistencia tres, 211 voltios, 8.94 amperes, 1.4 kilowatts.
+ * Se apagó la resistencia tres.
+ * Se acaba de encender la resistencia cuatro.
+ * El sensor de potencia de la resistencia cuatro indica 216 voltios, 8.55 amperes, 1.3 kilowatts.
+ * Se apagó la resistencia cuatro.
+ * Se acaban de encender todas las resistencias.
+ * El sensor uno de potencia indica 207 voltios, 8.17 amperes, 1.1 kilowatts.
+ * El sensor de corriente dos indica 197 voltios, 7.80 amperes, 1.2 kilowatts.
+ * El sensor de potencia tres indica 198 voltios, 8.03 amperes, 1.2 kilowatts.
+ * Y el sensor de potencia cuatro indica 207 voltios, 7.90 amperes, 1.1 kilowatts.
+ * Todas las perillas de los sensores... perdón, de los módulos de control de la corriente de las resistencias siguen en la misma posición que siempre.
+ * Ya se apagaron todas las resistencias.
+ * Con las resistencias apagadas, los sensores de potencia indican voltaje de... el sensor uno, un voltaje de 220 voltios; el sensor dos, 221 voltios; el sensor tres, 222 voltios; y el cuatro, 221 voltios.
+ * Acabó la prueba.

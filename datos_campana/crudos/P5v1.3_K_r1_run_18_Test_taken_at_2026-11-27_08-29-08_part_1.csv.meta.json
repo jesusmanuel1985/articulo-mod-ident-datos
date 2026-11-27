@@ -1,0 +1,11 @@
+{
+  "version_P5": "v1.3",
+  "corrida": "K",
+  "replica": "1",
+  "commit": "cc75a715ee48d109156c0b0b3d3c06bdbd6a8578",
+  "senales": [
+    "comando_K.csv",
+    "mascara_K.csv"
+  ],
+  "duracion_s": 690
+}

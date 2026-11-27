@@ -1,0 +1,20 @@
+* Ya se inició la prueba K, réplica dos. Estamos esperando a que el sistema alcance estado estable en temperatura de la salida cuatro.
+ * Se acaba de encender la resistencia uno.
+ * La potencia indica 230... perdón, el voltaje indica 213 voltios, la corriente 8.76 amperios y la potencia 1.2 kilowatts.
+ * Se apagó la resistencia uno.
+ * Se encendió la resistencia dos.
+ * El voltaje de la resistencia dos indica 206 voltios, la corriente 8.36 amperes y la potencia 1.4 kilowatts.
+ * Se apagó la resistencia dos.
+ * Se encendió la resistencia tres.
+ * Esa resistencia o el sensor de potencia indica 209 voltios, 8.79 amper, 1.4 kilowatts.
+ * Se apagó la resistencia tres.
+ * Se encendió la resistencia cuatro.
+ * La resistencia... el sensor de potencia de la resistencia cuatro indica 209 voltios, 8.04 amperes y 1.3 kilowatts.
+ * Se apagó la resistencia cuatro.
+ * Se encendieron todas las resistencias.
+ * El sensor de potencia de la resistencia uno indica 204 voltios, 8.12 amper, 1.1 kilowatts.
+ * El sensor de potencia de la resistencia dos indica 195 voltios, 7.70 amperes, 1.2 kilowatts.
+ * El sensor de potencia de la resistencia tres indica 198 volts, 7.9 amperes, 1.1 kilowatts.
+ * Y el sensor de potencia de la resistencia tres... cuatro, perdón, de la resistencia cuatro indica 205 volts, 7.62 amperes, 1.1 kilowatts.
+ * Se apagaron todas las resistencias ya.
+ * Estando todas las resistencias apagadas, el voltaje del sensor uno indica 218 voltios, el del sensor dos 219 voltios, el del sensor tres indica 216 voltios y el del cuatro 220 voltios.

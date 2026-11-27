@@ -1,5 +1,5 @@
 {
-  "P5": "v1.3",
+  "P5": "v1.5",
   "semillas": {
     "IS": 20261104,
     "A": 20261105,
@@ -18,7 +18,9 @@
     "comando_K.csv": "5bc8fa30947cc92c9d102cb7bb729351b582a93d1f9c0bc1d233287bf4c27a5c",
     "mascara_K.csv": "0511e81006860bea096bfebd432205c6f8ef921e98e5441f231654002dea7bdd",
     "comando_NL.csv": "96bee0e8e1287248dbced038056dd57f4b7e8f40a2912125c96fd7496235426a",
-    "mascara_NL.csv": "ac8fc41a9c5427075faea36242258dfd2b13edd42e70535a52d9d76163b235a5"
+    "mascara_NL.csv": "ac8fc41a9c5427075faea36242258dfd2b13edd42e70535a52d9d76163b235a5",
+    "comando_P.csv": "cb5478c883c9cc974a62be5de4e894802f7189c3b53577cafd04f55d06731911",
+    "mascara_P.csv": "87a28d0a877507324e51de455aadd779c3b054e0f1026b0971d525b808996e10"
   },
   "verificaciones": {
     "C2_IS": {
@@ -130,6 +132,18 @@
       200,
       400,
       300
-    ]
+    ],
+    "P": {
+      "origen": "P5v1.4_PS_r1_run_18_Test_taken_at_2026-11-27_10-22-01_part_1.csv",
+      "sha256_origen": "34e101a2b6eca12a89806a599a29db7c03be18cac16cc1dc2e38f555b4776489",
+      "tramo_s": [
+        1000,
+        3500
+      ],
+      "comando_min_L_h": 200.0,
+      "comando_max_L_h": 292.3,
+      "comando_medio_L_h": 229.3,
+      "transiciones_mascara": 17
+    }
   }
 }

@@ -1,0 +1,97 @@
+PS C:\Users\PC2\OneDrive\Documents\Códigos Sistema de Control> python3 diagnostico_sensores_corriente.py cal_27-11                                                                                      
+Secuencia de 12 etapas, 12.5 min. Ctrl+C para cortar.
+Al grabar, di el nombre de la etapa antes de cada lectura (por ejemplo "solo R1: 209 V, 8,37 A, 1,2 kW").
+[   0.0 s] etapa apagadas_inicio: duty [0, 0, 0, 0]
+[  60.0 s] etapa solo_R1: duty [100, 0, 0, 0]
+    >>> [solo_R1] Lectura estable: lee ahora el medidor de R1 (quedan 35 s de etapa).
+[ 120.0 s] etapa apagadas_1: duty [0, 0, 0, 0]
+[ 180.0 s] etapa solo_R2: duty [0, 100, 0, 0]
+    >>> [solo_R2] Lectura estable: lee ahora el medidor de R2 (quedan 35 s de etapa).
+[ 240.0 s] etapa apagadas_2: duty [0, 0, 0, 0]
+[ 300.0 s] etapa solo_R3: duty [0, 0, 100, 0]
+    >>> [solo_R3] Lectura estable: lee ahora el medidor de R3 (quedan 35 s de etapa).
+[ 360.0 s] etapa apagadas_3: duty [0, 0, 0, 0]
+[ 420.0 s] etapa solo_R4: duty [0, 0, 0, 100]
+    >>> [solo_R4] Lectura estable: lee ahora el medidor de R4 (quedan 35 s de etapa).
+[ 480.1 s] etapa apagadas_4: duty [0, 0, 0, 0]
+[ 540.1 s] etapa todas: duty [100, 100, 100, 100]
+    >>> [todas] Lectura estable: lee ahora los 4 medidores (quedan 65 s de etapa).
+[ 630.1 s] etapa R1_50pct: duty [50, 0, 0, 0]
+    >>> [R1_50pct] Lectura estable: lee ahora el medidor de R1 (quedan 35 s de etapa).
+[ 690.1 s] etapa apagadas_fin: duty [0, 0, 0, 0]
+Resistencias en 0. Datos guardados en diagnostico_corriente_cal_27-11.csv
+
+Valores crudos del LOGO (0-1000 = 0-10 V); se descartan los primeros 25 s de cada etapa
+
+apagadas_inicio (21632 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     6
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.1  mín     4  máx     5
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+solo_R1 (21210 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     6
+  AI3 (R1): media  339.1 (3.39 V)  DE    2.9  mín   334  máx   345
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+apagadas_1 (22450 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     6
+  AI3 (R1): media    5.3 (0.05 V)  DE    0.7  mín     5  máx     8
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+solo_R2 (22161 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     6
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.0  mín     5  máx     5
+  AI4 (R2): media  383.7 (3.84 V)  DE    0.5  mín   382  máx   385
+
+apagadas_2 (21836 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     7
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.0  mín     4  máx     5
+  AI4 (R2): media    5.0 (0.05 V)  DE    1.3  mín     4  máx    10
+
+solo_R3 (21874 lecturas)
+  AI1 (R3): media  365.0 (3.65 V)  DE    0.5  mín   364  máx   366
+  AI2 (R4): media    4.1 (0.04 V)  DE    0.4  mín     3  máx     6
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.0  mín     5  máx     5
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+apagadas_3 (21337 lecturas)
+  AI1 (R3): media    5.1 (0.05 V)  DE    1.5  mín     4  máx    10
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.2  mín     3  máx     7
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.1  mín     4  máx     5
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+solo_R4 (21738 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media  343.6 (3.44 V)  DE    2.3  mín   340  máx   350
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.0  mín     5  máx     5
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+apagadas_4 (21440 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    5.0 (0.05 V)  DE    1.2  mín     4  máx     9
+  AI3 (R1): media    5.0 (0.05 V)  DE    0.1  mín     4  máx     5
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+
+todas (39808 lecturas)
+  AI1 (R3): media  332.3 (3.32 V)  DE    0.6  mín   331  máx   333
+  AI2 (R4): media  316.0 (3.16 V)  DE    1.5  mín   314  máx   320
+  AI3 (R1): media  326.6 (3.27 V)  DE    1.4  mín   324  máx   329
+  AI4 (R2): media  355.4 (3.55 V)  DE    0.5  mín   354  máx   356
+
+R1_50pct (21656 lecturas)
+  AI1 (R3): media    5.0 (0.05 V)  DE    1.4  mín     4  máx    10
+  AI2 (R4): media    5.0 (0.05 V)  DE    1.1  mín     4  máx     9
+  AI3 (R1): media  202.7 (2.03 V)  DE    4.6  mín   193  máx   211
+  AI4 (R2): media    5.0 (0.05 V)  DE    1.3  mín     4  máx     9
+
+apagadas_fin (21869 lecturas)
+  AI1 (R3): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+  AI2 (R4): media    4.0 (0.04 V)  DE    0.1  mín     4  máx     5
+  AI3 (R1): media    5.1 (0.05 V)  DE    0.3  mín     5  máx     6
+  AI4 (R2): media    4.0 (0.04 V)  DE    0.0  mín     4  máx     4
+PS C:\Users\PC2\OneDrive\Documents\Códigos Sistema de Control> 
